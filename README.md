@@ -9,7 +9,7 @@ EZoApp 所強調的的核心價值：就是「重用、組裝」。任何設計�
 ##GK 元件列表##
 以下提供所有 GK 元件的列表，點選即可閱讀該元件的使用方式。
 ###基本元件###
-* header
+* [header](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-header.md)
 * footer
 * grid
 * tabbar
