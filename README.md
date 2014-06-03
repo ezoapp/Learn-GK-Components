@@ -12,8 +12,9 @@ EZoApp 所強調的的核心價值：就是「重用、組裝」。任何設計�
 * [header](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-header.md)
 * [footer](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-footer.md)
 * [grid](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-grid.md)
-* [tabbar (編輯中)](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-tabbar.md)
+* [tabbar](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-tabbar.md)
 * [navbar (編輯中)](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-navbar.md)
+	* navBtn
 * [gk-text (編輯中)](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-gk-text.md)
 * [text-input (編輯中)](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-text-input.md)
 * [range-input (編輯中)](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-range-input.md)
@@ -23,6 +24,8 @@ EZoApp 所強調的的核心價值：就是「重用、組裝」。任何設計�
 * [icon (編輯中)](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-icon.md)
 * [button (編輯中)](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-button.md)
 * [listview (編輯中)](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-listview.md)
+	* liseview-li
+	* list-divider
 * [controlgroup-radio (編輯中)](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-controlgroup-radio.md)
 * [controlgroup-checkbox (編輯中)](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-controlgroup-checkbox.md)
 * [flipwitch (編輯中)](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-flipwitch.md)

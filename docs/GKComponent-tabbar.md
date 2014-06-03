@@ -1,6 +1,6 @@
 ##tabbar##
 
-`tabbar` 元件描述  
+`tabbar` 元件是固定置底的按鈕元件，本質上其實是 `navbar` 與 `footer` 的組合，因此相關的位置、設定與 API ，和 `navbar` 元件是相同的，可參考 [navbar 元件說明](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-navbar.md)。  
 
 <br/>
 ###元件位置###
@@ -14,11 +14,11 @@
 <tr>
 <td>tabbar 可以放在哪些元件內？
 </td>
-<td></td>
+<td>無，tabbar 只能放在 Page 裡</td>
 </tr>
 <tr>
 <td>哪些元件可以放在 tabbar 內？</td>
-<td></td>
+<td>navBtn </td>
 </tr>
 </table>
 
@@ -37,30 +37,34 @@
 </tr>
 
 <tr>
-<td>text</td>
-<td>元件的顯示文字</td>
-</tr>
-
-<tr>
 <td>style</td>
 <td>直接編寫元件 DOM inline 樣式</td>
 </tr>
 
 <tr>
-<td>position</td>
+<td>iconPos</td>
 <td><ul>
-<li>default：隨畫面移動</li>
-<li>fixed：固定在最上方</li>
+<li>left：icon 在左側</li>
+<li>right：icon 在左右側</li>
+<li>bottom：icon 在下</li>
+<li>top：icon 在上</li>
+<li>notnext：不要文字，只有 icon</li>
 </ul></td>
 </tr>
 
 <tr>
-<td>fullscreen</td>
-<td>
-( position = fixed 時才會出現 )
-<ul>
-<li>true：瀏覽時 header 消失，點選畫面後 header 顯示</li>
-<li>false：header 永遠顯示</li>
+<td>transition</td>
+<td><ul>
+<li>slide：頁面左右滑動效果</li>
+<li>slideup：頁面往上滑動</li>
+<li>slidedown：頁面往下滑動</li>
+<li>slidefade：頁面滑動+淡入</li>
+<li>pop：彈出式頁面</li>
+<li>fade：頁面淡入</li>
+<li>flip：翻頁效果</li>
+<li>flow：輸送帶效果</li>
+<li>turn：旋轉效果</li>
+<li>none：無效果</li>
 </ul></td>
 </tr>
 
@@ -84,12 +88,7 @@
 
 <br/>
 ###API###
-若已由 `isUseGKComponent` 將元件轉換為 GK 元件，則可使用 GK 元件之 API，使用方式就是在元件 id 後方加上 `.gk()`，後方接上 API 名稱即可使用，以下範例使用 id 為 test 的 `tabbar` 元件。
-
-- **api**：  
-  	> 描述。
-
-			程式碼
+`tabbar` 元件沒有提供 api。
 
 
 <br/>
