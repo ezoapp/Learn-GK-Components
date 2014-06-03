@@ -1,35 +1,24 @@
-##navbar##
+##navbtn##
 
-`navbar` 元件是一個按鈕群組，由 `navbtn` 的按鈕元件所組成， 可藉由拖拉的方式將裡頭的按鈕互換位置，也可以新增按鈕，若按鈕數量超過五個，則會變成兩個一排的垂直排列樣式。 
+`navbtn` 元件是一個按鈕元件，只能放在 `navbar` 或 `tabbar` 內。 
 
 <br/>
 ###元件位置###
 
-以下列出 `navbar` 元件可以放置的位置，以及哪些元件可以放入 `navbar` 裡頭。
+以下列出 `navbtn` 元件可以放置的位置，以及哪些元件可以放入 `navbtn` 裡頭。
 <table>
 <tr>
 <th style="background:#ddd;">位置說明</th>
 <th style="background:#ddd;">相關元件</th>
 </tr>
 <tr>
-<td>navbar 可以放在哪些元件內？
+<td>navbtn 可以放在哪些元件內？
 </td>
-<td>
-<ul>
-<li>page</li>
-<li>header</li>
-<li>footer</li>
-<li>content</li>
-<li>block</li>
-<li>listview-li</li>
-<li>collapsible</li>
-<li>controlgroup</li>
-</ul>
-</td>
+<td>navbar</td>
 </tr>
 <tr>
 <td>哪些元件可以放在 navbar 內？</td>
-<td>navbtn</td>
+<td>無</td>
 </tr>
 </table>
 
@@ -48,19 +37,18 @@
 </tr>
 
 <tr>
+<td>text</td>
+<td>元件的顯示文字</td>
+</tr>
+
+<tr>
 <td>style</td>
 <td>直接編寫元件 DOM inline 樣式</td>
 </tr>
 
 <tr>
-<td>iconPos</td>
-<td><ul>
-<li>left：icon 在左側</li>
-<li>right：icon 在左右側</li>
-<li>bottom：icon 在下</li>
-<li>top：icon 在上</li>
-<li>notnext：不要文字，只有 icon</li>
-</ul></td>
+<td>href</td>
+<td>點下按鈕後欲連結的頁面，若有兩頁以上的頁面，可由下拉選單選擇</td>
 </tr>
 
 <tr>
@@ -80,6 +68,19 @@
 </tr>
 
 <tr>
+<td>active</td>
+<td><ul>
+<li>true：點選反白狀態</li>
+<li>false：正常未反白狀態</li>
+</ul></td>
+</tr>
+
+<tr>
+<td>icon</td>
+<td>按鈕的小圖示</td>
+</tr>
+
+<tr>
 <td>theme</td>
 <td><ul>
 <li>a：樣式 a</li>
@@ -87,19 +88,11 @@
 </ul></td>
 </tr>
 
-<tr>
-<td>isUseGKComponent</td>
-<td><ul>
-<li>true：轉換為 GK 元件 ( 可使用 GK 元件 API )a</li>
-<li>false：不轉換為 GK 元件</li>
-</ul></td>
-</tr>
-
 </table>
 
 <br/>
 ###API###
-`navbar` 元件沒有提供 api。
+`navbtn` 元件沒有提供 api。
 
 
 <br/>

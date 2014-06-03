@@ -13,8 +13,8 @@ EZoApp 所強調的的核心價值：就是「重用、組裝」。任何設計�
 * [footer](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-footer.md)
 * [grid](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-grid.md)
 * [tabbar](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-tabbar.md)
-* [navbar (編輯中)](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-navbar.md)
-	* navBtn
+* [navbar](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-navbar.md)
+	* [navBtn](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-navbtn.md)
 * [gk-text (編輯中)](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-gk-text.md)
 * [text-input (編輯中)](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-text-input.md)
 * [range-input (編輯中)](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-range-input.md)

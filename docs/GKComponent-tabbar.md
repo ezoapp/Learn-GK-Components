@@ -18,7 +18,7 @@
 </tr>
 <tr>
 <td>哪些元件可以放在 tabbar 內？</td>
-<td>navBtn </td>
+<td>navbtn</td>
 </tr>
 </table>
 
