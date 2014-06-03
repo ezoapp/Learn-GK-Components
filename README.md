@@ -10,46 +10,46 @@ EZoApp 所強調的的核心價值：就是「重用、組裝」。任何設計�
 以下提供所有 GK 元件的列表，點選即可閱讀該元件的使用方式。
 ###基本元件###
 * [header](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-header.md)
-* footer
-* grid
-* tabbar
-* navbar
-* gk-text
-* text-input
-* range-input
-* search-input
-* date-input
-* collapsible-set
-* icon
-* button
-* listview
-* controlgroup-radio
-* controlgroup-checkbox
-* flipwitch
-* selectmenu
-* textarea-input
-* jqm-table
+* [footer](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-footer.md)
+* [grid](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-grid.md)
+* [tabbar](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-tabbar.md)
+* [navbar](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-navbar.md)
+* [gk-text](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-gk-text.md)
+* [text-input](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-text-input.md)
+* [range-input](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-range-input.md)
+* [search-input](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-search-input.md)
+* [date-input](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-date-input.md)
+* [collapsible-set](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-collapsible-set.md)
+* [icon](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-icon.md)
+* [button](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-button.md)
+* [listview](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-listview.md)
+* [controlgroup-radio](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-controlgroup-radio.md)
+* [controlgroup-checkbox](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-controlgroup-checkbox.md)
+* [flipwitch](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-flipwitch.md)
+* [selectmenu](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-selectmenu.md)
+* [textarea-input](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-textarea-input.md)
+* [jqm-table](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-jqm-table.md)
 
 ###第三方元件###
-* youtube
-* image
-* mobipick
-* gmap
-* raty
-* bxslider
-* qrcode
-* imggallery
-* json-listview
-* page-listview
-* capture-photo
-* gk-position
-* gk-device-motion
-* flot-pie
-* flot-bar
-* flot-stacking
-* flot-line
-* linechart
-* rss-news
+* [youtube](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-youtube.md)
+* [image](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-image.md)
+* [mobipick](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-mobipick.md)
+* [gmap](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-gmap.md)
+* [raty](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-raty.md)
+* [bxslider](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-bxslider.md)
+* [qrcode](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-qrcode.md)
+* [imggallery](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-imggallery.md)
+* [json-listview](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-json-listview.md)
+* [page-listview](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-page-listview.md)
+* [capture-photo](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-capture-photo.md)
+* [gk-position](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-gk-position.md)
+* [gk-device-motion](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-gk-device-motion.md)
+* [flot-pie](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-flot-pi.md)
+* [flot-bar](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-flot-bar.md)
+* [flot-stacking](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-flot-stacking.md)
+* [flot-line](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-flot-line.md)
+* [linechart](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-linechart.md)
+* [rss-news](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-rss-news.md)
 
 
 
