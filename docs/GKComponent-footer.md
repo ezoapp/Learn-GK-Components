@@ -1,8 +1,9 @@
-#GK Component - footer#
+##footer##
 
-`footer` 元件描述  
+`footer` 元件會固定在畫面的底部，主要用來顯示固定的頁面按鈕或功能選單。
 
-##元件位置##
+<br/>
+###元件位置###
 
 以下列出 `footer` 元件可以放置的位置，以及哪些元件可以放入 `footer` 裡頭。
 <table>
@@ -21,7 +22,8 @@
 </tr>
 </table>
 
-##屬性設定##
+<br/>
+###屬性設定###
 <table>
 
 <tr>
@@ -80,7 +82,8 @@
 
 </table>
 
-##API##
+<br/>
+###API###
 `footer` 元件沒有提供 api。
 
 
