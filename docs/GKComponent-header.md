@@ -30,6 +30,7 @@
     > **value**<br>Type: String<br>Set label's value of header.
 
 			$('.selector').gk().label('test header');
+
 <br/>
 ###Reference
 
