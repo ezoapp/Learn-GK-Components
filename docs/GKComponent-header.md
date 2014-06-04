@@ -37,7 +37,7 @@
 
 <br/>
 ----------
-This is `header` documentaion，if you want to know more other components，please link [Component List](https://github.com/ezoapp/Learn-GK-Components)  
+This is `header` documentaion. If you want to know more other components, please link [Component List](https://github.com/ezoapp/Learn-GK-Components)  
 
 Web Site：[www.ezoui.com/app](http://www.ezoui.com/app)  
 EZoApp ：[jqmdesigner.appspot.com/](http://jqmdesigner.appspot.com/)
