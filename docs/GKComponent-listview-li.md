@@ -2,35 +2,6 @@
 `listview-li` 元件會以清單的方式顯示資料。
 
 <br/>
-###元件位置
-以下列出 `listview-li` 元件可以放置的位置，以及哪些元件可以放入 `listview-li` 裡頭。
-<table>
-
-<tr>
-<th style="background:#ddd;">位置說明</th>
-<th style="background:#ddd;">相關元件</th>
-</tr>
-
-<tr>
-<td>listview-li 可以放在哪些元件內？
-</td>
-<td>listview</td>
-</tr>
-
-<tr>
-<td>哪些元件可以放在 listview-li 內？</td>
-<td>
-<ul>
-<li>dragable</li>
-<li>raty</li>
-<li>gk-text</li>
-</ul>
-</td>
-</tr>
-
-</table>
-
-<br/>
 ###屬性設定
 <table>
 

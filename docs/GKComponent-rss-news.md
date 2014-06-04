@@ -1,36 +1,6 @@
 ##rss-news
 `rss-news` 可以將公開資訊的 rss 資料，以清單列表的方式呈現於畫面當中。  
 
-
-<br/>
-###元件位置
-以下列出 `rss-news` 元件可以放置的位置，以及哪些元件可以放入 `rss-news` 裡頭。
-<table>
-<tr>
-<th style="background:#ddd;">位置說明</th>
-<th style="background:#ddd;">相關元件</th>
-</tr>
-<tr>
-<td>rss-news 可以放在哪些元件內？
-</td>
-<td>
-<ul>
-<li>page</li>
-<li>header</li>
-<li>footer</li>
-<li>content</li>
-<li>block</li>
-<li>collapsible</li>
-<li>controlgroup</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td>哪些元件可以放在 rss-news 內？</td>
-<td>無</td>
-</tr>
-</table>
-
 <br/>
 ###屬性設定
 <table>
@@ -50,12 +20,12 @@
 
 <tr>
 <td>rowNum</td>
-<td></td>
+<td>一頁裡頭所呈現的資料筆數</td>
 </tr>
 
 <tr>
 <td>service</td>
-<td></td>
+<td>rss 的網址</td>
 </tr>
 
 </table>

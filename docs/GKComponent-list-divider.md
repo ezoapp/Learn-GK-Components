@@ -2,34 +2,6 @@
 `list-divider` 元件是清單的標題。
 
 <br/>
-###元件位置
-以下列出 `list-divider` 元件可以放置的位置，以及哪些元件可以放入 `list-divider` 裡頭。
-<table>
-
-<tr>
-<th style="background:#ddd;">位置說明</th>
-<th style="background:#ddd;">相關元件</th>
-</tr>
-
-<tr>
-<td>list-divider 可以放在哪些元件內？
-</td>
-<td>listview</td>
-</tr>
-
-<tr>
-<td>哪些元件可以放在 list-divider 內？</td>
-<td>
-<ul>
-<li>raty</li>
-<li>gk-text</li>
-</ul>
-</td>
-</tr>
-
-</table>
-
-<br/>
 ###屬性設定
 <table>
 

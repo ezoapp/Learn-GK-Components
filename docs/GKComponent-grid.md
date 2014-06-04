@@ -2,36 +2,6 @@
 `grid` 是具有水平柵格的方框，可將各種元件放入對應的欄位當中，進行各式各樣的排版變化。
 
 <br/>
-###元件位置
-以下列出 `grid` 元件可以放置的位置，以及哪些元件可以放入 `grid` 裡頭。
-<table>
-<tr>
-<th style="background:#ddd!important;">位置說明</th>
-<th style="background:#ddd!important;">相關元件</th>
-</tr>
-<tr>
-<td>grid 可以放在哪些元件內？
-</td>
-<td>
-<ul>
-<li>block</li>
-<li>page</li>
-<li>header</li>
-<li>footer</li>
-<li>content</li>
-<li>listview-li</li>
-<li>collapsible</li>
-<li>controlgroup</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td>哪些元件可以放在 grid 內？</td>
-<td>所有元件都能放在 grid 內 ( 除了 header 和 footer )</td>
-</tr>
-</table>
-
-<br/>
 ###屬性設定
 <table>
 

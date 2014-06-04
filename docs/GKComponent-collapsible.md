@@ -2,30 +2,6 @@
 `collapsible` 是點選標題的按鈕之後，進行內容收合或展開的元件。
 
 <br/>
-###元件位置
-以下列出 `collapsible` 元件可以放置的位置，以及哪些元件可以放入 `collapsible` 裡頭。
-<table>
-<tr>
-<th style="background:#ddd;">位置說明</th>
-<th style="background:#ddd;">相關元件</th>
-</tr>
-<tr>
-<td>collapsible 可以放在哪些元件內？
-</td>
-<td>
-<ul>
-<li>collapsible-set</li>
-<li>collapsible</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td>哪些元件可以放在 collapsible 內？</td>
-<td>所有元件均可放入 ( 除了 header 和 footer )</td>
-</tr>
-</table>
-
-<br/>
 ###屬性設定
 <table>
 

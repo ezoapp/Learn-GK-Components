@@ -2,36 +2,6 @@
 `youtube` 元件讓使用者可直接在行動或平板裝置上瀏覽 youtube 影片  
 
 <br/>
-###元件位置
-以下列出 `youtube` 元件可以放置的位置，以及哪些元件可以放入 `youtube` 裡頭。
-<table>
-<tr>
-<th style="background:#ddd;">位置說明</th>
-<th style="background:#ddd;">相關元件</th>
-</tr>
-<tr>
-<td>youtube 可以放在哪些元件內？
-</td>
-<td>
-<ul>
-<li>page</li>
-<li>header</li>
-<li>footer</li>
-<li>content</li>
-<li>block</li>
-<li>listview-li</li>
-<li>collapsible</li>
-<li>controlgroup</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td>哪些元件可以放在 youtube 內？</td>
-<td>無</td>
-</tr>
-</table>
-
-<br/>
 ###屬性設定
 <table>
 

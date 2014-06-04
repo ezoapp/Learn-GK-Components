@@ -2,25 +2,6 @@
 `qrcode` 協助使用者將某段文字內容或網址、電話...等資訊轉換為二維條碼  
 
 <br/>
-###元件位置
-以下列出 `qrcode` 元件可以放置的位置，以及哪些元件可以放入 `qrcode` 裡頭。
-<table>
-<tr>
-<th style="background:#ddd;">位置說明</th>
-<th style="background:#ddd;">相關元件</th>
-</tr>
-<tr>
-<td>qrcode 可以放在哪些元件內？
-</td>
-<td>page</td>
-</tr>
-<tr>
-<td>哪些元件可以放在 qrcode 內？</td>
-<td>無</td>
-</tr>
-</table>
-
-<br/>
 ###屬性設定
 <table>
 

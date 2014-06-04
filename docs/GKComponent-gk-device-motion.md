@@ -2,25 +2,6 @@
 `gk-device-motion` 元件可以獲取手機或平板裝置的陀螺儀，進行三軸的運算判斷。  
 
 <br/>
-###元件位置
-以下列出 `gk-device-motion` 元件可以放置的位置，以及哪些元件可以放入 `gk-device-motion` 裡頭。
-<table>
-<tr>
-<th style="background:#ddd;">位置說明</th>
-<th style="background:#ddd;">相關元件</th>
-</tr>
-<tr>
-<td>gk-device-motion 可以放在哪些元件內？
-</td>
-<td>page</td>
-</tr>
-<tr>
-<td>哪些元件可以放在 gk-device-motion 內？</td>
-<td>無</td>
-</tr>
-</table>
-
-<br/>
 ###屬性設定
 <table>
 

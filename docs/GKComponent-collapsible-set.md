@@ -2,34 +2,6 @@
 `collapsible-set` 是點選標題的按鈕之後，進行內容收合或展開的元件，內容包含了一個 `collapsible` 元件，可參考 [collapsible 元件說明](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-collapsible.md)。
 
 <br/>
-###元件位置
-以下列出 `collapsible-set` 元件可以放置的位置，以及哪些元件可以放入 `collapsible-set` 裡頭。
-<table>
-<tr>
-<th style="background:#ddd;">位置說明</th>
-<th style="background:#ddd;">相關元件</th>
-</tr>
-<tr>
-<td>collapsible-set 可以放在哪些元件內？
-</td>
-<td>
-<ul>
-<li>page</li>
-<li>header</li>
-<li>footer</li>
-<li>content</li>
-<li>collapsible-set</li>
-<li>collapsible</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td>哪些元件可以放在 collapsible-set 內？</td>
-<td>collapsible</td>
-</tr>
-</table>
-
-<br/>
 ###屬性設定
 <table>
 

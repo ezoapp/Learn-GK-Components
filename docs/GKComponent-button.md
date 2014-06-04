@@ -2,36 +2,6 @@
 `button` 按鈕元件，點選後進行超連結或頁面變換，同時也可設定各種頁面切換效果。  
 
 <br/>
-###元件位置
-
-以下列出 `button` 元件可以放置的位置，以及哪些元件可以放入 `button` 裡頭。
-<table>
-<tr>
-<th style="background:#ddd;">位置說明</th>
-<th style="background:#ddd;">相關元件</th>
-</tr>
-<tr>
-<td>button 可以放在哪些元件內？
-</td>
-<td>
-<ul>
-<li>page</li>
-<li>header</li>
-<li>footer</li>
-<li>content</li>
-<li>block</li>
-<li>listview-li</li>
-<li>collapsible</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td>哪些元件可以放在 button 內？</td>
-<td>無</td>
-</tr>
-</table>
-
-<br/>
 ###屬性設定
 <table>
 

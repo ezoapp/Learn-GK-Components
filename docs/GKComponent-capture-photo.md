@@ -2,40 +2,6 @@
 `capture-photo` 元件可以使用手機或平板的相機裝置進行拍照的功能  
 
 <br/>
-###元件位置
-以下列出 `capture-photo` 元件可以放置的位置，以及哪些元件可以放入 `capture-photo` 裡頭。
-<table>
-<tr>
-<th style="background:#ddd;">位置說明</th>
-<th style="background:#ddd;">相關元件</th>
-</tr>
-<tr>
-<td>capture-photo 可以放在哪些元件內？
-</td>
-<td>
-<ul>
-<li>page</li>
-<li>header</li>
-<li>footer</li>
-<li>content</li>
-<li>block</li>
-<li>collapsible</li>
-<li>controlgroup</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td>哪些元件可以放在 capture-photo 內？</td>
-<td>
-<ul>
-<li>listview-li</li>
-<li>list-divider</li>
-</ul>
-</td>
-</tr>
-</table>
-
-<br/>
 ###屬性設定
 <table>
 

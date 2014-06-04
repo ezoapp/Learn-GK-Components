@@ -2,41 +2,6 @@
 `controlgroup-checkbox` 元件提供使用者「複選」的按鈕，是由 `checkbox-button` 與 `controlgroup` 所組成，也可參考 [checkbox-button 元件說明](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-checkbox-button.md) 
 
 <br/>
-###元件位置
-以下列出 `controlgroup-checkbox` 元件可以放置的位置，以及哪些元件可以放入 `controlgroup-checkbox` 裡頭。
-<table>
-<tr>
-<th style="background:#ddd;">位置說明</th>
-<th style="background:#ddd;">相關元件</th>
-</tr>
-<tr>
-<td>controlgroup-checkbox 可以放在哪些元件內？
-</td>
-<td>
-<ul>
-<li>page</li>
-<li>header</li>
-<li>footer</li>
-<li>content</li>
-<li>block</li>
-<li>collapsible-set</li>
-<li>collapsible</li>
-<li>listview-li</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td>哪些元件可以放在 controlgroup-checkbox 內？</td>
-<td>
-<ul>
-<li>checkbox-button</li>
-<li>raty</li>
-</ul>
-</td>
-</tr>
-</table>
-
-<br/>
 ###屬性設定
 <table>
 

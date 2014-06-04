@@ -2,32 +2,6 @@
 `flot-pie` 可以協助使用者產生元餅圖，採用 flot-pie 的樣式。  
 
 <br/>
-###元件位置
-以下列出 `flot-pie` 元件可以放置的位置，以及哪些元件可以放入 `flot-pie` 裡頭。
-<table>
-<tr>
-<th style="background:#ddd;">位置說明</th>
-<th style="background:#ddd;">相關元件</th>
-</tr>
-<tr>
-<td>flot-pie 可以放在哪些元件內？
-</td>
-<td>
-<ul>
-<li>page</li>
-<li>content</li>
-<li>collapsible</li>
-<li>controlgroup</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td>哪些元件可以放在 flot-pie 內？</td>
-<td>無</td>
-</tr>
-</table>
-
-<br/>
 ###屬性設定
 <table>
 

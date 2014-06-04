@@ -2,26 +2,6 @@
 `footer` 元件會固定在畫面的底部，主要用來顯示固定的頁面按鈕或功能選單。
 
 <br/>
-###元件位置
-
-以下列出 `footer` 元件可以放置的位置，以及哪些元件可以放入 `footer` 裡頭。
-<table>
-<tr>
-<th style="background:#ddd;">位置說明</th>
-<th style="background:#ddd;">相關元件</th>
-</tr>
-<tr>
-<td>footer 可以放在哪些元件內？
-</td>
-<td>無，footer 只能放在 Page 裡</td>
-</tr>
-<tr>
-<td>哪些元件可以放在 footer 內？</td>
-<td>所有元件均可放在 footer 內</td>
-</tr>
-</table>
-
-<br/>
 ###屬性設定
 <table>
 

@@ -2,26 +2,6 @@
 `tabbar` 元件是固定置底的按鈕元件，本質上其實是 `navbar` 與 `footer` 的組合，因此相關的位置、設定與 API ，和 `navbar` 元件是相同的，可參考 [navbar 元件說明](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-navbar.md)。  
 
 <br/>
-###元件位置
-
-以下列出 `tabbar` 元件可以放置的位置，以及哪些元件可以放入 `tabbar` 裡頭。
-<table>
-<tr>
-<th style="background:#ddd;">位置說明</th>
-<th style="background:#ddd;">相關元件</th>
-</tr>
-<tr>
-<td>tabbar 可以放在哪些元件內？
-</td>
-<td>無，tabbar 只能放在 Page 裡</td>
-</tr>
-<tr>
-<td>哪些元件可以放在 tabbar 內？</td>
-<td>navbtn</td>
-</tr>
-</table>
-
-<br/>
 ###屬性設定
 <table>
 

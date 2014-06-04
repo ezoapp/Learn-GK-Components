@@ -2,36 +2,6 @@
 `icon` 是一個帶有小型圖片與文字的元件，做為小圖示 icon 超連結使用。 
 
 <br/>
-###元件位置
-以下列出 `icon` 元件可以放置的位置，以及哪些元件可以放入 `icon` 裡頭。
-<table>
-<tr>
-<th style="background:#ddd;">位置說明</th>
-<th style="background:#ddd;">相關元件</th>
-</tr>
-<tr>
-<td>icon 可以放在哪些元件內？
-</td>
-<td>
-<ul>
-<li>page</li>
-<li>header</li>
-<li>footer</li>
-<li>content</li>
-<li>block</li>
-<li>listview-li</li>
-<li>collapsible</li>
-<li>controlgroup</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td>哪些元件可以放在 icon 內？</td>
-<td>無</td>
-</tr>
-</table>
-
-<br/>
 ###屬性設定
 <table>
 

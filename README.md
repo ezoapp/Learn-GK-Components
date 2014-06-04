@@ -20,8 +20,8 @@ EZoApp 所強調的的核心價值：就是「重用、組裝」。任何設計�
 * [range-input](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-range-input.md) ( 缺 屬性 )
 * [search-input](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-search-input.md) ( 缺 屬性、api )
 * [date-input](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-date-input.md) ( 缺 屬性、api )
-* [collapsible-set](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-collapsible-set.md) ( 缺 屬性、api )
-	* [collapsible](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-collapsible.md) ( 缺 屬性 )
+* [collapsible-set](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-collapsible-set.md) ( 缺 屬性 )
+	* [collapsible](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-collapsible.md) ( 缺 屬性、api )
 * [icon](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-icon.md) ( 缺 屬性、api )
 * [button](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-button.md) ( 缺 屬性 )
 * [listview](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-listview.md) ( 缺 屬性、api )
@@ -54,8 +54,8 @@ EZoApp 所強調的的核心價值：就是「重用、組裝」。任何設計�
 * [flot-bar](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-flot-bar.md) ( 缺 屬性 )
 * [flot-stacking](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-flot-stacking.md) ( 缺 屬性 )
 * [flot-line](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-flot-line.md) ( 缺 屬性 )
-* [linechart](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-linechart.md) ( 缺 屬性 )
-* [rss-news](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-rss-news.md) ( 缺 屬性 )
+* [linechart](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-linechart.md)
+* [rss-news](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-rss-news.md)
 
 
 

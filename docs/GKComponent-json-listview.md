@@ -2,40 +2,6 @@
 `json-listview` 元件可以讀入 json 的檔案，在以清單條列式的方式顯示。 
 
 <br/>
-###元件位置
-以下列出 `json-listview` 元件可以放置的位置，以及哪些元件可以放入 `json-listview` 裡頭。
-<table>
-<tr>
-<th style="background:#ddd;">位置說明</th>
-<th style="background:#ddd;">相關元件</th>
-</tr>
-<tr>
-<td>json-listview 可以放在哪些元件內？
-</td>
-<td>
-<ul>
-<li>page</li>
-<li>header</li>
-<li>footer</li>
-<li>content</li>
-<li>block</li>
-<li>collapsible</li>
-<li>controlgroup</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td>哪些元件可以放在 json-listview 內？</td>
-<td>
-<ul>
-<li>listview-li</li>
-<li>list-divider</li>
-</ul>
-</td>
-</tr>
-</table>
-
-<br/>
 ###屬性設定
 <table>
 

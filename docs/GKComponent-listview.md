@@ -1,43 +1,5 @@
 ##listview
-`listview` 元件會以清單的方式顯示資料，並可在清單中進行連結和切換的動作，而 listview 裡頭又包含了兩個元件：`list-divider` ( 清單標題 ) 、`listview-li` ( 清單 )，可參考 [list-divider 元件說明](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-divider.md) 與 [listview-li 元件說明](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-listview-li.md)。
-
-<br/>
-###元件位置
-以下列出 `listview` 元件可以放置的位置，以及哪些元件可以放入 `listview` 裡頭。
-<table>
-
-<tr>
-<th style="background:#ddd;">位置說明</th>
-<th style="background:#ddd;">相關元件</th>
-</tr>
-
-<tr>
-<td>listview 可以放在哪些元件內？
-</td>
-<td>
-<ul>
-<li>page</li>
-<li>header</li>
-<li>footer</li>
-<li>content</li>
-<li>block</li>
-<li>collapsible</li>
-<li>controlgroup</li>
-</ul>
-</td>
-</tr>
-
-<tr>
-<td>哪些元件可以放在 listview 內？</td>
-<td>
-<ul>
-<li>listview-li</li>
-<li>list-divider</li>
-</ul>
-</td>
-</tr>
-
-</table>
+`listview` 元件會以清單的方式顯示資料，並可在清單中進行連結和切換的動作，而 listview 裡頭又包含了兩個元件：`list-divider` ( 清單標題 ) 、`listview-li` ( 清單 )，可參考 [list-divider 元件說明](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-list-divider.md) 與 [listview-li 元件說明](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-listview-li.md)。
 
 <br/>
 ###屬性設定

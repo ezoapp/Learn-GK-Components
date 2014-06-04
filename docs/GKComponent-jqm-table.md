@@ -2,30 +2,6 @@
 `jqm-table` 為一個表格元件，可以讓使用者點選自己想檢視的欄位進行檢視。
 
 <br/>
-###元件位置
-以下列出 `jqm-table` 元件可以放置的位置，以及哪些元件可以放入 `jqm-table` 裡頭。
-<table>
-<tr>
-<th style="background:#ddd;">位置說明</th>
-<th style="background:#ddd;">相關元件</th>
-</tr>
-<tr>
-<td>jqm-table 可以放在哪些元件內？
-</td>
-<td>
-<ul>
-<li>page</li>
-<li>content</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td>哪些元件可以放在 jqm-table 內？</td>
-<td>無</td>
-</tr>
-</table>
-
-<br/>
 ###屬性設定
 <table>
 

@@ -2,31 +2,6 @@
 `flot-line` 會由使用者在 javascript 中的陣列，產生對應的線狀圖表，圖表樣式採用 `flot-line`的樣式呈現。
 
 <br/>
-###元件位置
-以下列出 `flot-line` 元件可以放置的位置，以及哪些元件可以放入 `flot-line` 裡頭。
-<table>
-<tr>
-<th style="background:#ddd;">位置說明</th>
-<th style="background:#ddd;">相關元件</th>
-</tr>
-<tr>
-<td>flot-line 可以放在哪些元件內？
-</td>
-<td>
-<ul>
-<li>page</li>
-<li>content</li>
-<li>collapsible</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td>哪些元件可以放在 flot-line 內？</td>
-<td>無</td>
-</tr>
-</table>
-
-<br/>
 ###屬性設定
 <table>
 

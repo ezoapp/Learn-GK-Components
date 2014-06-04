@@ -1,26 +1,5 @@
 ##header
-
 `header` 元件會固定在畫面的頂端，主要用來顯示固定的頁面標題或按鈕。  
-
-<br/>
-###元件位置
-
-以下列出 `header` 元件可以放置的位置，以及哪些元件可以放入 `header` 裡頭。
-<table>
-<tr>
-<th style="background:#ddd;">位置說明</th>
-<th style="background:#ddd;">相關元件</th>
-</tr>
-<tr>
-<td>header 可以放在哪些元件內？
-</td>
-<td>無，header 只能放在 Page 裡</td>
-</tr>
-<tr>
-<td>哪些元件可以放在 header 內？</td>
-<td>所有元件均可放在 header 內</td>
-</tr>
-</table>
 
 <br/>
 ###屬性設定

@@ -2,26 +2,6 @@
 `navbtn` 元件是一個按鈕元件，只能放在 `navbar` 或 `tabbar` 內。 
 
 <br/>
-###元件位置
-
-以下列出 `navbtn` 元件可以放置的位置，以及哪些元件可以放入 `navbtn` 裡頭。
-<table>
-<tr>
-<th style="background:#ddd;">位置說明</th>
-<th style="background:#ddd;">相關元件</th>
-</tr>
-<tr>
-<td>navbtn 可以放在哪些元件內？
-</td>
-<td>navbar</td>
-</tr>
-<tr>
-<td>哪些元件可以放在 navbar 內？</td>
-<td>無</td>
-</tr>
-</table>
-
-<br/>
 ###屬性設定
 <table>
 
