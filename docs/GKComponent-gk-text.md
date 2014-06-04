@@ -6,7 +6,7 @@
 <table>
 
 <tr>
-<th style="background:#ddd;">Attribute</th>
+<th style="background:#ddd;">Name</th>
 <th style="background:#ddd;">Description</th>
 </tr>
 
