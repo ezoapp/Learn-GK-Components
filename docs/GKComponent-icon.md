@@ -3,12 +3,12 @@
 In addition, there will be a number tips in the upper left corner.
 
 <br/>
-###Property
+###Properties
 <table>
 
 <tr>
-<th style="background:#ddd;">Properties</th>
-<th style="background:#ddd;">Setting</th>
+<th style="background:#ddd;">property</th>
+<th style="background:#ddd;">setting</th>
 </tr>
 
 <tr>
