@@ -1,44 +1,21 @@
 ##grid
-`grid` 是具有水平柵格的方框，可將各種元件放入對應的欄位當中，進行各式各樣的排版變化。
+`grid` is extended from JQueryMobile Widget. [Grid Layout][1]
 
 <br/>
-###屬性設定
-<table>
+###Properties
 
-<tr>
-<th style="background:#ddd;">屬性</th>
-<th style="background:#ddd;">設定</th>
-</tr>
-
-<tr>
-<td>id</td>
-<td>元件的 id</td>
-</tr>
-
-<tr>
-<td>style</td>
-<td>直接編寫元件 DOM inline 樣式</td>
-</tr>
-
-<tr>
-<td>columns</td>
-<td>選擇 1~5 個欄位</td>
-</tr>
-
-</table>
-
+Refer to JQueryMobile's [Grid Layout][2] Widget.
 <br/>
+
 ###API
-`grid` 元件沒有提供 api。
+None
 
 
 <br/>
 ----------
-以上便是 `grid` 的相關說明，如果想了解更多其他元件，請回 [元件清單列表](https://github.com/ezoapp/Learn-GK-Components)  
-
-官方網站：[www.ezoui.com/app](http://www.ezoui.com/app)  
-EZoApp 開發工具：[jqmdesigner.appspot.com/](http://jqmdesigner.appspot.com/)
+[Home](https://github.com/ezoapp/Learn-GK-Components)
+------------------------------------------------------------------------
 
 
-
-
+  [1]: http://api.jquerymobile.com/grid-layout/
+  [2]: http://api.jquerymobile.com/grid-layout/
