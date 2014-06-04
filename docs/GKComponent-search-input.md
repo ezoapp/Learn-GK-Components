@@ -1,112 +1,51 @@
 ##search-input
-`search-input` 是範圍控制桿元件，提供使用者利用控制桿調整範圍數值，該元件拖曳進入設計區域後，預設與標題一起放在 `fieldcontain` 內，也可利用拖拉的方式將其移出 `fieldcontain` 外。
+`search-input` HTML iinput element, type='search'
 
 <br/>
-###屬性設定
+###Attributes
 <table>
 
 <tr>
-<th style="background:#ddd;">屬性</th>
-<th style="background:#ddd;">設定</th>
+<th style="background:#ddd;">Name</th>
+<th style="background:#ddd;">Description</th>
 </tr>
 
 <tr>
 <td>id</td>
-<td>元件的 id</td>
-</tr>
-
-<tr>
-<td>name</td>
-<td>名稱</td>
-</tr>
-
-<tr>
-<td>value</td>
-<td>回傳值</td>
+<td>Component's id</td>
 </tr>
 
 <tr>
 <td>style</td>
-<td>直接編寫元件 DOM inline 樣式</td>
-</tr>
-
-<tr>
-<td>placeholder</td>
-<td>預顯示文字</td>
-</tr>
-
-<tr>
-<td>clearBtn</td>
-<td>
-<ul>
-<li>true：輸入時出現清除按鈕</li>
-<li>false：輸入時隱藏清除按鈕</li>
-</ul></td>
-</tr>
-
-<tr>
-<td>clearBtnText</td>
-<td>清除按鈕的說明文字</td>
-</tr>
-
-<tr>
-<td>mini</td>
-<td><ul>
-<li>true：最小化</li>
-<li>false：正常尺寸</li>
-</ul></td>
-</tr>
-
-<tr>
-<td>disable</td>
-<td><ul>
-<li>(default)：預設顯示可使用</li>
-<li>disable：顯示但不可使用</li>
-</ul></td>
-</tr>
-
-<tr>
-<td>preventFocusZoom</td>
-<td><ul>
-<li>true：</li>
-<li>false：</li>
-</ul></td>
-</tr>
-
-<tr>
-<td>theme</td>
-<td><ul>
-<li>a：樣式 a</li>
-<li>b：樣式 b</li>
-</ul></td>
-</tr>
-
-<tr>
-<td>isUseGKComponent</td>
-<td><ul>
-<li>true：轉換為 GK 元件 ( 可使用 GK 元件 API )a</li>
-<li>false：不轉換為 GK 元件</li>
-</ul></td>
+<td>HTML inline style</td>
 </tr>
 
 </table>
 
+for more information, please refer to [JQuery Mobile](http://jquerymobile.com/).
+
 <br/>
 ###API
-若已由 `isUseGKComponent` 將元件轉換為 GK 元件，則可使用 GK 元件之 API，使用方式就是在元件 id 後方加上 `.gk()`，後方接上 API 名稱即可使用，以下範例使用 id 為 test 的 `search-input` 元件。
 
-- **value**：  
-  	> 描述。
+- **.value([val])**:    
+  	> set a new value or get current value.  
 
-			$('#test').gk().value();
+    > **val**  
+    > Type: String  
+    > Text value 
+
+            // getter
+            var value = $(selector).gk().value();
+            // setter
+			$(selector).gk().value('newValue');
 
 
 <br/>
 ----------
-以上便是 `search-input` 的相關說明，如果想了解更多其他元件，請回 [元件清單列表](https://github.com/ezoapp/Learn-GK-Components)  
+Above is the description of `search-input` .  If you want to learn more, please refer to [Learn-GK-Components](https://github.com/ezoapp/Learn-GK-Components).  
 
-官方網站：[www.ezoui.com/app](http://www.ezoui.com/app)  
-EZoApp 開發工具：[jqmdesigner.appspot.com/](http://jqmdesigner.appspot.com/)
+Official website: [www.ezoui.com/app](http://www.ezoui.com/app)  
+EZoApp: [jqmdesigner.appspot.com/](http://jqmdesigner.appspot.com/)
 
 
 
