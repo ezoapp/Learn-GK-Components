@@ -1,10 +1,8 @@
-##icon##
-
-`icon` 元件描述  
+##icon
+`icon` 是一個帶有小型圖片與文字的元件，做為小圖示 icon 超連結使用。 
 
 <br/>
-###元件位置###
-
+###元件位置
 以下列出 `icon` 元件可以放置的位置，以及哪些元件可以放入 `icon` 裡頭。
 <table>
 <tr>
@@ -14,16 +12,27 @@
 <tr>
 <td>icon 可以放在哪些元件內？
 </td>
-<td></td>
+<td>
+<ul>
+<li>page</li>
+<li>header</li>
+<li>footer</li>
+<li>content</li>
+<li>block</li>
+<li>listview-li</li>
+<li>collapsible</li>
+<li>controlgroup</li>
+</ul>
+</td>
 </tr>
 <tr>
 <td>哪些元件可以放在 icon 內？</td>
-<td></td>
+<td>無</td>
 </tr>
 </table>
 
 <br/>
-###屬性設定###
+###屬性設定
 <table>
 
 <tr>
@@ -47,49 +56,35 @@
 </tr>
 
 <tr>
-<td>position</td>
-<td><ul>
-<li>default：隨畫面移動</li>
-<li>fixed：固定在最上方</li>
-</ul></td>
+<td>href</td>
+<td></td>
 </tr>
 
 <tr>
-<td>fullscreen</td>
-<td>
-( position = fixed 時才會出現 )
-<ul>
-<li>true：瀏覽時 header 消失，點選畫面後 header 顯示</li>
-<li>false：header 永遠顯示</li>
-</ul></td>
+<td>transition</td>
+<td></td>
 </tr>
 
 <tr>
-<td>theme</td>
-<td><ul>
-<li>a：樣式 a</li>
-<li>b：樣式 b</li>
-</ul></td>
+<td>count</td>
+<td></td>
 </tr>
 
 <tr>
-<td>isUseGKComponent</td>
-<td><ul>
-<li>true：轉換為 GK 元件 ( 可使用 GK 元件 API )a</li>
-<li>false：不轉換為 GK 元件</li>
-</ul></td>
+<td>background-image</td>
+<td></td>
 </tr>
 
 </table>
 
 <br/>
-###API###
+###API
 若已由 `isUseGKComponent` 將元件轉換為 GK 元件，則可使用 GK 元件之 API，使用方式就是在元件 id 後方加上 `.gk()`，後方接上 API 名稱即可使用，以下範例使用 id 為 test 的 `icon` 元件。
 
-- **api**：  
+- **refresh**：  
   	> 描述。
 
-			程式碼
+			$('#test').gk().refresh();
 
 
 <br/>

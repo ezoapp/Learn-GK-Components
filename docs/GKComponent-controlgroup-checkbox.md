@@ -1,10 +1,8 @@
-##controlgroup-checkbox##
-
-`controlgroup-checkbox` 元件描述  
+##controlgroup-checkbox
+`controlgroup-checkbox` 元件提供使用者「複選」的按鈕，是由 `checkbox-button` 與 `controlgroup` 所組成，也可參考 [checkbox-button 元件說明](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-checkbox-button.md) 
 
 <br/>
-###元件位置###
-
+###元件位置
 以下列出 `controlgroup-checkbox` 元件可以放置的位置，以及哪些元件可以放入 `controlgroup-checkbox` 裡頭。
 <table>
 <tr>
@@ -14,16 +12,32 @@
 <tr>
 <td>controlgroup-checkbox 可以放在哪些元件內？
 </td>
-<td></td>
+<td>
+<ul>
+<li>page</li>
+<li>header</li>
+<li>footer</li>
+<li>content</li>
+<li>block</li>
+<li>collapsible-set</li>
+<li>collapsible</li>
+<li>listview-li</li>
+</ul>
+</td>
 </tr>
 <tr>
 <td>哪些元件可以放在 controlgroup-checkbox 內？</td>
-<td></td>
+<td>
+<ul>
+<li>checkbox-button</li>
+<li>raty</li>
+</ul>
+</td>
 </tr>
 </table>
 
 <br/>
-###屬性設定###
+###屬性設定
 <table>
 
 <tr>
@@ -47,21 +61,8 @@
 </tr>
 
 <tr>
-<td>position</td>
-<td><ul>
-<li>default：隨畫面移動</li>
-<li>fixed：固定在最上方</li>
-</ul></td>
-</tr>
-
-<tr>
-<td>fullscreen</td>
-<td>
-( position = fixed 時才會出現 )
-<ul>
-<li>true：瀏覽時 header 消失，點選畫面後 header 顯示</li>
-<li>false：header 永遠顯示</li>
-</ul></td>
+<td>class</td>
+<td></td>
 </tr>
 
 <tr>
@@ -70,6 +71,36 @@
 <li>a：樣式 a</li>
 <li>b：樣式 b</li>
 </ul></td>
+</tr>
+
+<tr>
+<td>types</td>
+<td></td>
+</tr>
+
+<tr>
+<td>iconPos</td>
+<td></td>
+</tr>
+
+<tr>
+<td>corners</td>
+<td></td>
+</tr>
+
+<tr>
+<td>mini</td>
+<td></td>
+</tr>
+
+<tr>
+<td>shadow</td>
+<td></td>
+</tr>
+
+<tr>
+<td>excludeInvisible</td>
+<td></td>
 </tr>
 
 <tr>
@@ -83,13 +114,44 @@
 </table>
 
 <br/>
-###API###
+###API
 若已由 `isUseGKComponent` 將元件轉換為 GK 元件，則可使用 GK 元件之 API，使用方式就是在元件 id 後方加上 `.gk()`，後方接上 API 名稱即可使用，以下範例使用 id 為 test 的 `controlgroup-checkbox` 元件。
 
-- **api**：  
+- **apply**：  
   	> 描述。
 
-			程式碼
+			$('#test').gk().apply();
+
+
+- **onSelect**：  
+  	> 描述。
+
+			$('#test').gk().onSelect();
+
+
+- **disable**：  
+  	> 描述。
+
+			$('#test').gk().disable();
+
+
+- **enable**：  
+  	> 描述。
+
+			$('#test').gk().enable();
+
+
+- **checked**：  
+  	> 描述。
+
+			$('#test').gk().checked();
+
+
+- **unchecked**：  
+  	> 描述。
+
+			$('#test').gk().unchecked();
+
 
 
 <br/>

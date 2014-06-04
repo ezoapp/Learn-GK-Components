@@ -1,10 +1,8 @@
-##flot-bar##
-
-`flot-bar` 元件描述  
+##flot-bar
+`flot-bar` 可以協助使用者產生 bar 的圖表，採用 flot-bar 的樣式。   
 
 <br/>
-###元件位置###
-
+###元件位置
 以下列出 `flot-bar` 元件可以放置的位置，以及哪些元件可以放入 `flot-bar` 裡頭。
 <table>
 <tr>
@@ -14,16 +12,23 @@
 <tr>
 <td>flot-bar 可以放在哪些元件內？
 </td>
-<td></td>
+<td>
+<ul>
+<li>page</li>
+<li>content</li>
+<li>collapsible</li>
+<li>controlgroup</li>
+</ul>
+</td>
 </tr>
 <tr>
 <td>哪些元件可以放在 flot-bar 內？</td>
-<td></td>
+<td>無</td>
 </tr>
 </table>
 
 <br/>
-###屬性設定###
+###屬性設定
 <table>
 
 <tr>
@@ -37,8 +42,8 @@
 </tr>
 
 <tr>
-<td>text</td>
-<td>元件的顯示文字</td>
+<td>class</td>
+<td></td>
 </tr>
 
 <tr>
@@ -47,29 +52,43 @@
 </tr>
 
 <tr>
-<td>position</td>
-<td><ul>
-<li>default：隨畫面移動</li>
-<li>fixed：固定在最上方</li>
-</ul></td>
+<td>width</td>
+<td></td>
 </tr>
 
 <tr>
-<td>fullscreen</td>
-<td>
-( position = fixed 時才會出現 )
-<ul>
-<li>true：瀏覽時 header 消失，點選畫面後 header 顯示</li>
-<li>false：header 永遠顯示</li>
-</ul></td>
+<td>height</td>
+<td></td>
 </tr>
 
 <tr>
-<td>theme</td>
-<td><ul>
-<li>a：樣式 a</li>
-<li>b：樣式 b</li>
-</ul></td>
+<td>xlabel</td>
+<td></td>
+</tr>
+
+<tr>
+<td>ylabel</td>
+<td></td>
+</tr>
+
+<tr>
+<td>mode</td>
+<td></td>
+</tr>
+
+<tr>
+<td>valueLabels</td>
+<td></td>
+</tr>
+
+<tr>
+<td>barWidth</td>
+<td></td>
+</tr>
+
+<tr>
+<td>xTicks</td>
+<td></td>
 </tr>
 
 <tr>
@@ -83,14 +102,64 @@
 </table>
 
 <br/>
-###API###
-若已由 `isUseGKComponent` 將元件轉換為 GK 元件，則可使用 GK 元件之 API，使用方式就是在元件 id 後方加上 `.gk()`，後方接上 API 名稱即可使用，以下範例使用 id 為 test 的 `flot-bar` 元件。
+###API
+`flot-bar` 元件沒有提供 api。
 
-- **api**：  
-  	> 描述。
 
-			程式碼
+<br/>
+###Javascript 面板內容
+元件拖拉進入設計區域後，會在 javascript 的編輯面板同步產生下列代碼：
 
+	$(document).on("gkComponentsReady", function () {
+	  var data = [{
+	    label: 'Games',
+	    data: [
+	      ['Games', 32]
+	    ]
+	  }, {
+	    label: 'Facebook',
+	    data: [
+	      ['Facebook', 17]
+	    ]
+	  }, {
+	    label: 'Browser',
+	    data: [
+	      ['Browser', 14]
+	    ]
+	  }, {
+	    label: 'Social Messaging',
+	    data: [
+	      ['Social Messaging', 9.5]
+	    ]
+	  }, {
+	    label: 'YouTube',
+	    data: [
+	      ['YouTube', 4]
+	    ]
+	  }, {
+	    label: 'Entertainment',
+	    data: [
+	      ['Entertainment', 4]
+	    ]
+	  }, {
+	    label: 'Utilities',
+	    data: [
+	      ['Utilities', 8]
+	    ]
+	  }, {
+	    label: 'News',
+	    data: [
+	      ['News', 3]
+	    ]
+	  }, {
+	    label: 'Other',
+	    data: [
+	      ['Other', 8.5]
+	    ]
+	  }];
+	
+	  $('#gk-64Aerd').gk('render', data);
+	});
 
 <br/>
 ----------

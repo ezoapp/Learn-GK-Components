@@ -1,17 +1,16 @@
-##button
-`button` 按鈕元件，點選後進行超連結或頁面變換，同時也可設定各種頁面切換效果。  
+#checkbox-button
+`checkbox-button` 元件提供使用者「複選」的按鈕。
 
 <br/>
 ###元件位置
-
-以下列出 `button` 元件可以放置的位置，以及哪些元件可以放入 `button` 裡頭。
+以下列出 `checkbox-button` 元件可以放置的位置，以及哪些元件可以放入 `checkbox-button` 裡頭。
 <table>
 <tr>
 <th style="background:#ddd;">位置說明</th>
 <th style="background:#ddd;">相關元件</th>
 </tr>
 <tr>
-<td>button 可以放在哪些元件內？
+<td>checkbox-button 可以放在哪些元件內？
 </td>
 <td>
 <ul>
@@ -20,13 +19,15 @@
 <li>footer</li>
 <li>content</li>
 <li>block</li>
-<li>listview-li</li>
+<li>controlgroup-checkbox</li>
+<li>controlgroup</li>
 <li>collapsible</li>
+<li>listview-li</li>
 </ul>
 </td>
 </tr>
 <tr>
-<td>哪些元件可以放在 button 內？</td>
+<td>哪些元件可以放在 checkbox-button 內？</td>
 <td>無</td>
 </tr>
 </table>
@@ -51,72 +52,22 @@
 </tr>
 
 <tr>
-<td>style</td>
-<td>直接編寫元件 DOM inline 樣式</td>
-</tr>
-
-<tr>
-<td>class</td>
+<td>name</td>
 <td></td>
 </tr>
 
 <tr>
-<td>href</td>
+<td>value</td>
 <td></td>
 </tr>
 
 <tr>
-<td>transition</td>
-<td></td>
-</tr>
-
-<tr>
-<td>rel</td>
-<td></td>
-</tr>
-
-<tr>
-<td>direction</td>
-<td></td>
-</tr>
-
-<tr>
-<td>inline</td>
-<td></td>
-</tr>
-
-<tr>
-<td>icon</td>
-<td></td>
-</tr>
-
-<tr>
-<td>direction</td>
-<td></td>
-</tr>
-
-<tr>
-<td>corners</td>
+<td>iconPos</td>
 <td></td>
 </tr>
 
 <tr>
 <td>mini</td>
-<td></td>
-</tr>
-
-<tr>
-<td>shadow</td>
-<td></td>
-</tr>
-
-<tr>
-<td>disabled</td>
-<td></td>
-</tr>
-
-<tr>
-<td>background-image</td>
 <td></td>
 </tr>
 
@@ -140,12 +91,11 @@
 
 <br/>
 ###API
-`button` 元件沒有提供 api。
-
+`checkbox-button` 元件沒有提供 api。
 
 <br/>
 ----------
-以上便是 `button` 的相關說明，如果想了解更多其他元件，請回 [元件清單列表](https://github.com/ezoapp/Learn-GK-Components)  
+以上便是 `checkbox-button` 的相關說明，如果想了解更多其他元件，請回 [元件清單列表](https://github.com/ezoapp/Learn-GK-Components)  
 
 官方網站：[www.ezoui.com/app](http://www.ezoui.com/app)  
 EZoApp 開發工具：[jqmdesigner.appspot.com/](http://jqmdesigner.appspot.com/)

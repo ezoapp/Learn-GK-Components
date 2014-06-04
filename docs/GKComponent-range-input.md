@@ -1,10 +1,8 @@
-##Grange-input##
-
-`range-input` 元件描述  
+##range-input
+`range-input` 是範圍控制桿元件，提供使用者利用控制桿調整範圍數值，該元件拖曳進入設計區域後，預設與標題一起放在 `fieldcontain` 內，也可利用拖拉的方式將其移出 `fieldcontain` 外。
 
 <br/>
-###元件位置###
-
+###元件位置
 以下列出 `range-input` 元件可以放置的位置，以及哪些元件可以放入 `range-input` 裡頭。
 <table>
 <tr>
@@ -14,16 +12,28 @@
 <tr>
 <td>range-input 可以放在哪些元件內？
 </td>
-<td></td>
+<td>
+<ul>
+<li>page</li>
+<li>header</li>
+<li>footer</li>
+<li>content</li>
+<li>block</li>
+<li>listview-li</li>
+<li>collapsible</li>
+<li>controlgroup</li>
+<li>fieldcontain</li>
+</ul>
+</td>
 </tr>
 <tr>
 <td>哪些元件可以放在 range-input 內？</td>
-<td></td>
+<td>無</td>
 </tr>
 </table>
 
 <br/>
-###屬性設定###
+###屬性設定
 <table>
 
 <tr>
@@ -37,38 +47,68 @@
 </tr>
 
 <tr>
-<td>text</td>
-<td>元件的顯示文字</td>
+<td>name</td>
+<td>名稱</td>
 </tr>
 
 <tr>
-<td>style</td>
-<td>直接編寫元件 DOM inline 樣式</td>
+<td>value</td>
+<td>回傳值</td>
 </tr>
 
 <tr>
-<td>position</td>
-<td><ul>
-<li>default：隨畫面移動</li>
-<li>fixed：固定在最上方</li>
+<td>min</td>
+<td>範圍最小值</td>
+</tr>
+
+<tr>
+<td>max</td>
+<td>範圍最大值</td>
+</tr>
+
+<tr>
+<td>step</td>
+<td></td>
+</tr>
+
+<tr>
+<td>hightlight</td>
+<td>
+<ul>
+<li>true：範圍區域顏色提示</li>
+<li>false：範圍區域隱藏顏色提示</li>
 </ul></td>
 </tr>
 
 <tr>
-<td>fullscreen</td>
-<td>
-( position = fixed 時才會出現 )
-<ul>
-<li>true：瀏覽時 header 消失，點選畫面後 header 顯示</li>
-<li>false：header 永遠顯示</li>
+<td>mini</td>
+<td><ul>
+<li>true：最小化</li>
+<li>false：正常尺寸</li>
+</ul></td>
+</tr>
+
+<tr>
+<td>disable</td>
+<td><ul>
+<li>(default)：預設顯示可使用</li>
+<li>disable：顯示但不可使用</li>
+</ul></td>
+</tr>
+
+<tr>
+<td>trackTheme</td>
+<td><ul>
+<li>a：範圍框樣式 a</li>
+<li>b：範圍框樣式 b</li>
 </ul></td>
 </tr>
 
 <tr>
 <td>theme</td>
 <td><ul>
-<li>a：樣式 a</li>
-<li>b：樣式 b</li>
+<li>a：拖曳按鈕樣式 a</li>
+<li>b：拖曳按鈕樣式 b</li>
 </ul></td>
 </tr>
 
@@ -83,13 +123,8 @@
 </table>
 
 <br/>
-###API###
-若已由 `isUseGKComponent` 將元件轉換為 GK 元件，則可使用 GK 元件之 API，使用方式就是在元件 id 後方加上 `.gk()`，後方接上 API 名稱即可使用，以下範例使用 id 為 test 的 `range-input` 元件。
-
-- **api**：  
-  	> 描述。
-
-			程式碼
+###API
+`range-input` 元件沒有提供 api。
 
 
 <br/>

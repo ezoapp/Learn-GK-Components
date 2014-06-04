@@ -1,10 +1,8 @@
-##gk-device-motion##
-
-`gk-device-motion` 元件描述  
+##gk-device-motion
+`gk-device-motion` 元件可以獲取手機或平板裝置的陀螺儀，進行三軸的運算判斷。  
 
 <br/>
-###元件位置###
-
+###元件位置
 以下列出 `gk-device-motion` 元件可以放置的位置，以及哪些元件可以放入 `gk-device-motion` 裡頭。
 <table>
 <tr>
@@ -14,16 +12,16 @@
 <tr>
 <td>gk-device-motion 可以放在哪些元件內？
 </td>
-<td></td>
+<td>page</td>
 </tr>
 <tr>
 <td>哪些元件可以放在 gk-device-motion 內？</td>
-<td></td>
+<td>無</td>
 </tr>
 </table>
 
 <br/>
-###屬性設定###
+###屬性設定
 <table>
 
 <tr>
@@ -37,39 +35,8 @@
 </tr>
 
 <tr>
-<td>text</td>
-<td>元件的顯示文字</td>
-</tr>
-
-<tr>
 <td>style</td>
 <td>直接編寫元件 DOM inline 樣式</td>
-</tr>
-
-<tr>
-<td>position</td>
-<td><ul>
-<li>default：隨畫面移動</li>
-<li>fixed：固定在最上方</li>
-</ul></td>
-</tr>
-
-<tr>
-<td>fullscreen</td>
-<td>
-( position = fixed 時才會出現 )
-<ul>
-<li>true：瀏覽時 header 消失，點選畫面後 header 顯示</li>
-<li>false：header 永遠顯示</li>
-</ul></td>
-</tr>
-
-<tr>
-<td>theme</td>
-<td><ul>
-<li>a：樣式 a</li>
-<li>b：樣式 b</li>
-</ul></td>
 </tr>
 
 <tr>
@@ -83,13 +50,33 @@
 </table>
 
 <br/>
-###API###
-若已由 `isUseGKComponent` 將元件轉換為 GK 元件，則可使用 GK 元件之 API，使用方式就是在元件 id 後方加上 `.gk()`，後方接上 API 名稱即可使用，以下範例使用 id 為 test 的 `gk-device-motion` 元件。
+###API
+`gk-device-motion` 元件沒有提供 api。
 
-- **api**：  
-  	> 描述。
 
-			程式碼
+<br/>
+###Javascript 面板內容
+元件拖拉進入設計區域後，會在 javascript 的編輯面板同步產生下列代碼：
+
+	/*** code gen by gk-device-motion  ***/
+	$(document).on("gkComponentsReady", function () {
+	  function onSuccess(acceleration) {
+	    var x = acceleration.x;
+	    var y = acceleration.y;
+	    var z = acceleration.z;
+	    var times = acceleration.timestamp;
+	    $("#gk-64HYJC").html("Acceleration X: " + x + "<br /> Acceleration Y: " + y + "<br /> Acceleration Z: " + z + "<br /> Timestamp: " + times + "<br />");
+	  }
+	
+	  function onError(error) {
+	    console.log("onError!");
+	  }
+	  if (navigator.accelerometer) {
+	    var watchID = navigator.accelerometer.watchAcceleration(onSuccess, onError, {
+	      frequency: 1000
+	    });
+	  }
+	});
 
 
 <br/>

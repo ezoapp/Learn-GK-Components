@@ -1,10 +1,9 @@
-##rss-news##
+##rss-news
+`rss-news` 可以將公開資訊的 rss 資料，以清單列表的方式呈現於畫面當中。  
 
-`rss-news` 元件描述  
 
 <br/>
-###元件位置###
-
+###元件位置
 以下列出 `rss-news` 元件可以放置的位置，以及哪些元件可以放入 `rss-news` 裡頭。
 <table>
 <tr>
@@ -14,62 +13,31 @@
 <tr>
 <td>rss-news 可以放在哪些元件內？
 </td>
-<td></td>
+<td>
+<ul>
+<li>page</li>
+<li>header</li>
+<li>footer</li>
+<li>content</li>
+<li>block</li>
+<li>collapsible</li>
+<li>controlgroup</li>
+</ul>
+</td>
 </tr>
 <tr>
 <td>哪些元件可以放在 rss-news 內？</td>
-<td></td>
+<td>無</td>
 </tr>
 </table>
 
 <br/>
-###屬性設定###
+###屬性設定
 <table>
 
 <tr>
 <th style="background:#ddd;">屬性</th>
 <th style="background:#ddd;">設定</th>
-</tr>
-
-<tr>
-<td>id</td>
-<td>元件的 id</td>
-</tr>
-
-<tr>
-<td>text</td>
-<td>元件的顯示文字</td>
-</tr>
-
-<tr>
-<td>style</td>
-<td>直接編寫元件 DOM inline 樣式</td>
-</tr>
-
-<tr>
-<td>position</td>
-<td><ul>
-<li>default：隨畫面移動</li>
-<li>fixed：固定在最上方</li>
-</ul></td>
-</tr>
-
-<tr>
-<td>fullscreen</td>
-<td>
-( position = fixed 時才會出現 )
-<ul>
-<li>true：瀏覽時 header 消失，點選畫面後 header 顯示</li>
-<li>false：header 永遠顯示</li>
-</ul></td>
-</tr>
-
-<tr>
-<td>theme</td>
-<td><ul>
-<li>a：樣式 a</li>
-<li>b：樣式 b</li>
-</ul></td>
 </tr>
 
 <tr>
@@ -80,16 +48,55 @@
 </ul></td>
 </tr>
 
+<tr>
+<td>rowNum</td>
+<td></td>
+</tr>
+
+<tr>
+<td>service</td>
+<td></td>
+</tr>
+
 </table>
 
 <br/>
-###API###
-若已由 `isUseGKComponent` 將元件轉換為 GK 元件，則可使用 GK 元件之 API，使用方式就是在元件 id 後方加上 `.gk()`，後方接上 API 名稱即可使用，以下範例使用 id 為 test 的 `rss-news` 元件。
+###API
+`rss-news` 元件沒有提供 api。
 
-- **api**：  
-  	> 描述。
+<br/>
+###Javascript 面板內容
+元件拖拉進入設計區域後，會在 javascript 的編輯面板同步產生下列代碼：
 
-			程式碼
+
+	$(document).on("gkComponentsReady", function () {
+	  var $ele = $("元件id"),
+	    FEED_URL = $ele.attr("service"),
+	    $listview = $("元件id").find('[data-role="listview"]');
+	  rowNum = $ele.attr('rowNum');
+	
+	  if (FEED_URL) {
+	    $.ajax({
+	      beforeSend: function () {
+	        $listview.css('visibility', 'hidden');
+	      },
+	      url: 'http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=' + rowNum + '&callback=?&q=' + encodeURIComponent(FEED_URL),
+	      dataType: 'json',
+	      success: function (data) {
+	        if (data.responseData.feed && data.responseData.feed.entries) {
+	          var models = data.responseData.feed.entries;
+	          $listview.gk('model', models);
+	          $listview.css('visibility', 'visible');
+	        }
+	      }
+	    });
+	  }
+	
+	  $listview.gk('onRow', function (vo) {
+	    alert(JSON.stringify(vo));
+	  });
+	
+	});
 
 
 <br/>

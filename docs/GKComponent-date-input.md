@@ -1,10 +1,8 @@
-##Gdate-input##
-
-`date-input` 元件描述  
+##Gdate-input
+`date-input` 選擇日期的元件。 
 
 <br/>
-###元件位置###
-
+###元件位置
 以下列出 `date-input` 元件可以放置的位置，以及哪些元件可以放入 `date-input` 裡頭。
 <table>
 <tr>
@@ -14,16 +12,28 @@
 <tr>
 <td>date-input 可以放在哪些元件內？
 </td>
-<td></td>
+<td>
+<ul>
+<li>page</li>
+<li>header</li>
+<li>footer</li>
+<li>content</li>
+<li>block</li>
+<li>listview-li</li>
+<li>collapsible</li>
+<li>controlgroup</li>
+<li>fieldcontain</li>
+</ul>
+</td>
 </tr>
 <tr>
 <td>哪些元件可以放在 date-input 內？</td>
-<td></td>
+<td>無</td>
 </tr>
 </table>
 
 <br/>
-###屬性設定###
+###屬性設定
 <table>
 
 <tr>
@@ -37,8 +47,25 @@
 </tr>
 
 <tr>
-<td>text</td>
-<td>元件的顯示文字</td>
+<td>type</td>
+<td><ul>
+<li>date：</li>
+<li>time：</li>
+<li>month：</li>
+<li>week：</li>
+<li>datetime：</li>
+<li>datetime-local：</li>
+</ul></td>
+</tr>
+
+<tr>
+<td>name</td>
+<td></td>
+</tr>
+
+<tr>
+<td>value</td>
+<td></td>
 </tr>
 
 <tr>
@@ -47,20 +74,35 @@
 </tr>
 
 <tr>
-<td>position</td>
-<td><ul>
-<li>default：隨畫面移動</li>
-<li>fixed：固定在最上方</li>
+<td>clearBtn</td>
+<td>
+<ul>
+<li>true：輸入時出現清除按鈕</li>
+<li>false：輸入時隱藏清除按鈕</li>
 </ul></td>
 </tr>
 
 <tr>
-<td>fullscreen</td>
-<td>
-( position = fixed 時才會出現 )
-<ul>
-<li>true：瀏覽時 header 消失，點選畫面後 header 顯示</li>
-<li>false：header 永遠顯示</li>
+<td>mini</td>
+<td><ul>
+<li>true：最小化</li>
+<li>false：正常尺寸</li>
+</ul></td>
+</tr>
+
+<tr>
+<td>disable</td>
+<td><ul>
+<li>(default)：預設顯示可使用</li>
+<li>disable：顯示但不可使用</li>
+</ul></td>
+</tr>
+
+<tr>
+<td>preventFocusZoom</td>
+<td><ul>
+<li>true：</li>
+<li>false：</li>
 </ul></td>
 </tr>
 
@@ -83,13 +125,13 @@
 </table>
 
 <br/>
-###API###
+###API
 若已由 `isUseGKComponent` 將元件轉換為 GK 元件，則可使用 GK 元件之 API，使用方式就是在元件 id 後方加上 `.gk()`，後方接上 API 名稱即可使用，以下範例使用 id 為 test 的 `date-input` 元件。
 
-- **api**：  
+- **value**：  
   	> 描述。
 
-			程式碼
+			$('#test').gk().value();
 
 
 <br/>

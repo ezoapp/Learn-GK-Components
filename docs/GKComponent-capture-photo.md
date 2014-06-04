@@ -1,10 +1,8 @@
-##capture-photo##
-
-`capture-photo` 元件描述  
+##capture-photo
+`capture-photo` 元件可以使用手機或平板的相機裝置進行拍照的功能  
 
 <br/>
-###元件位置###
-
+###元件位置
 以下列出 `capture-photo` 元件可以放置的位置，以及哪些元件可以放入 `capture-photo` 裡頭。
 <table>
 <tr>
@@ -14,16 +12,31 @@
 <tr>
 <td>capture-photo 可以放在哪些元件內？
 </td>
-<td></td>
+<td>
+<ul>
+<li>page</li>
+<li>header</li>
+<li>footer</li>
+<li>content</li>
+<li>block</li>
+<li>collapsible</li>
+<li>controlgroup</li>
+</ul>
+</td>
 </tr>
 <tr>
 <td>哪些元件可以放在 capture-photo 內？</td>
-<td></td>
+<td>
+<ul>
+<li>listview-li</li>
+<li>list-divider</li>
+</ul>
+</td>
 </tr>
 </table>
 
 <br/>
-###屬性設定###
+###屬性設定
 <table>
 
 <tr>
@@ -37,39 +50,8 @@
 </tr>
 
 <tr>
-<td>text</td>
-<td>元件的顯示文字</td>
-</tr>
-
-<tr>
 <td>style</td>
 <td>直接編寫元件 DOM inline 樣式</td>
-</tr>
-
-<tr>
-<td>position</td>
-<td><ul>
-<li>default：隨畫面移動</li>
-<li>fixed：固定在最上方</li>
-</ul></td>
-</tr>
-
-<tr>
-<td>fullscreen</td>
-<td>
-( position = fixed 時才會出現 )
-<ul>
-<li>true：瀏覽時 header 消失，點選畫面後 header 顯示</li>
-<li>false：header 永遠顯示</li>
-</ul></td>
-</tr>
-
-<tr>
-<td>theme</td>
-<td><ul>
-<li>a：樣式 a</li>
-<li>b：樣式 b</li>
-</ul></td>
 </tr>
 
 <tr>
@@ -83,13 +65,39 @@
 </table>
 
 <br/>
-###API###
-若已由 `isUseGKComponent` 將元件轉換為 GK 元件，則可使用 GK 元件之 API，使用方式就是在元件 id 後方加上 `.gk()`，後方接上 API 名稱即可使用，以下範例使用 id 為 test 的 `capture-photo` 元件。
+###API
+`capture-photo` 元件沒有提供 api。
 
-- **api**：  
-  	> 描述。
 
-			程式碼
+<br/>
+###Javascript 面板內容
+元件拖拉進入設計區域後，會在 javascript 的編輯面板同步產生下列代碼：
+
+	/*** code gen by capture-photo  ***/
+	$(document).on("gkComponentsReady", function () {
+	  $("#gk-64jIRT-btn").on("click", function () {
+	    if (navigator.camera) {
+	      navigator.camera.getPicture(
+	        // Called when a photo is successfully retrieved
+	        function (imgURI) {
+	          // Set image
+	          $("#gk-64jIRT-img").attr("src", imgURI);
+	        },
+	        // Called if something bad happens
+	        function (msg) {
+	          alert("Failed because: " + msg);
+	        },
+	        // Camera options
+	        {
+	          quality: 100,
+	          destinationType: navigator.camera.DestinationType.FILE_URI,
+	          sourceType: Camera.PictureSourceType.CAMERA,
+	          encodingType: Camera.EncodingType.JPEG,
+	          saveToPhotoAlbum: true
+	        });
+	    }
+	  });
+	});
 
 
 <br/>

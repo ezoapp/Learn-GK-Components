@@ -1,16 +1,16 @@
-##youtube
-`youtube` 元件讓使用者可直接在行動或平板裝置上瀏覽 youtube 影片  
+##image
+`image` 是一個可以在設計畫面中拖拉位置進行排版的圖片元件。  
 
 <br/>
 ###元件位置
-以下列出 `youtube` 元件可以放置的位置，以及哪些元件可以放入 `youtube` 裡頭。
+以下列出 `image` 元件可以放置的位置，以及哪些元件可以放入 `image` 裡頭。
 <table>
 <tr>
 <th style="background:#ddd;">位置說明</th>
 <th style="background:#ddd;">相關元件</th>
 </tr>
 <tr>
-<td>youtube 可以放在哪些元件內？
+<td>image 可以放在哪些元件內？
 </td>
 <td>
 <ul>
@@ -26,7 +26,7 @@
 </td>
 </tr>
 <tr>
-<td>哪些元件可以放在 youtube 內？</td>
+<td>哪些元件可以放在 image 內？</td>
 <td>無</td>
 </tr>
 </table>
@@ -46,35 +46,25 @@
 </tr>
 
 <tr>
-<td>width</td>
-<td>影片的寬度</td>
-</tr>
-
-<tr>
-<td>Height</td>
-<td>影片的高度</td>
-</tr>
-
-<tr>
 <td>src</td>
-<td>影片的縮圖網址</td>
+<td>圖片的網址</td>
 </tr>
 
 <tr>
-<td>videoId</td>
-<td>影片在 youtube 的網址</td>
+<td>style</td>
+<td>直接編寫元件 DOM inline 樣式</td>
 </tr>
 
 </table>
 
 <br/>
 ###API
-`youtube` 元件沒有提供 api。
+`image` 元件沒有提供 api。
 
 
 <br/>
 ----------
-以上便是 `youtube` 的相關說明，如果想了解更多其他元件，請回 [元件清單列表](https://github.com/ezoapp/Learn-GK-Components)  
+以上便是 `image` 的相關說明，如果想了解更多其他元件，請回 [元件清單列表](https://github.com/ezoapp/Learn-GK-Components)  
 
 官方網站：[www.ezoui.com/app](http://www.ezoui.com/app)  
 EZoApp 開發工具：[jqmdesigner.appspot.com/](http://jqmdesigner.appspot.com/)

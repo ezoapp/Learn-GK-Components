@@ -1,9 +1,8 @@
-##navbtn##
-
+##navbtn
 `navbtn` 元件是一個按鈕元件，只能放在 `navbar` 或 `tabbar` 內。 
 
 <br/>
-###元件位置###
+###元件位置
 
 以下列出 `navbtn` 元件可以放置的位置，以及哪些元件可以放入 `navbtn` 裡頭。
 <table>
@@ -23,7 +22,7 @@
 </table>
 
 <br/>
-###屬性設定###
+###屬性設定
 <table>
 
 <tr>
@@ -91,7 +90,7 @@
 </table>
 
 <br/>
-###API###
+###API
 `navbtn` 元件沒有提供 api。
 
 
