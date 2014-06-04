@@ -7,8 +7,8 @@
 Refer to JQueryMobile's [Button][2] Widget.
 <br/>
 ###API
-`button` without API
 
+None
 
 <br/>
 ----------
