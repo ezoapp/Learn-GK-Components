@@ -1,60 +1,48 @@
 ##gk-text
-`gk-text` 是標題或文字的元件，也可藉由傳值的方式動態產生相對應的文字。  
+`gk-text` is heading and text component, and also could be set dynamically.
 
 <br/>
-###屬性設定
+###Attributes
 <table>
 
 <tr>
-<th style="background:#ddd;">屬性</th>
-<th style="background:#ddd;">設定</th>
+<th style="background:#ddd;">Attribute</th>
+<th style="background:#ddd;">Description</th>
 </tr>
 
 <tr>
 <td>id</td>
-<td>元件的 id</td>
-</tr>
-
-<tr>
-<td>text</td>
-<td>元件的顯示文字</td>
+<td>Component's id</td>
 </tr>
 
 <tr>
 <td>style</td>
-<td>直接編寫元件 DOM inline 樣式</td>
-</tr>
-
-<tr>
-<td>text type</td>
-<td>可選擇 h1 ~ h6 的字體大小</td>
+<td>HTML inline style</td>
 </tr>
 
 </table>
 
 <br/>
 ###API
-若已由 `isUseGKComponent` 將元件轉換為 GK 元件，則可使用 GK 元件之 API，使用方式就是在元件 id 後方加上 `.gk()`，後方接上 API 名稱即可使用，以下範例使用 id 為 test 的 `gk-text` 元件。
 
-- **text**：  
-  	> 描述。
+- **.text([val])**：  
+  	> Set a new value or get current value. 
 
-			$('#test').gk().text();
+    > **val**  
+      Type: String  
+      Text value
 
-
-- **apply**：  
-  	> 描述。
-
-			$('#test').gk().apply();
-
+            // getter
+            var text = $('#test').gk().text();
+            // setter
+            $('#test').gk().text('newText');
 
 <br/>
 ----------
-以上便是 `gk-text` 的相關說明，如果想了解更多其他元件，請回 [元件清單列表](https://github.com/ezoapp/Learn-GK-Components)  
+Above is the description of `gk-text` .  If you want to learn more, please refer to [Learn-GK-Components](https://github.com/ezoapp/Learn-GK-Components)  
 
-官方網站：[www.ezoui.com/app](http://www.ezoui.com/app)  
-EZoApp 開發工具：[jqmdesigner.appspot.com/](http://jqmdesigner.appspot.com/)
-
+Official website: [www.ezoui.com/app](http://www.ezoui.com/app)  
+EZoApp: [jqmdesigner.appspot.com/](http://jqmdesigner.appspot.com/)
 
 
 
