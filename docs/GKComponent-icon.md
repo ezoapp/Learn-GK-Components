@@ -25,7 +25,7 @@ In addition, there will be a number tips in the upper left corner.
 
 <br/>
 ###API
-`icon` doesn't has API.
+none
 
 
 <br/>
