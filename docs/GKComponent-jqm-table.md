@@ -21,14 +21,14 @@
 ###API
 
 - **load(url)**：  
-  	> url
-    Type: String
+  	> url<br/>
+    Type: String<br/>
     A string containing the URL to which the request is sent.
 
 
 - **info(data)**：  
-  	> data
-    Type: PlainObject
+  	> data<br/>
+    Type: PlainObject<br/>
     A plain object or string that is sent to the server with the     request.
 
 
