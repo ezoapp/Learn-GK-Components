@@ -22,7 +22,7 @@
 
 <tr>
 <td>name</td>
-<td>Gives <kbd>the</kbd> name of the input element.</td>
+<td>Gives the name of the input element.</td>
 </tr>
 
 <tr>
