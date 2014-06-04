@@ -32,9 +32,12 @@ for more information, please refer to [JQuery Mobile](http://jquerymobile.com/).
 
     > **val**  
     > Type: String  
-    > 
+    > Text value
 
-			$('#test').gk().value();
+            //getter            
+            var value = $(selector).gk().value();
+            //setter
+            $(selector).gk().value('newValue');
 
 
 <br/>
