@@ -33,9 +33,9 @@
       Text value
 
             // getter
-            var text = $('#test').gk().text();
+            var text = $(selector).gk().text();
             // setter
-            $('#test').gk().text('newText');
+            $(selector).gk().text('newText');
 
 <br/>
 ----------
