@@ -49,13 +49,13 @@ This is a list of all the GK Components，click on the link, and you can know ho
 * [page-listview](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-page-listview.md) ( description, property, api)
 * [capture-photo](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-capture-photo.md) ( description, property, api)
 * [gk-position](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-gk-position.md) ( description, property, api)
-* [gk-device-motion](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-gk-device-motion.md) ( 缺 屬性 )
-* [flot-pie](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-flot-pie.md) ( 缺 屬性 )
-* [flot-bar](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-flot-bar.md) ( 缺 屬性 )
-* [flot-stacking](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-flot-stacking.md) ( 缺 屬性 )
-* [flot-line](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-flot-line.md) ( 缺 屬性 )
-* [linechart](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-linechart.md)
-* [rss-news](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-rss-news.md)
+* [gk-device-motion](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-gk-device-motion.md) ( description, property, api)
+* [flot-pie](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-flot-pie.md) ( description, property, api)
+* [flot-bar](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-flot-bar.md) ( description, property, api)
+* [flot-stacking](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-flot-stacking.md) ( description, property, api)
+* [flot-line](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-flot-line.md) ( description, property, api)
+* [linechart](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-linechart.md) ( description, property, api)
+* [rss-news](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-rss-news.md) ( description, property, api)
 
 
 

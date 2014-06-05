@@ -12,50 +12,7 @@
 
 <tr>
 <td>id</td>
-<td>元件的 id</td>
-</tr>
-
-<tr>
-<td>class</td>
-<td></td>
-</tr>
-
-<tr>
-<td>style</td>
-<td>直接編寫元件 DOM inline 樣式</td>
-</tr>
-
-<tr>
-<td>width</td>
-<td></td>
-</tr>
-
-<tr>
-<td>height</td>
-<td></td>
-</tr>
-
-<tr>
-<td>radius</td>
-<td></td>
-</tr>
-
-<tr>
-<td>labelRadius</td>
-<td></td>
-</tr>
-
-<tr>
-<td>showLegend</td>
-<td></td>
-</tr>
-
-<tr>
-<td>isUseGKComponent</td>
-<td><ul>
-<li>true：轉換為 GK 元件 ( 可使用 GK 元件 API )a</li>
-<li>false：不轉換為 GK 元件</li>
-</ul></td>
+<td>Component's id</td>
 </tr>
 
 </table>

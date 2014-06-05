@@ -11,21 +11,8 @@
 </tr>
 
 <tr>
-<td>isUseGKComponent</td>
-<td><ul>
-<li>true：轉換為 GK 元件 ( 可使用 GK 元件 API )a</li>
-<li>false：不轉換為 GK 元件</li>
-</ul></td>
-</tr>
-
-<tr>
-<td>rowNum</td>
-<td>一頁裡頭所呈現的資料筆數</td>
-</tr>
-
-<tr>
 <td>service</td>
-<td>rss 的網址</td>
+<td></td>
 </tr>
 
 </table>
@@ -35,8 +22,8 @@
 None
 
 <br/>
-###Javascript 面板內容
-元件拖拉進入設計區域後，會在 javascript 的編輯面板同步產生下列代碼：
+###Javascript Code
+After dragging the component into the design panel, in javascript editor panel, and it will generate the code：
 
 
 	$(document).on("gkComponentsReady", function () {

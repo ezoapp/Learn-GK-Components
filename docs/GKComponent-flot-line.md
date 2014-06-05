@@ -12,70 +12,7 @@
 
 <tr>
 <td>id</td>
-<td>元件的 id</td>
-</tr>
-
-<tr>
-<td>class</td>
-<td></td>
-</tr>
-
-<tr>
-<td>style</td>
-<td></td>
-</tr>
-
-<tr>
-<td>width</td>
-<td></td>
-</tr>
-
-<tr>
-<td>height</td>
-<td></td>
-</tr>
-
-<tr>
-<td>xlabel</td>
-<td></td>
-</tr>
-
-<tr>
-<td>ylabel</td>
-<td></td>
-</tr>
-
-<tr>
-<td>mode</td>
-<td></td>
-</tr>
-
-<tr>
-<td>valueLabels</td>
-<td></td>
-</tr>
-
-<tr>
-<td>showPoints</td>
-<td></td>
-</tr>
-
-<tr>
-<td>showLabels</td>
-<td></td>
-</tr>
-
-<tr>
-<td>labelPlacement</td>
-<td></td>
-</tr>
-
-<tr>
-<td>isUseGKComponent</td>
-<td><ul>
-<li>true：轉換為 GK 元件 ( 可使用 GK 元件 API )a</li>
-<li>false：不轉換為 GK 元件</li>
-</ul></td>
+<td>component's id</td>
 </tr>
 
 </table>
