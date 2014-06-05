@@ -1,64 +1,53 @@
 ##selectmenu
-`selectmenu` 可以利用點選的方式，讓使用者展開選單進行連結或切換頁，該元件拖曳進入設計區域後，預設與標題一起放在 `fieldcontain` 內，也可利用拖拉的方式將其移出 `fieldcontain` 外。  
+The `selectmenu` is based on a native select element, which is hidden from view and replaced with a custom-styled select button that matches the look and feel of the jQuery Mobile framework. The select menu is ARIA-enabled and keyboard accessible on the desktop as well.  
 
 <br/>
 ###Properties
-<table>
 
-<tr>
-<th style="background:#ddd;">property</th>
-<th style="background:#ddd;">setting</th>
-</tr>
-
-<tr>
-<td>id</td>
-<td>元Component's id</td>
-</tr>
-
-</table>
+Refer to JQueryMobile's [selectmenu](http://api.jquerymobile.com/selectmenu/) Widget.
 
 <br/>
 ###API
 
 - **value**：  
-  	> 描述。
+  	> description
 
 			$('#test').gk().value();
 
 - **enable**：  
-  	> 描述。
+  	> description
 
 			$('#test').gk().enable();
 
 - **disable**：  
-  	> 描述。
+  	> description
 
 			$('#test').gk().disable();
 
 - **open**：  
-  	> 描述。
+  	> description
 
 			$('#test').gk().open();
 
 - **close**：  
-  	> 描述。
+  	> description
 
 			$('#test').gk().close();
 
 - **refresh**：  
-  	> 描述。
+  	> description
 
 			$('#test').gk().value();
 
 
 - **model**：  
-  	> 描述。
+  	> description
 
 			$('#test').gk().value();
 
 
 - **onChange**：  
-  	> 描述。
+  	> description
 
 			$('#test').gk().value();
 

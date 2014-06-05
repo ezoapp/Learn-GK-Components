@@ -1,21 +1,10 @@
-##flipwitch
-`flipwitch` 開關按鈕元件，可設兩種狀態的切換，該元件拖曳進入設計區域後，預設與標題一起放在 `fieldcontain` 內，也可利用拖拉的方式將其移出 `fieldcontain` 外。  
+##flipswitch
+The flip switch is an alternative look to the checkbox or the two-option select menu. It can be toggled by a click or a swipe. 
 
 <br/>
 ###Properties
-<table>
 
-<tr>
-<th style="background:#ddd;">property</th>
-<th style="background:#ddd;">setting</th>
-</tr>
-
-<tr>
-<td>id</td>
-<td>Component's id</td>
-</tr>
-
-</table>
+Refer to JQueryMobile's [flipswitch](http://api.jquerymobile.com/flipswitch/) Widget.
 
 <br/>
 ###API
