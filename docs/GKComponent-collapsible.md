@@ -12,7 +12,7 @@
 
 <tr>
 <td>id</td>
-<td>元件的 id</td>
+<td>Component's id</td>
 </tr>
 
 <tr>
@@ -21,66 +21,43 @@
 </tr>
 
 <tr>
-<td>collapsed</td>
+<td>data-collapsed</td>
 <td></td>
 </tr>
 
 <tr>
-<td>iconPos</td>
-<td><ul>
-<li>left：icon 在左側</li>
-<li>right：icon 在左右側</li>
-<li>bottom：icon 在下</li>
-<li>top：icon 在上</li>
-<li>notnext：不要文字，只有 icon</li>
-</ul></td>
-</tr>
-
-<tr>
-<td>collapsedIcon</td>
+<td>data-iconpos</td>
 <td></td>
 </tr>
 
 <tr>
-<td>expandedIcon</td>
+<td>data-collapsed-icon</td>
 <td></td>
 </tr>
 
 <tr>
-<td>inset</td>
+<td>data-expanded-icon</td>
 <td></td>
 </tr>
 
 <tr>
-<td>mini</td>
-<td><ul>
-<li>true：最小化</li>
-<li>false：正常尺寸</li>
-</ul></td>
+<td>data-inset</td>
+<td></td>
 </tr>
 
 <tr>
-<td>theme</td>
-<td><ul>
-<li>a：樣式 a</li>
-<li>b：樣式 b</li>
-</ul></td>
+<td>data-mini</td>
+<td></td>
 </tr>
 
 <tr>
-<td>content theme</td>
-<td><ul>
-<li>a：內容樣式 a</li>
-<li>b：內容樣式 b</li>
-</ul></td>
+<td>data-theme</td>
+<td></td>
 </tr>
 
 <tr>
-<td>isUseGKComponent</td>
-<td><ul>
-<li>true：轉換為 GK 元件 ( 可使用 GK 元件 API )</li>
-<li>false：不轉換為 GK 元件</li>
-</ul></td>
+<td>data-content-theme</td>
+<td></td>
 </tr>
 
 </table>

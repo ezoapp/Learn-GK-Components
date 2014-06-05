@@ -12,7 +12,12 @@
 
 <tr>
 <td>id</td>
-<td>元件的 id</td>
+<td>Component's id</td>
+</tr>
+
+<tr>
+<td>type</td>
+<td></td>
 </tr>
 
 <tr>
@@ -27,7 +32,7 @@
 
 <tr>
 <td>style</td>
-<td>直接編寫元件 DOM inline 樣式</td>
+<td>HTML inline style</td>
 </tr>
 
 <tr>
@@ -36,41 +41,24 @@
 </tr>
 
 <tr>
-<td>autogrow</td>
+<td>data-clear-btn</td>
 <td></td>
 </tr>
 
 <tr>
-<td>disabled</td>
+<td>data-clear-btn-text</td>
 <td></td>
 </tr>
 
 <tr>
-<td>preventFocusZoom</td>
+<td>data-mini</td>
 <td></td>
-</tr>
-
-<tr>
-<td>theme</td>
-<td><ul>
-<li>a：樣式 a</li>
-<li>b：樣式 b</li>
-</ul></td>
-</tr>
-
-<tr>
-<td>isUseGKComponent</td>
-<td><ul>
-<li>true：轉換為 GK 元件 ( 可使用 GK 元件 API )a</li>
-<li>false：不轉換為 GK 元件</li>
-</ul></td>
 </tr>
 
 </table>
 
 <br/>
 ###API
-若已由 `isUseGKComponent` 將元件轉換為 GK 元件，則可使用 GK 元件之 API，使用方式就是在元件 id 後方加上 `.gk()`，後方接上 API 名稱即可使用，以下範例使用 id 為 test 的 `textarea-input` 元件。
 
 - **value**：  
   	> 描述。
