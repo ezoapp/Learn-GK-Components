@@ -47,7 +47,7 @@
 
 <br/>
 ###API
-`list-divider` 元件沒有提供 api。
+None
 
 
 <br/>

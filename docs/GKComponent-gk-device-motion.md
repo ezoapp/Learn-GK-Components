@@ -32,7 +32,7 @@
 
 <br/>
 ###API
-`gk-device-motion` 元件沒有提供 api。
+None
 
 
 <br/>

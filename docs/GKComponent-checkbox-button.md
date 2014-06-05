@@ -60,7 +60,7 @@
 
 <br/>
 ###API
-`checkbox-button` 元件沒有提供 api。
+None
 
 <br/>
 ----------

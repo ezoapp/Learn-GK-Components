@@ -32,7 +32,7 @@
 
 <br/>
 ###API
-`rss-news` 元件沒有提供 api。
+None
 
 <br/>
 ###Javascript 面板內容

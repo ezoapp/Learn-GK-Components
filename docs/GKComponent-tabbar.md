@@ -67,7 +67,7 @@
 
 <br/>
 ###API
-`tabbar` 元件沒有提供 api。
+None
 
 
 <br/>

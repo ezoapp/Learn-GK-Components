@@ -29,7 +29,7 @@
 
 <br/>
 ###API
-`image` 元件沒有提供 api。
+none
 
 
 <br/>
