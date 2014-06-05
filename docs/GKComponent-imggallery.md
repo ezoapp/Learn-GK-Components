@@ -12,30 +12,7 @@
 
 <tr>
 <td>id</td>
-<td>元件的 id</td>
-</tr>
-
-<tr>
-<td>width</td>
-<td></td>
-</tr>
-
-<tr>
-<td>image-Height</td>
-<td></td>
-</tr>
-
-<tr>
-<td>image-Width</td>
-<td></td>
-</tr>
-
-<tr>
-<td>isUseGKComponent</td>
-<td><ul>
-<li>true：轉換為 GK 元件 ( 可使用 GK 元件 API )a</li>
-<li>false：不轉換為 GK 元件</li>
-</ul></td>
+<td>Component's id</td>
 </tr>
 
 </table>

@@ -13,42 +13,7 @@
 
 <tr>
 <td>id</td>
-<td>元件的 id</td>
-</tr>
-
-<tr>
-<td>style</td>
-<td>直接編寫元件 DOM inline 樣式</td>
-</tr>
-
-<tr>
-<td>zoom</td>
-<td></td>
-</tr>
-
-<tr>
-<td>address</td>
-<td></td>
-</tr>
-
-<tr>
-<td>mapTypeId</td>
-<td></td>
-</tr>
-
-<tr>
-<td>markerTitle</td>
-<td></td>
-</tr>
-
-<tr>
-<td>latitude</td>
-<td></td>
-</tr>
-
-<tr>
-<td>longitude</td>
-<td></td>
+<td>Component's id</td>
 </tr>
 
 </table>

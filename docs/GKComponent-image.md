@@ -12,17 +12,7 @@
 
 <tr>
 <td>id</td>
-<td>元件的 id</td>
-</tr>
-
-<tr>
-<td>src</td>
-<td>圖片的網址</td>
-</tr>
-
-<tr>
-<td>style</td>
-<td>直接編寫元件 DOM inline 樣式</td>
+<td>Component's id</td>
 </tr>
 
 </table>

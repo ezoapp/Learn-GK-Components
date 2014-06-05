@@ -12,7 +12,7 @@
 
 <tr>
 <td>id</td>
-<td>元件的 id</td>
+<td>Component's id</td>
 </tr>
 
 <tr>

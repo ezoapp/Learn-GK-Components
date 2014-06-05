@@ -12,27 +12,7 @@
 
 <tr>
 <td>id</td>
-<td>元件的 id</td>
-</tr>
-
-<tr>
-<td>text</td>
-<td>元件的顯示文字</td>
-</tr>
-
-<tr>
-<td>render</td>
-<td>元件的顯示文字</td>
-</tr>
-
-<tr>
-<td>size</td>
-<td>元件的顯示文字</td>
-</tr>
-
-<tr>
-<td>style</td>
-<td>直接編寫元件 DOM inline 樣式</td>
+<td>Component's id</td>
 </tr>
 
 </table>

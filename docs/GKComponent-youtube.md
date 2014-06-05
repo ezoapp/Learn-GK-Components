@@ -12,27 +12,7 @@
 
 <tr>
 <td>id</td>
-<td>元件的 id</td>
-</tr>
-
-<tr>
-<td>width</td>
-<td>影片的寬度</td>
-</tr>
-
-<tr>
-<td>Height</td>
-<td>影片的高度</td>
-</tr>
-
-<tr>
-<td>src</td>
-<td>影片的縮圖網址</td>
-</tr>
-
-<tr>
-<td>videoId</td>
-<td>影片在 youtube 的網址</td>
+<td>Component's id</td>
 </tr>
 
 </table>

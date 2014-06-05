@@ -13,47 +13,7 @@
 
 <tr>
 <td>id</td>
-<td>元件的 id</td>
-</tr>
-
-<tr>
-<td>value</td>
-<td></td>
-</tr>
-
-<tr>
-<td>style</td>
-<td>直接編寫元件 DOM inline 樣式</td>
-</tr>
-
-<tr>
-<td>min</td>
-<td></td>
-</tr>
-
-<tr>
-<td>max</td>
-<td></td>
-</tr>
-
-<tr>
-<td>accuracy</td>
-<td></td>
-</tr>
-
-<tr>
-<td>intlStdDate</td>
-<td></td>
-</tr>
-
-<tr>
-<td>dateFormat</td>
-<td></td>
-</tr>
-
-<tr>
-<td>dateFormatMonth</td>
-<td></td>
+<td>Component's id</td>
 </tr>
 
 </table>
