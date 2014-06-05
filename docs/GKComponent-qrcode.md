@@ -1,5 +1,5 @@
 ##qrcode
-`qrcode` 協助使用者將某段文字內容或網址、電話...等資訊轉換為二維條碼  
+`qrcode` assist users to a certain text or URLs, phone and other information into qrcode.
 
 <br/>
 ###Properties
@@ -21,7 +21,7 @@
 ###API
 
 - **render**：  
-  	> 描述。
+  	> description。
 
 			$('#test').gk().render();
 

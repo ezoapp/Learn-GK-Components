@@ -1,5 +1,5 @@
 ##mobipick
-`mobipick` 元件在使用者點選後，會跳出翻頁效果的日期選擇清單，提供使用者選擇日期  
+ After the user clicks on `mobipick`, it will pop up date selection list flip effect, providing the user to select a date
 
 
 <br/>
@@ -22,17 +22,17 @@
 ###API
 
 - **value**：  
-  	> 描述。
+  	> description
 
 			$('#test').gk().value();
 
 - **getDateValue**：  
-  	> 描述。
+  	> description
 
 			$('#test').gk().getDateValue();
 
 - **reset**：  
-  	> 描述。
+  	> description
 
 			$('#test').gk().reset();
 

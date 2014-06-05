@@ -1,5 +1,5 @@
 ##youtube
-`youtube` 元件讓使用者可直接在行動或平板裝置上瀏覽 youtube 影片  
+`youtube` allows users to browse youtube videos on your mobile or tablet device.
 
 <br/>
 ###Properties

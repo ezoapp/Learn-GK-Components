@@ -1,5 +1,5 @@
 ##bxslider
-`bxslider` 是一個圖片輪播的元件，除了會自動輪播，使用者也可以用滑動或點選的方式進行圖片的切換。  
+`bxslider` is an "image slide show" component, in addition to auto-play, users can swipe or click carried pictures of switching.  
 
 
 <br/>
@@ -23,8 +23,8 @@
 None
 
 <br/>
-###Javascript 面板內容
-元件拖拉進入設計區域後，會在 javascript 的編輯面板同步產生下列代碼：
+###Javascript Code
+After dragging the component into the design panel, in javascript editor panel, and it will generate the code ( `#componentId` is the component's id )：
 
 	$(document).on("pageshow", function () {
 	  /* Powered by http://bxslider.com/ */

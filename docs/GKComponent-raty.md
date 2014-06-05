@@ -1,5 +1,5 @@
 ##raty
-`raty` 讓使用者藉由點選的方式，選擇對應的星星數進行分數評比。  
+`raty` allows the user by clicking the way to select the number of stars corresponding to conduct scores rating. 
 
 <br/>
 ###Properties
@@ -26,7 +26,7 @@
 ###API
 
 - **score**：  
-  	> 描述。
+  	> description。
 
 			$('#test').gk().score();
 

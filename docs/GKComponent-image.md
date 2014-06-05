@@ -1,5 +1,5 @@
 ##image
-`image` 是一個可以在設計畫面中拖拉位置進行排版的圖片元件。  
+`image` is a drag on the design panel can be typeset.  
 
 <br/>
 ###Properties

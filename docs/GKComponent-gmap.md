@@ -1,5 +1,5 @@
 #gmap
-`gmap` 元件可讓使用者藉由設定的方式，完成 Google map 的顯示  
+`gmap` allows the user to set the way through to complete Google map display.
 
 
 <br/>
@@ -22,43 +22,43 @@
 ###API
 
 - **height**：  
-  	> 描述。
+  	> description
 
 			$('#test').gk().height();
 
 
 - **width**：  
-  	> 描述。
+  	> description
 
 			$('#test').gk().width();
 
 
 - **nowPos**：  
-  	> 描述。
+  	> description
 
 			$('#test').gk().nowPos();
 
 
 - **location**：  
-  	> 描述。
+  	> description
 
 			$('#test').gk().location();
 
 
 - **zoom**：  
-  	> 描述。
+  	> description
 
 			$('#test').gk().zoom();
 
 
 - **address**：  
-  	> 描述。
+  	> description
 
 			$('#test').gk().address();
 
 
 - **markerTitle**：  
-  	> 描述。
+  	> description
 
 			$('#test').gk().markerTitle();
 

@@ -1,41 +1,11 @@
 ##text-input
 `text-input` is a HTML text input element enhanced by jQuery Mobile.
 
+
 <br/>
-###Properties (see [JQM Textinput Widget](http://api.jquerymobile.com/textinput/))
-<table>
+###Properties
+Refer to JQueryMobile's [textarea-input](http://api.jquerymobile.com/textinput/) Widget.
 
-<tr>
-<th style="background:#ddd;">Property</th>
-<th style="background:#ddd;">Setting</th>
-</tr>
-
-<tr>
-<td>id</td>
-<td>id of the element</td>
-</tr>
-
-<tr>
-<td>name</td>
-<td>name of element</td>
-</tr>
-
-<tr>
-<td>value</td>
-<td>value of text input</td>
-</tr>
-
-<tr>
-<td>style</td>
-<td>inline style of the DOM element</td>
-</tr>
-
-<tr>
-<td>placeholder</td>
-<td>default display text while the input is empty</td>
-</tr>
-
-</table>
 <br/>
 ###API
 

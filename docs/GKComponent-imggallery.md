@@ -1,5 +1,5 @@
 ##imggallery
-`imggallery` 元件可以獲取 flickr 中的照片，再根據使用者的樣式設定進行相簿的排版 
+`imggallery` can get flickr photos, and then the album layout based on the user's style settings 
 
 <br/>
 ###Properties
@@ -21,19 +21,19 @@
 ###API
 
 - **onclick**：  
-  	> 描述。
+  	> description
 
 			$('#test').gk().onclick();
 
 
 - **model**：  
-  	> 描述。
+  	> description
 
 			$('#test').gk().model();
 
 <br/>
-###Javascript 面板內容
-元件拖拉進入設計區域後，會在 javascript 的編輯面板同步產生下列代碼：
+###Javascript Code
+After dragging the component into the design panel, in javascript editor panel, and it will generate the code ( `#componentId` is the component's id )：
 
 	$(document).on("gkComponentsReady", function (w) {
 	  var img = [{
