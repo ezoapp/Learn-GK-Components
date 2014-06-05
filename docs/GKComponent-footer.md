@@ -27,7 +27,6 @@ Refer to JQueryMobile's [Footer Widget](http://api.jquerymobile.com/footer/).
 None
 
 
-<br/>
 ----------
 Above is the description of `footer`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
 
