@@ -1,11 +1,10 @@
 ##button
 `button` is extended from JQueryMobile Widget. [Button][1]
 
-<br/>
 ###Properties
 
 Refer to JQueryMobile's [Button][2] Widget.
-<br/>
+
 ###API
 
 None
