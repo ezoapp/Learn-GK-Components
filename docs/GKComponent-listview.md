@@ -22,84 +22,82 @@
 
 <tr>
 <td>class</td>
-<td>Add CSS class</td>
+<td>CSS class</td>
 </tr>
 
 <tr>
-<td>order list</td>
-<td><ul>
-<li>true：清單顯示數字</li>
-<li>false：清單隱藏數字</li>
-</ul></td>
+<td>order</td>
+<td></td>
 </tr>
 
 <tr>
 <td>readonly</td>
-<td><ul>
-<li>true：不能點選,純粹清單顯示</li>
-<li>false：可以點選，進行切換或連結</li>
-</ul></td>
+<td></td>
 </tr>
 
 <tr>
-<td>inset</td>
-<td><ul>
-<li>true：listview 可以出現在本文中間，四個角會有圓弧形</li>
-<li>false：不出現在本文中間</li>
-</ul></td>
+<td>data-inset</td>
+<td></td>
 </tr>
 
 <tr>
-<td>filter</td>
-<td><ul>
-<li>true：出現搜尋框篩選器，可搜尋清單內容</li>
-<li>false：隱藏搜尋框篩選器</li>
-</ul></td>
+<td>data-filter</td>
+<td></td>
 </tr>
 
 <tr>
-<td>theme</td>
-<td><ul>
-<li>a：樣式 a</li>
-<li>b：樣式 b</li>
-</ul></td>
+<td>data-filter-reveal</td>
+<td></td>
 </tr>
 
 <tr>
-<td>icon</td>
-<td>選擇對應的 icon 圖示</td>
+<td>data-filter-placeholder</td>
+<td></td>
 </tr>
 
 <tr>
-<td>alt icon</td>
-<td><ul>
-<li>true：黑色的 icon ( 較適合淺色背景 )</li>
-<li>false：白色的 icon ( 較適合深色背景 )</li>
-</ul></td>
+<td>data-filter-theme</td>
+<td></td>
 </tr>
 
 <tr>
-<td>auto dividers</td>
-<td><ul>
-<li>true：自動產生標題</li>
-<li>false：使用自訂義標題</li>
-</ul></td>
+<td>data-theme</td>
+<td></td>
 </tr>
 
 <tr>
-<td>divider theme</td>
-<td><ul>
-<li>a：樣式 a</li>
-<li>b：樣式 b</li>
-</ul></td>
+<td>data-icon</td>
+<td></td>
 </tr>
 
 <tr>
-<td>isUseGKComponent</td>
-<td><ul>
-<li>true：轉換為 GK 元件 ( 可使用 GK 元件 API )a</li>
-<li>false：不轉換為 GK 元件</li>
-</ul></td>
+<td>altIcon</td>
+<td></td>
+</tr>
+
+<tr>
+<td>data-autodividers</td>
+<td></td>
+</tr>
+
+<tr>
+<td>data-divider-theme</td>
+<td></td>
+</tr>
+
+<tr>
+<td>data-split-icon</td>
+<td></td>
+</tr>
+
+<tr>
+<td>data-split-theme</td>
+<td></td>
+</tr>
+
+<tr>
+<td>repeat</td>
+<td></td>
 </tr>
 
 </table>

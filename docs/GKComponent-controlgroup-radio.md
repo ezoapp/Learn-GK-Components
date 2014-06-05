@@ -12,68 +12,12 @@
 
 <tr>
 <td>id</td>
-<td>元件的 id</td>
-</tr>
-
-<tr>
-<td>text</td>
-<td>元件的顯示文字</td>
+<td>元Component's id</td>
 </tr>
 
 <tr>
 <td>style</td>
-<td>直接編寫元件 DOM inline 樣式</td>
-</tr>
-
-<tr>
-<td>class</td>
-<td></td>
-</tr>
-
-<tr>
-<td>theme</td>
-<td><ul>
-<li>a：樣式 a</li>
-<li>b：樣式 b</li>
-</ul></td>
-</tr>
-
-<tr>
-<td>types</td>
-<td></td>
-</tr>
-
-<tr>
-<td>iconPos</td>
-<td></td>
-</tr>
-
-<tr>
-<td>corners</td>
-<td></td>
-</tr>
-
-<tr>
-<td>mini</td>
-<td></td>
-</tr>
-
-<tr>
-<td>shadow</td>
-<td></td>
-</tr>
-
-<tr>
-<td>excludeInvisible</td>
-<td></td>
-</tr>
-
-<tr>
-<td>isUseGKComponent</td>
-<td><ul>
-<li>true：轉換為 GK 元件 ( 可使用 GK 元件 API )a</li>
-<li>false：不轉換為 GK 元件</li>
-</ul></td>
+<td>HTML inline style</td>
 </tr>
 
 </table>

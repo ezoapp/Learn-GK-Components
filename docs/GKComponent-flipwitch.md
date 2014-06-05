@@ -12,48 +12,7 @@
 
 <tr>
 <td>id</td>
-<td>元件的 id</td>
-</tr>
-
-<tr>
-<td>name</td>
-<td></td>
-</tr>
-
-<tr>
-<td>mini</td>
-<td></td>
-</tr>
-
-<tr>
-<td>corners</td>
-<td></td>
-</tr>
-
-<tr>
-<td>data-on-text</td>
-<td></td>
-</tr>
-
-<tr>
-<td>data-off-text</td>
-<td></td>
-</tr>
-
-<tr>
-<td>theme</td>
-<td><ul>
-<li>a：樣式 a</li>
-<li>b：樣式 b</li>
-</ul></td>
-</tr>
-
-<tr>
-<td>isUseGKComponent</td>
-<td><ul>
-<li>true：轉換為 GK 元件 ( 可使用 GK 元件 API )a</li>
-<li>false：不轉換為 GK 元件</li>
-</ul></td>
+<td>Component's id</td>
 </tr>
 
 </table>
