@@ -1,7 +1,6 @@
 ##header
 `header` Adds toolbars to the top and/or bottom of the page.  
 
-<br/>
 ###Properties
 <table>
 
@@ -23,7 +22,6 @@
 </table>
 Refer to JQueryMobile's [Header Widget](http://api.jquerymobile.com/header/). 
 
-<br/>
 ###API
  - **.label(value)**  
   	> Set content text of header.<br>
