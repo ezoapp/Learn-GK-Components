@@ -1,5 +1,5 @@
 ##page-listview
-`page-listview` 元件描述  
+`page-listview` allows us the information, presented in a way to list 
 
 <br/>
 ###Properties
@@ -21,19 +21,19 @@
 ###API
 
 - **onRow**：  
-  	> 描述。
+  	> description
 
 			$('#test').gk().onRow();
 
 
 - **refresh**：  
-  	> 描述。
+  	> description
 
 			$('#test').gk().onRow();
 
 
 - **pageSize**：  
-  	> 描述。
+  	> description
 
 			$('#test').gk().onRow();
 

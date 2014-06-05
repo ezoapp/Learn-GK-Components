@@ -32,7 +32,7 @@ After dragging the component into the design panel, in javascript editor panel, 
 	  function onSuccess(position) {
 	    var latitude = position.coords.latitude;
 	    var longitude = position.coords.longitude;
-	    $("#gk-64I0QA").html("Latitude: " + latitude + "<br /> Longitude: " + longitude);
+	    $("#componentId").html("Latitude: " + latitude + "<br /> Longitude: " + longitude);
 	  }
 	
 	  function onError(error) {

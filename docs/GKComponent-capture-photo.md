@@ -1,5 +1,5 @@
 ##capture-photo
-`capture-photo` 元件可以使用手機或平板的相機裝置進行拍照的功能  
+`capture-photo` can use a camera phone or tablet device to take pictures.
 
 <br/>
 ###Properties
@@ -23,18 +23,18 @@ None
 
 
 <br/>
-###Javascript 面板內容
-元件拖拉進入設計區域後，會在 javascript 的編輯面板同步產生下列代碼：
+###Javascript Code
+After dragging the component into the design panel, in javascript editor panel, and it will generate the code ( `#componentId` is the component's id )：
 
 	/*** code gen by capture-photo  ***/
 	$(document).on("gkComponentsReady", function () {
-	  $("#gk-64jIRT-btn").on("click", function () {
+	  $("#componentId").on("click", function () {
 	    if (navigator.camera) {
 	      navigator.camera.getPicture(
 	        // Called when a photo is successfully retrieved
 	        function (imgURI) {
 	          // Set image
-	          $("#gk-64jIRT-img").attr("src", imgURI);
+	          $("#componentId").attr("src", imgURI);
 	        },
 	        // Called if something bad happens
 	        function (msg) {

@@ -33,7 +33,7 @@ After dragging the component into the design panel, in javascript editor panel, 
 	    var y = acceleration.y;
 	    var z = acceleration.z;
 	    var times = acceleration.timestamp;
-	    $("#gk-64HYJC").html("Acceleration X: " + x + "<br /> Acceleration Y: " + y + "<br /> Acceleration Z: " + z + "<br /> Timestamp: " + times + "<br />");
+	    $("#componentId").html("Acceleration X: " + x + "<br /> Acceleration Y: " + y + "<br /> Acceleration Z: " + z + "<br /> Timestamp: " + times + "<br />");
 	  }
 	
 	  function onError(error) {

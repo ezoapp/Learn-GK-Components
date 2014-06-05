@@ -1,5 +1,5 @@
 ##json-listview
-`json-listview` 元件可以讀入 json 的檔案，在以清單條列式的方式顯示。 
+`json-listview` can be read into json files to the list displayed.
 
 <br/>
 ###Properties
@@ -21,32 +21,32 @@
 ###API###
 
 - **refresh**：  
-  	> 描述。
+  	> description
 
 			$('#test').gk().onRow();
 
 
 - **onRow**：  
-  	> 描述。
+  	> description
 
 			$('#test').gk().onRow();
 
 
 - **model**：  
-  	> 描述。
+  	> description
 
 			$('#test').gk().onRow();
 
 
 - **apply**：  
-  	> 描述。
+  	> description
 
 			$('#test').gk().onRow();
 
 
 <br/>
-###Javascript 面板內容
-元件拖拉進入設計區域後，會在 javascript 的編輯面板同步產生下列代碼：
+###Javascript Code
+After dragging the component into the design panel, in javascript editor panel, and it will generate the code ( `#componentId` is the component's id )：
 
 	$(document).on("pageinit", "#home", function () {
 	  var $ele = $("#gk-64HnU8"),
