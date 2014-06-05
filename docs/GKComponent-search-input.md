@@ -2,12 +2,12 @@
 `search-input` HTML iinput element, type='search'
 
 <br/>
-###Attributes
+###Properties
 <table>
 
 <tr>
-<th style="background:#ddd;">Name</th>
-<th style="background:#ddd;">Description</th>
+<th style="background:#ddd;">property</th>
+<th style="background:#ddd;">setting</th>
 </tr>
 
 <tr>

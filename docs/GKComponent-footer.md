@@ -2,12 +2,12 @@
 `footer` 元件會固定在畫面的底部，主要用來顯示固定的頁面按鈕或功能選單。
 
 <br/>
-###屬性設定
+###Properties
 <table>
 
 <tr>
-<th style="background:#ddd;">屬性</th>
-<th style="background:#ddd;">設定</th>
+<th style="background:#ddd;">property</th>
+<th style="background:#ddd;">setting</th>
 </tr>
 
 <tr>

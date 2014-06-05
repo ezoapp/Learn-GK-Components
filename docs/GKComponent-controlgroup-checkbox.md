@@ -2,12 +2,12 @@
 `controlgroup-checkbox` 元件提供使用者「複選」的按鈕，是由 `checkbox-button` 與 `controlgroup` 所組成，也可參考 [checkbox-button 元件說明](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-checkbox-button.md) 
 
 <br/>
-###屬性設定
+###Properties
 <table>
 
 <tr>
-<th style="background:#ddd;">屬性</th>
-<th style="background:#ddd;">設定</th>
+<th style="background:#ddd;">property</th>
+<th style="background:#ddd;">setting</th>
 </tr>
 
 <tr>

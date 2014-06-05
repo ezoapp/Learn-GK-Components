@@ -2,12 +2,12 @@
 `listview` 元件會以清單的方式顯示資料，並可在清單中進行連結和切換的動作，而 listview 裡頭又包含了兩個元件：`list-divider` ( 清單標題 ) 、`listview-li` ( 清單 )，可參考 [list-divider 元件說明](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-list-divider.md) 與 [listview-li 元件說明](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-listview-li.md)。
 
 <br/>
-###屬性設定
+###Properties
 <table>
 
 <tr>
-<th style="background:#ddd;">屬性</th>
-<th style="background:#ddd;">設定</th>
+<th style="background:#ddd;">property</th>
+<th style="background:#ddd;">setting</th>
 </tr>
 
 <tr>

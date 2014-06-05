@@ -2,12 +2,12 @@
 `imggallery` 元件可以獲取 flickr 中的照片，再根據使用者的樣式設定進行相簿的排版 
 
 <br/>
-###屬性設定
+###Properties
 <table>
 
 <tr>
-<th style="background:#ddd;">屬性</th>
-<th style="background:#ddd;">設定</th>
+<th style="background:#ddd;">property</th>
+<th style="background:#ddd;">setting</th>
 </tr>
 
 <tr>

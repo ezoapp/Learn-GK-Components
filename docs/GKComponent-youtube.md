@@ -2,12 +2,12 @@
 `youtube` 元件讓使用者可直接在行動或平板裝置上瀏覽 youtube 影片  
 
 <br/>
-###屬性設定
+###Properties
 <table>
 
 <tr>
-<th style="background:#ddd;">屬性</th>
-<th style="background:#ddd;">設定</th>
+<th style="background:#ddd;">property</th>
+<th style="background:#ddd;">setting</th>
 </tr>
 
 <tr>

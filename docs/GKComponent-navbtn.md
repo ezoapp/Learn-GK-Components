@@ -2,12 +2,12 @@
 `navbtn` 元件是一個按鈕元件，只能放在 `navbar` 或 `tabbar` 內。 
 
 <br/>
-###屬性設定
+###Properties
 <table>
 
 <tr>
-<th style="background:#ddd;">屬性</th>
-<th style="background:#ddd;">設定</th>
+<th style="background:#ddd;">property</th>
+<th style="background:#ddd;">setting</th>
 </tr>
 
 <tr>

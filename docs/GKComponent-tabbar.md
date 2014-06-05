@@ -2,12 +2,12 @@
 `tabbar` 元件是固定置底的按鈕元件，本質上其實是 `navbar` 與 `footer` 的組合，因此相關的位置、設定與 API ，和 `navbar` 元件是相同的，可參考 [navbar 元件說明](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-navbar.md)。  
 
 <br/>
-###屬性設定
+###Properties
 <table>
 
 <tr>
-<th style="background:#ddd;">屬性</th>
-<th style="background:#ddd;">設定</th>
+<th style="background:#ddd;">property</th>
+<th style="background:#ddd;">setting</th>
 </tr>
 
 <tr>

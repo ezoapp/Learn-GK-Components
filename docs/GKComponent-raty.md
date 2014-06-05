@@ -2,12 +2,12 @@
 `raty` 讓使用者藉由點選的方式，選擇對應的星星數進行分數評比。  
 
 <br/>
-###屬性設定
+###Properties
 <table>
 
 <tr>
-<th style="background:#ddd;">屬性</th>
-<th style="background:#ddd;">設定</th>
+<th style="background:#ddd;">property</th>
+<th style="background:#ddd;">setting</th>
 </tr>
 
 <tr>

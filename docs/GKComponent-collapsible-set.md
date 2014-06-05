@@ -2,12 +2,12 @@
 `collapsible-set` 是點選標題的按鈕之後，進行內容收合或展開的元件，內容包含了一個 `collapsible` 元件，可參考 [collapsible 元件說明](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-collapsible.md)。
 
 <br/>
-###屬性設定
+###Properties
 <table>
 
 <tr>
-<th style="background:#ddd;">屬性</th>
-<th style="background:#ddd;">設定</th>
+<th style="background:#ddd;">property</th>
+<th style="background:#ddd;">setting</th>
 </tr>
 
 <tr>

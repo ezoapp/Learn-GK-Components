@@ -2,12 +2,12 @@
 `json-listview` 元件可以讀入 json 的檔案，在以清單條列式的方式顯示。 
 
 <br/>
-###屬性設定
+###Properties
 <table>
 
 <tr>
-<th style="background:#ddd;">屬性</th>
-<th style="background:#ddd;">設定</th>
+<th style="background:#ddd;">property</th>
+<th style="background:#ddd;">setting</th>
 </tr>
 
 <tr>

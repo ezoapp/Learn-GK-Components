@@ -2,12 +2,12 @@
 `gk-text` is heading and text component, and also could be set dynamically.
 
 <br/>
-###Attributes
+###Properties
 <table>
 
 <tr>
-<th style="background:#ddd;">Name</th>
-<th style="background:#ddd;">Description</th>
+<th style="background:#ddd;">property</th>
+<th style="background:#ddd;">setting</th>
 </tr>
 
 <tr>

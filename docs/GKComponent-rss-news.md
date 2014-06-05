@@ -2,12 +2,12 @@
 `rss-news` 可以將公開資訊的 rss 資料，以清單列表的方式呈現於畫面當中。  
 
 <br/>
-###屬性設定
+###Properties
 <table>
 
 <tr>
-<th style="background:#ddd;">屬性</th>
-<th style="background:#ddd;">設定</th>
+<th style="background:#ddd;">property</th>
+<th style="background:#ddd;">setting</th>
 </tr>
 
 <tr>

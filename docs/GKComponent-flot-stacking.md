@@ -2,12 +2,12 @@
 `flot-stacking` 可以協助使用者產生 stacking 的圖表，採用 flot-stacking 的樣式。 
 
 <br/>
-###屬性設定
+###Properties
 <table>
 
 <tr>
-<th style="background:#ddd;">屬性</th>
-<th style="background:#ddd;">設定</th>
+<th style="background:#ddd;">property</th>
+<th style="background:#ddd;">setting</th>
 </tr>
 
 <tr>

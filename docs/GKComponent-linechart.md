@@ -2,12 +2,12 @@
 `linechart` 元件會由使用者在 javascript 中的陣列，產生對應的線狀圖表。
 
 <br/>
-###屬性設定
+###Properties
 <table>
 
 <tr>
-<th style="background:#ddd;">屬性</th>
-<th style="background:#ddd;">設定</th>
+<th style="background:#ddd;">property</th>
+<th style="background:#ddd;">setting</th>
 </tr>
 
 <tr>
