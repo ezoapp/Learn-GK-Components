@@ -38,10 +38,10 @@
 
 <br/>
 ----------
-This is `header` documentaion. If you want to know more other components, please link [Component List](https://github.com/ezoapp/Learn-GK-Components)  
+Above is the description of `header`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
 
-Web Site：[www.ezoui.com/app](http://www.ezoui.com/app)  
-EZoApp ：[jqmdesigner.appspot.com/](http://jqmdesigner.appspot.com/)
+Offical Site：[www.ezoui.com/app/](http://www.ezoui.com/app/)  
+EZoApp Designer：[jqmdesigner.appspot.com/](http://jqmdesigner.appspot.com/)  
 
 
 

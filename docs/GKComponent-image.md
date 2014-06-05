@@ -34,10 +34,10 @@
 
 <br/>
 ----------
-以上便是 `image` 的相關說明，如果想了解更多其他元件，請回 [元件清單列表](https://github.com/ezoapp/Learn-GK-Components)  
+Above is the description of `image`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
 
-官方網站：[www.ezoui.com/app](http://www.ezoui.com/app)  
-EZoApp 開發工具：[jqmdesigner.appspot.com/](http://jqmdesigner.appspot.com/)
+Offical Site：[www.ezoui.com/app/](http://www.ezoui.com/app/)  
+EZoApp Designer：[jqmdesigner.appspot.com/](http://jqmdesigner.appspot.com/)
 
 
 

@@ -13,8 +13,11 @@ None
 
 <br/>
 ----------
-[Home](https://github.com/ezoapp/Learn-GK-Components)
-------------------------------------------------------------------------
+Above is the description of `listview`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
+
+Offical Site：[www.ezoui.com/app/](http://www.ezoui.com/app/)  
+EZoApp Designer：[jqmdesigner.appspot.com/](http://jqmdesigner.appspot.com/)  
+
 
 
   [1]: http://api.jquerymobile.com/grid-layout/
