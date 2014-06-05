@@ -12,17 +12,17 @@
 
 <tr>
 <td>id</td>
-<td>元件的 id</td>
+<td>Components id</td>
 </tr>
 
 <tr>
 <td>style</td>
-<td>直接編寫元件 DOM inline 樣式</td>
+<td>HTML inline style</td>
 </tr>
 
 <tr>
 <td>class</td>
-<td>新增 class 樣式</td>
+<td>Add CSS class</td>
 </tr>
 
 <tr>

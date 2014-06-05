@@ -5,6 +5,7 @@
 ###Properties
 
 Refer to JQueryMobile's [Grid Layout][2] Widget.
+
 <br/>
 
 ###API

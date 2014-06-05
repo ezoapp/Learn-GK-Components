@@ -17,11 +17,12 @@
 
 <tr>
 <td>style</td>
-<td>Inline style</td>
+<td>HTML inline style</td>
 </tr>
 
 </table>
 Refer to JQueryMobile's [Footer Widget](http://api.jquerymobile.com/footer/). 
+
 <br/>
 ###API
 None

@@ -12,55 +12,27 @@
 
 <tr>
 <td>id</td>
-<td>元件的 id</td>
+<td>Component's id</td>
 </tr>
 
 <tr>
 <td>style</td>
-<td>直接編寫元件 DOM inline 樣式</td>
+<td>HTML inline style</td>
 </tr>
 
 <tr>
-<td>iconPos</td>
-<td><ul>
-<li>left：icon 在左側</li>
-<li>right：icon 在左右側</li>
-<li>bottom：icon 在下</li>
-<li>top：icon 在上</li>
-<li>notnext：不要文字，只有 icon</li>
-</ul></td>
+<td>data-iconpos</td>
+<td></td>
 </tr>
 
 <tr>
-<td>transition</td>
-<td><ul>
-<li>slide：頁面左右滑動效果</li>
-<li>slideup：頁面往上滑動</li>
-<li>slidedown：頁面往下滑動</li>
-<li>slidefade：頁面滑動+淡入</li>
-<li>pop：彈出式頁面</li>
-<li>fade：頁面淡入</li>
-<li>flip：翻頁效果</li>
-<li>flow：輸送帶效果</li>
-<li>turn：旋轉效果</li>
-<li>none：無效果</li>
-</ul></td>
+<td>data-transition</td>
+<td></td>
 </tr>
 
 <tr>
-<td>theme</td>
-<td><ul>
-<li>a：樣式 a</li>
-<li>b：樣式 b</li>
-</ul></td>
-</tr>
-
-<tr>
-<td>isUseGKComponent</td>
-<td><ul>
-<li>true：轉換為 GK 元件 ( 可使用 GK 元件 API )a</li>
-<li>false：不轉換為 GK 元件</li>
-</ul></td>
+<td>data-theme</td>
+<td></td>
 </tr>
 
 </table>
