@@ -32,9 +32,9 @@ This is a list of all the GK Components，click on the link, and you can know ho
 * [controlgroup-checkbox](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-controlgroup-checkbox.md) ( description, property, api)
 	* [checkbox-button](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-checkbox-button.md) ( description, property )
 * [flipwitch](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-flipwitch.md) ( description, property )
-* [selectmenu](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-selectmenu.md) ( 缺 屬性、api )
-* [textarea-input](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-textarea-input.md) ( 缺 屬性、api )
-* [jqm-table](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-jqm-table.md) ( 缺 屬性、api )
+* [selectmenu](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-selectmenu.md) ( description, property, api)
+* [textarea-input](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-textarea-input.md) ( description, property, api)
+* [jqm-table](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-jqm-table.md)
 
 ###Extension Components###
 * [youtube](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-youtube.md)

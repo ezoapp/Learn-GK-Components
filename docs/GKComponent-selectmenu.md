@@ -12,78 +12,7 @@
 
 <tr>
 <td>id</td>
-<td>元件的 id</td>
-</tr>
-
-<tr>
-<td>name</td>
-<td></td>
-</tr>
-
-<tr>
-<td>inline</td>
-<td></td>
-</tr>
-
-<tr>
-<td>nativeMenu</td>
-<td></td>
-</tr>
-
-<tr>
-<td>icon</td>
-<td></td>
-</tr>
-
-<tr>
-<td>iconPos</td>
-<td></td>
-</tr>
-
-<tr>
-<td>iconshadow</td>
-<td></td>
-</tr>
-
-<tr>
-<td>corners</td>
-<td></td>
-</tr>
-
-<tr>
-<td>mini</td>
-<td></td>
-</tr>
-
-<tr>
-<td>disable</td>
-<td></td>
-</tr>
-
-<tr>
-<td>shadow</td>
-<td></td>
-</tr>
-
-<tr>
-<td>preventFocusZoom</td>
-<td></td>
-</tr>
-
-<tr>
-<td>theme</td>
-<td><ul>
-<li>a：樣式 a</li>
-<li>b：樣式 b</li>
-</ul></td>
-</tr>
-
-<tr>
-<td>isUseGKComponent</td>
-<td><ul>
-<li>true：轉換為 GK 元件 ( 可使用 GK 元件 API )a</li>
-<li>false：不轉換為 GK 元件</li>
-</ul></td>
+<td>元Component's id</td>
 </tr>
 
 </table>

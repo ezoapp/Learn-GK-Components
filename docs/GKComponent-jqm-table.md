@@ -1,5 +1,6 @@
 ##jqm-table
 `jqm-table` is extended from JQueryMobile Widget.  [table-columntoggle][1]
+
 <br/>
 
 ###Properties
