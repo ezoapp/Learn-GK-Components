@@ -1,41 +1,12 @@
 ##tabbar
-`tabbar` 元件是固定置底的按鈕元件，本質上其實是 `navbar` 與 `footer` 的組合，因此相關的位置、設定與 API ，和 `navbar` 元件是相同的，可參考 [navbar 元件說明](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-navbar.md)。  
+ 
+If you want to add a [navbar](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-navbar.md) to the bottom of the page so it acts more like a tab bar `tabbar`.
+
 
 <br/>
 ###Properties
-<table>
 
-<tr>
-<th style="background:#ddd;">property</th>
-<th style="background:#ddd;">setting</th>
-</tr>
-
-<tr>
-<td>id</td>
-<td>Component's id</td>
-</tr>
-
-<tr>
-<td>style</td>
-<td>HTML inline style</td>
-</tr>
-
-<tr>
-<td>data-iconpos</td>
-<td></td>
-</tr>
-
-<tr>
-<td>data-transition</td>
-<td></td>
-</tr>
-
-<tr>
-<td>data-theme</td>
-<td></td>
-</tr>
-
-</table>
+Refer to JQueryMobile's [tabbar](http://demos.jquerymobile.com/1.0rc2/docs/toolbars/docs-navbar.html) Widget.
 
 <br/>
 ###API

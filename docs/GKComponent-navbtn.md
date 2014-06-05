@@ -1,61 +1,10 @@
 ##navbtn
-`navbtn` 元件是一個按鈕元件，只能放在 `navbar` 或 `tabbar` 內。 
+`navbtn` is a button component, only on `navbar` or `tabbar` inside.
 
 <br/>
 ###Properties
-<table>
 
-<tr>
-<th style="background:#ddd;">property</th>
-<th style="background:#ddd;">setting</th>
-</tr>
-
-<tr>
-<td>id</td>
-<td>Component's id</td>
-</tr>
-
-<tr>
-<td>text</td>
-<td></td>
-</tr>
-
-<tr>
-<td>style</td>
-<td>HTML inline style</td>
-</tr>
-
-<tr>
-<td>href</td>
-<td>/td>
-</tr>
-
-<tr>
-<td>persist</td>
-<td></td>
-</tr>
-
-<tr>
-<td>data-transition</td>
-<td></td>
-</tr>
-
-<tr>
-<td>active</td>
-<td></td>
-</tr>
-
-<tr>
-<td>data-icon</td>
-<td></td>
-</tr>
-
-<tr>
-<td>data-theme</td>
-<td></td>
-</tr>
-
-</table>
+Refer to JQueryMobile's [navbtn](http://demos.jquerymobile.com/1.0rc2/docs/toolbars/docs-navbar.html) Widget.
 
 <br/>
 ###API

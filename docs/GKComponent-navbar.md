@@ -1,41 +1,10 @@
 ##navbar
-`navbar` 元件是一個按鈕群組，由 `navbtn` 的按鈕元件所組成， 可藉由拖拉的方式將裡頭的按鈕互換位置，也可以新增按鈕，若按鈕數量超過五個，則會變成兩個一排的垂直排列樣式。 
+jQuery Mobile has a very basic `navbar` widget that is useful for providing up to 5 buttons with optional icons in a bar, typically within a header or footer.
 
 <br/>
 ###Properties
-<table>
 
-<tr>
-<th style="background:#ddd;">property</th>
-<th style="background:#ddd;">setting</th>
-</tr>
-
-<tr>
-<td>id</td>
-<td>Component's id</td>
-</tr>
-
-<tr>
-<td>style</td>
-<td>HTML inline style</td>
-</tr>
-
-<tr>
-<td>data-iconpos</td>
-<td></td>
-</tr>
-
-<tr>
-<td>data-transition</td>
-<td></td>
-</tr>
-
-<tr>
-<td>data-theme</td>
-<td></td>
-</tr>
-
-</table>
+Refer to JQueryMobile's [navbar](http://demos.jquerymobile.com/1.0rc2/docs/toolbars/docs-navbar.html) Widget.
 
 <br/>
 ###API
