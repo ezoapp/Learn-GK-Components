@@ -31,6 +31,7 @@ Using `rss-news` of rss service, you can get easier access to updates about news
 ###API
 None
 
+<br/>
 ###Javascript Code
 After dragging the component into the design panel, in javascript editor panel, and it will generate the code ( `#componentId` is the component's id )：
 

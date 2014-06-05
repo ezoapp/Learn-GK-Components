@@ -1,5 +1,5 @@
 ##flot-bar
-`flot-bar` 可以協助使用者產生 bar 的圖表，採用 flot-bar 的樣式。   
+`flot-bar` is a chart with rectangular bars with lengths proportional to the values that they represent. The bars can be plotted vertically or horizontally. A vertical bar chart is sometimes called a column bar chart. 
 
 <br/>
 ###Properties
@@ -12,7 +12,7 @@
 
 <tr>
 <td>id</td>
-<td>元件Component's id</td>
+<td>Component's id</td>
 </tr>
 
 </table>
@@ -23,8 +23,8 @@ None
 
 
 <br/>
-###Javascript 面板內容
-元件拖拉進入設計區域後，會在 javascript 的編輯面板同步產生下列代碼：
+###Javascript Code
+After dragging the component into the design panel, in javascript editor panel, and it will generate the code ( `#componentId` is the component's id )：
 
 	$(document).on("gkComponentsReady", function () {
 	  var data = [{
@@ -74,7 +74,7 @@ None
 	    ]
 	  }];
 	
-	  $('#gk-64Aerd').gk('render', data);
+	  $('#componentId').gk('render', data);
 	});
 
 <br/>

@@ -1,5 +1,5 @@
 ##gk-device-motion
-`gk-device-motion` 元件可以獲取手機或平板裝置的陀螺儀，進行三軸的運算判斷。  
+`gk-device-motion` can get phone or tablet gyroscope device triaxial operation judgment. 
 
 <br/>
 ###Properties
@@ -23,8 +23,8 @@ None
 
 
 <br/>
-###Javascript 面板內容
-元件拖拉進入設計區域後，會在 javascript 的編輯面板同步產生下列代碼：
+###Javascript Code
+After dragging the component into the design panel, in javascript editor panel, and it will generate the code ( `#componentId` is the component's id )：
 
 	/*** code gen by gk-device-motion  ***/
 	$(document).on("gkComponentsReady", function () {

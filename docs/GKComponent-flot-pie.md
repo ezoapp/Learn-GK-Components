@@ -1,21 +1,9 @@
 ##gk-device-motion
-`flot-pie` 可以協助使用者產生元餅圖，採用 flot-pie 的樣式。  
+`flot-pie` is a circular chart divided into sectors, illustrating numerical proportion. 
 
 <br/>
 ###Properties
-<table>
-
-<tr>
-<th style="background:#ddd;">property</th>
-<th style="background:#ddd;">setting</th>
-</tr>
-
-<tr>
-<td>id</td>
-<td>Component's id</td>
-</tr>
-
-</table>
+Refer to flot's [pie chart](http://www.flotcharts.org/flot/examples/series-pie/index.html) Widget.
 
 <br/>
 ###API
@@ -23,8 +11,8 @@ None
 
 
 <br/>
-###Javascript 面板內容
-元件拖拉進入設計區域後，會在 javascript 的編輯面板同步產生下列代碼：
+###Javascript Code
+After dragging the component into the design panel, in javascript editor panel, and it will generate the code ( `#componentId` is the component's id )：
 
 	$(document).on("gkComponentsReady", function () {
 	  var data = [{
@@ -47,7 +35,7 @@ None
 	    data: 9
 	  }];
 	
-	  $('#gk-64PH1x').gk('render', data);
+	  $('#componentId').gk('render', data);
 	});
 
 

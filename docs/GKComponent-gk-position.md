@@ -1,5 +1,5 @@
 ##gk-position
-`gk-position` 元件可以獲取手機或平板裝置 GPS 座標。 
+`gk-position` can get GPS coordinates of the phone or tablet device.
 
 <br/>
 ###Properties
@@ -23,8 +23,8 @@ None
 
 
 <br/>
-###Javascript 面板內容
-元件拖拉進入設計區域後，會在 javascript 的編輯面板同步產生下列代碼：
+###Javascript Code
+After dragging the component into the design panel, in javascript editor panel, and it will generate the code ( `#componentId` is the component's id )：
 
 	/*** code gen by gk-position  ***/
 	;

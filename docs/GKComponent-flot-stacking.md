@@ -1,5 +1,5 @@
 ##flot-stacking
-`flot-stacking` 可以協助使用者產生 stacking 的圖表，採用 flot-stacking 的樣式。 
+`flot-stacking` is used when data sets have to be broken down into their constituents, and then the data sets as a whole also need to be compared against one another.
 
 <br/>
 ###Properties
@@ -23,8 +23,8 @@ None
 
 
 <br/>
-###Javascript 面板內容
-元件拖拉進入設計區域後，會在 javascript 的編輯面板同步產生下列代碼：
+###Javascript Code
+After dragging the component into the design panel, in javascript editor panel, and it will generate the code ( `#componentId` is the component's id )：
 
 	  $(document).on("gkComponentsReady", function () {
 	    var data = [{
@@ -49,7 +49,7 @@ None
 	      }
 	    };
 	
-	    $('#gk-64Kx9B').gk('render', data, options);
+	    $('#componentId').gk('render', data, options);
 	  });
 
 <br/>
