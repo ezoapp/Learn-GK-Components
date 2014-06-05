@@ -1,5 +1,5 @@
 ##Glinechart
-`linechart` 元件會由使用者在 javascript 中的陣列，產生對應的線狀圖表。
+`linechart` is a basic type of chart common in many fields. It is similar to a scatter plot except that the measurement points are ordered (typically by their x-axis value) and joined with straight line segments. Line Charts show how a particular data changes at equal intervals of time.
 
 <br/>
 ###Properties
@@ -15,6 +15,26 @@
 <td>Component's id</td>
 </tr>
 
+<tr>
+<td>width</td>
+<td>Chart's width</td>
+</tr>
+
+<tr>
+<td>height</td>
+<td>Chart's height</td>
+</tr>
+
+<tr>
+<td>cx</td>
+<td>X-coordinate of the center of the chart</td>
+</tr>
+
+<tr>
+<td>cy</td>
+<td>Y-coordinate of the center of the chart</td>
+</tr>
+
 </table>
 
 <br/>
@@ -22,12 +42,12 @@
 None
 
 <br/>
-###Javascript 面板內容
-元件拖拉進入設計區域後，會在 javascript 的編輯面板同步產生下列代碼：
+###Javascript Code
+After dragging the component into the design panel, in javascript editor panel, and it will generate the code ( `#componentId` is the component's id )：
 
 	;
 	$(document).one("pageshow", "#home", function aa() {
-	  var chart = $("#gk-64qWff").gk("render", [0, 1, 2, 3, 4, 5], [
+	  var chart = $("#componentId").gk("render", [0, 1, 2, 3, 4, 5], [
 	    [1, 3, 5, 7, 9, 7],
 	    [2, 5, 3, 1, 9, 12]
 	  ], {

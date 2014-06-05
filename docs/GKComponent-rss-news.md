@@ -1,5 +1,5 @@
 ##rss-news
-`rss-news` 可以將公開資訊的 rss 資料，以清單列表的方式呈現於畫面當中。  
+Using `rss-news` of rss service, you can get easier access to updates about news topics that interest you.  
 
 <br/>
 ###Properties
@@ -11,8 +11,18 @@
 </tr>
 
 <tr>
+<td>id</td>
+<td>Component's id</td>
+</tr>
+
+<tr>
 <td>service</td>
-<td></td>
+<td>Rss service url</td>
+</tr>
+
+<tr>
+<td>rowNum</td>
+<td>Each page number of rows to be displayed</td>
 </tr>
 
 </table>
@@ -21,15 +31,14 @@
 ###API
 None
 
-<br/>
 ###Javascript Code
-After dragging the component into the design panel, in javascript editor panel, and it will generate the code：
+After dragging the component into the design panel, in javascript editor panel, and it will generate the code ( `#componentId` is the component's id )：
 
 
 	$(document).on("gkComponentsReady", function () {
-	  var $ele = $("元件id"),
+	  var $ele = $("#componentId"),
 	    FEED_URL = $ele.attr("service"),
-	    $listview = $("元件id").find('[data-role="listview"]');
+	    $listview = $("#componentId").find('[data-role="listview"]');
 	  rowNum = $ele.attr('rowNum');
 	
 	  if (FEED_URL) {

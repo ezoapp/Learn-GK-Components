@@ -1,5 +1,5 @@
 ##flot-line
-`flot-line` 會由使用者在 javascript 中的陣列，產生對應的線狀圖表，圖表樣式採用 `flot-line`的樣式呈現。
+`flot-line` is plenty of options you can set to control the precise looks of your plot. You can control the ticks on the axes, the legend, the graph type, etc.
 
 <br/>
 ###Properties
@@ -15,16 +15,24 @@
 <td>component's id</td>
 </tr>
 
+<tr>
+<td>class</td>
+<td>CSS class</td>
+</tr>
+
+<tr>
+<td>style</td>
+<td>HTML inline style</td>
+</tr>
+
 </table>
 
 <br/>
 ###API
 None
 
-
-<br/>
-###Javascript 面板內容
-元件拖拉進入設計區域後，會在 javascript 的編輯面板同步產生下列代碼：  
+###Javascript Code
+After dragging the component into the design panel, in javascript editor panel, and it will generate the code ( `#componentId` is the component's id )： 
 
 	$(document).on("gkComponentsReady", function () {
 	  var dataset_tv = {
@@ -86,7 +94,7 @@ None
 	    }
 	  };
 	
-	  $('#gk-64wHYf').gk('render', [dataset_tv, dataset_online, dataset_radio, dataset_mobile], options);
+	  $('#componentId').gk('render', [dataset_tv, dataset_online, dataset_radio, dataset_mobile], options);
 	});
 
 
