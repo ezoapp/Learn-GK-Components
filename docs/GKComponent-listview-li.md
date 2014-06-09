@@ -1,22 +1,9 @@
 ##listview-li
-`listview-li` 元件會以清單的方式顯示資料。
+`listview-li` will display a list of data
 
 <br/>
 ###Properties
-<table>
-
-<tr>
-<th style="background:#ddd;">property</th>
-<th style="background:#ddd;">setting</th>
-</tr>
-
-<tr>
-<td>id</td>
-<td>Component's id</td>
-</tr>
-
-
-</table>
+Refer to JQueryMobile's [listview](http://api.jquerymobile.com/listview/) Widget.
 
 <br/>
 ###API

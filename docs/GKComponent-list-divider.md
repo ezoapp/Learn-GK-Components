@@ -1,26 +1,9 @@
 ##list-divider
-`list-divider` 元件是清單的標題。
+`list-divider` is a list of titles.
 
 <br/>
 ###Properties
-<table>
-
-<tr>
-<th style="background:#ddd;">property</th>
-<th style="background:#ddd;">setting</th>
-</tr>
-
-<tr>
-<td>id</td>
-<td>Component's id</td>
-</tr>
-
-<tr>
-<td>style</td>
-<td>HTML inline style</td>
-</tr>
-
-</table>
+Refer to JQueryMobile's [listview](http://api.jquerymobile.com/listview/) Widget.
 
 <br/>
 ###API

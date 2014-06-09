@@ -1,77 +1,22 @@
 ##collapsible
-`collapsible` 是點選標題的按鈕之後，進行內容收合或展開的元件。
+To create a collapsible block of content, create a container and add the `data-role="collapsible"` attribute. Using the `data-content-theme` attribute allows you to set a theme for the content of the collapsible.
+
+Directly inside this container, add any header (H1-H6) or legend element. The framework will style the header to look like a clickable button and add a `+` icon to the left to indicate it's expandable.
 
 <br/>
 ###Properties
-<table>
-
-<tr>
-<th style="background:#ddd;">property</th>
-<th style="background:#ddd;">setting</th>
-</tr>
-
-<tr>
-<td>id</td>
-<td>Component's id</td>
-</tr>
-
-<tr>
-<td>text</td>
-<td></td>
-</tr>
-
-<tr>
-<td>data-collapsed</td>
-<td></td>
-</tr>
-
-<tr>
-<td>data-iconpos</td>
-<td></td>
-</tr>
-
-<tr>
-<td>data-collapsed-icon</td>
-<td></td>
-</tr>
-
-<tr>
-<td>data-expanded-icon</td>
-<td></td>
-</tr>
-
-<tr>
-<td>data-inset</td>
-<td></td>
-</tr>
-
-<tr>
-<td>data-mini</td>
-<td></td>
-</tr>
-
-<tr>
-<td>data-theme</td>
-<td></td>
-</tr>
-
-<tr>
-<td>data-content-theme</td>
-<td></td>
-</tr>
-
-</table>
+Refer to JQueryMobile's [collapsible](http://api.jquerymobile.com/collapsible/) Widget.
 
 <br/>
 ###API
 
 - **expand**：  
-  	> 描述。
+  	> description。
 
 			$('#test').gk().expand();
 
 - **collapse**：  
-  	> 描述。
+  	> description。
 
 			$('#test').gk().collapse();
 
