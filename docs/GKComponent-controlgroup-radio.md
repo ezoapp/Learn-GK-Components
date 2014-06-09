@@ -1,62 +1,49 @@
 ##controlgroup-radio
-`controlgroup-radio` 元件提供使用者「單選」的按鈕，是由 `radio-button` 與 `controlgroup` 所組成，也可參考 [radio-button 元件說明](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-radio-button.md)
+To create a set of radio buttons, add an input with a `type="radio`" attribute and a corresponding label. Set the for attribute of the label to match the id of the input so they are semantically associated.
+
+The label element is displayed next to the radio form element. Wrap the radio buttons in a fieldset element that has a legend which acts as the title for the question.
+
+To visually integrate multiple radio buttons into a vertically grouped button set, the framework will automatically remove all margins between buttons and round only the top and bottom corners of the set if there is a `data-role="controlgroup"` attribute on the container
 
 <br/>
 ###Properties
-<table>
-
-<tr>
-<th style="background:#ddd;">property</th>
-<th style="background:#ddd;">setting</th>
-</tr>
-
-<tr>
-<td>id</td>
-<td>元Component's id</td>
-</tr>
-
-<tr>
-<td>style</td>
-<td>HTML inline style</td>
-</tr>
-
-</table>
+Refer to JQueryMobile's [controlgroup-radio](http://api.jquerymobile.com/checkboxradio/) Widget.
 
 <br/>
 ###API
 
 - **model**：  
-  	> 描述。
+  	> description。
 
 			$('#test').gk().model();
 
 - **apply**：  
-  	> 描述。
+  	> description。
 
 			$('#test').gk().apply();
 
 - **checked**：  
-  	> 描述。
+  	> description。
 
 			$('#test').gk().checked();
 
 - **unchecked**：  
-  	> 描述。
+  	> description。
 
 			$('#test').gk().unchecked();
 
 - **onSelect**：  
-  	> 描述。
+  	> description。
 
 			$('#test').gk().onSelect();
 
 - **disable**：  
-  	> 描述。
+  	> description。
 
 			$('#test').gk().disable();
 
 - **enable**：  
-  	> 描述。
+  	> description。
 
 			$('#test').gk().enable();
 <br/>

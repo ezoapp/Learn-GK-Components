@@ -1,5 +1,6 @@
 ##listview
-A listview is coded as a simple unordered list containing linked list items with a `data-role="listview"` attribute.
+`listview` Display data in list , you can switch page or do action on click item .  
+listview contains two component：[`list-divider`](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-list-divider.md)  ( header ) 、[`listview-li`](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-listview-li.md) ( item ) 
 
 <br/>
 ###Properties
@@ -9,14 +10,12 @@ Refer to JQueryMobile's [listview](http://api.jquerymobile.com/listview/) Widget
 ###API
 
 - **refresh**：  
- 	> refresh listview content
+ 	> If you set data to listview via JavaScript , you must call the refresh method on it to update the visual styling.
 
-		$('#test-page').on('pageinit', function() {
-		  $('#listview-test').gk().refresh();
-		});
+		$('#listview-test').gk().refresh();
 
-- **onRow**：  
-  	> description
+- **onRow(vo)**：  
+  	> When you click on listview item , onRow will be invoke.
 
 		  $('#listview-test').gk().onRow( _test);
 		  function _test(){

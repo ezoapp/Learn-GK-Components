@@ -1,57 +1,50 @@
 ##controlgroup-checkbox
-`controlgroup-checkbox` 元件提供使用者「複選」的按鈕，是由 `checkbox-button` 與 `controlgroup` 所組成，也可參考 [checkbox-button 元件說明](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-checkbox-button.md) 
+Typically, there are multiple checkboxes listed under a question title. To visually integrate multiple checkboxes into a grouped button set, the framework will automatically remove all margins between buttons and round only the top and bottom corners of the set if there is a `data-role="controlgroup"` attribute on the fieldset. 
 
 <br/>
 ###Properties
-<table>
-
-<tr>
-<th style="background:#ddd;">property</th>
-<th style="background:#ddd;">setting</th>
-</tr>
-
-<tr>
-<td>id</td>
-<td>Component's id</td>
-</tr>
-
-</table>
+Refer to JQueryMobile's [checkbox-button](http://api.jquerymobile.com/checkboxradio/) Widget.
 
 <br/>
 ###API
 
 - **apply**：  
-  	> 描述。
+  	> description
 
 			$('#test').gk().apply();
 
 
 - **onSelect**：  
-  	> 描述。
+  	> description
+
 
 			$('#test').gk().onSelect();
 
 
 - **disable**：  
-  	> 描述。
+  	> description
+
 
 			$('#test').gk().disable();
 
 
 - **enable**：  
-  	> 描述。
+  	> description
+
 
 			$('#test').gk().enable();
 
 
 - **checked**：  
-  	> 描述。
+  	> description
+
 
 			$('#test').gk().checked();
 
 
 - **unchecked**：  
-  	> 描述。
+  	> description
+
 
 			$('#test').gk().unchecked();
 

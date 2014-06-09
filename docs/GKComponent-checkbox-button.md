@@ -1,21 +1,9 @@
 #checkbox-button
-`checkbox-button` 元件提供使用者「複選」的按鈕。
+`checkbox-button` are used to provide a list of options where more than one can be selected. Traditional desktop checkboxes are not optimized for touch input so in jQuery Mobile, we style the label for the checkboxes so they are larger and look clickable. A custom set of icons are added to the label to provide additional visual feedback.
 
 <br/>
 ###Properties
-<table>
-
-<tr>
-<th style="background:#ddd;">property</th>
-<th style="background:#ddd;">setting</th>
-</tr>
-
-<tr>
-<td>id</td>
-<td>Component's id</td>
-</tr>
-
-</table>
+Refer to JQueryMobile's [checkbox-button](http://api.jquerymobile.com/checkboxradio/) Widget.
 
 <br/>
 ###API

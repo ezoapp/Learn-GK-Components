@@ -53,7 +53,7 @@ After dragging the component into the design panel, in javascript editor panel, 
 	    url = $ele.attr("service");
 	  if (url) {
 	    $.getJSON(url).complete(function (data) {
-	      $("#gk-64HnU8").gk("model", $.parseJSON(data.responseText));
+	      $("#componentId").gk("model", $.parseJSON(data.responseText));
 	    });
 	  }
 	});

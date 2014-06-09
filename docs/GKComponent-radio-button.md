@@ -1,21 +1,9 @@
 ##radio-button
-`radio-button` 元件提供使用者「單選」的按鈕。
+`radio-button` are used to provide a list of options where only a single item can be selected. Traditional desktop radio buttons are not optimized for touch input so jQuery Mobile styles the label for the radio buttons so they are larger and look clickable. A custom set of icons are added to the label to provide additional visual feedback.
 
 <br/>
 ###Properties
-<table>
-
-<tr>
-<th style="background:#ddd;">property</th>
-<th style="background:#ddd;">setting</th>
-</tr>
-
-<tr>
-<td>id</td>
-<td>Component's id</td>
-</tr>
-
-</table>
+Refer to JQueryMobile's [radio-button](http://api.jquerymobile.com/checkboxradio/) Widget.
 
 <br/>
 ###API
