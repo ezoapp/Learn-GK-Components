@@ -15,6 +15,21 @@
 <td>Component's id</td>
 </tr>
 
+<tr>
+<td>style</td>
+<td>HTML inline style</td>
+</tr>
+
+<tr>
+<td>pageSize</td>
+<td>Count each page</td>
+</tr>
+
+<tr>
+<td>url</td>
+<td>Data url</td>
+</tr>
+
 </table>
 
 <br/>
@@ -37,6 +52,11 @@
 
 			$('#test').gk().onRow();
 
+
+- **remote**：  
+  	> description
+
+			$('#test').gk().onRow();
 
 
 <br/>

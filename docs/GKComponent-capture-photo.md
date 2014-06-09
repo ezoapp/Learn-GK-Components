@@ -15,6 +15,11 @@
 <td>Component's id</td>
 </tr>
 
+<tr>
+<td>style</td>
+<td>HTML inline style</td>
+</tr>
+
 </table>
 
 <br/>
