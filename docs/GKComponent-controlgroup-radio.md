@@ -31,9 +31,9 @@ Refer to JQueryMobile's [controlgroup-radio](http://api.jquerymobile.com/checkbo
   	
         <fieldset data-role="controlgroup" data-type="vertical" is="controlgroup-radio" id="r1">
           <legend>Math scores:</legend>
-          <input name="degree" type="radio" value='${item}'>
-	  <label>${item}</label>
-        </fieldset>  
+          <input name="degree" type="radio" value='${score}'>
+          <label>${item}</label>
+        </fieldset>
   	
 
 - **apply**：  
@@ -51,9 +51,9 @@ Refer to JQueryMobile's [controlgroup-radio](http://api.jquerymobile.com/checkbo
         <fieldset data-role="controlgroup" data-type="vertical" is="controlgroup-radio" id="r1">
           <legend>Math scores:</legend>
           <input name="degree" type="radio" value='${score}'>
-	  <label>${item}</label>
-	</fieldset>  
-
+          <label>${item}</label>
+        </fieldset>
+        
 - **checked(value)**：  
   	> Select the item with the same value.
     > Get selected value of item when value is null. 
