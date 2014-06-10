@@ -68,15 +68,15 @@
 ###Javascript Code
 After dragging the component into the design panel, in javascript editor panel, and it will generate the code ( `#componentId` is the component's id )：
 
-	$(document).on("pageinit", "#home", function () {
-	  var $ele = $("#gk-64HnU8"),
-	    url = $ele.attr("service");
-	  if (url) {
-	    $.getJSON(url).complete(function (data) {
-	      $("#componentId").gk("model", $.parseJSON(data.responseText));
-	    });
-	  }
-	});
+		$(document).on("pageinit", "#home", function () {
+		  var $ele = $("#gk-64HnU8"),
+		    url = $ele.attr("service");
+		  if (url) {
+		    $.getJSON(url).complete(function (data) {
+		      $("#componentId").gk("model", $.parseJSON(data.responseText));
+		    });
+		  }
+		});
 
 <br/>
 ----------
