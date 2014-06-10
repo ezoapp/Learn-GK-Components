@@ -3,19 +3,7 @@
 
 <br/>
 ###Properties
-<table>
-
-<tr>
-<th style="background:#ddd;">property</th>
-<th style="background:#ddd;">setting</th>
-</tr>
-
-<tr>
-<td>id</td>
-<td>component's id</td>
-</tr>
-
-</table>
+Refer to JQueryMobile's [listview](http://api.jquerymobile.com/listview/) Widget.
 
 <br/>
 ###API
@@ -68,15 +56,12 @@
 ###Javascript Code
 After dragging the component into the design panel, in javascript editor panel, and it will generate the code ( `#componentId` is the component's id )：
 
-		$(document).on("pageinit", "#home", function () {
-		  var $ele = $("#gk-64HnU8"),
-		    url = $ele.attr("service");
+		  var url = "open service url";
 		  if (url) {
 		    $.getJSON(url).complete(function (data) {
-		      $("#componentId").gk("model", $.parseJSON(data.responseText));
+		      $("#componentId").gk().model($.parseJSON(data.responseText));
 		    });
 		  }
-		});
 
 <br/>
 ----------
