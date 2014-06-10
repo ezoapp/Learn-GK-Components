@@ -18,32 +18,52 @@
 </table>
 
 <br/>
-###API###
+###API
 
 - **refresh**：  
-  	> description
+ 	> If you set data to listview via JavaScript , you must call the refresh method on it to update the visual styling.
 
-			$('#test').gk().onRow();
+		$('#listview').gk().refresh();
 
+- **onRow(callback))**：  
+  	> When you click on listview item , onRow will be invoke.
+    > If set data by model API , first argument of callback is JSON Object.
+    > If set data by apply API , first argument of callback is li element of JQuery.
 
-- **onRow**：  
-  	> description
+          // If call model API , callback argument is value object
+          $('#listview').gk().model(data);
+          $('#listview').gk().onRow(function(vo) {
 
-			$('#test').gk().onRow();
+          });
 
+          // If call apply API , callback argument is li element of JQuery
+          $('#listview').gk().apply(data);
+          $('#listview').gk().onRow(function($li) {
+
+          });    
 
 - **model**：  
-  	> description
+  	> Set data to listview , data type is JSON Array.
+            
+          var data = [{
+            userId: '001',
+            userName: 'Keven'
+          }, {
+            userId: '002',
+            userName: 'Joe'
+          }];
 
-			$('#test').gk().onRow();
-
+          $('#listview').gk().model(data);
 
 - **apply**：  
-  	> description
+  	> Set data to listview when data is only one , data type is JSON Object
 
-			$('#test').gk().onRow();
+          var data = {
+            userId: '001',
+            userName: 'Keven'
+          };
 
-
+          $('#listview').gk().model(apply);
 <br/>
 ###Javascript Code
 After dragging the component into the design panel, in javascript editor panel, and it will generate the code ( `#componentId` is the component's id )：
