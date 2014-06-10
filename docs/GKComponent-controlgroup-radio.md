@@ -25,33 +25,34 @@ Refer to JQueryMobile's [controlgroup-radio](http://api.jquerymobile.com/checkbo
           item: 'D'
         }];
 
-        $('#controlgroup-radio').gk().model(data);
+        $('#r1').gk().model(data);
           
   	> HTML template pattern ${ data.key }
   	
         <fieldset data-role="controlgroup" data-type="vertical" is="controlgroup-radio" id="r1">
           <legend>Math scores:</legend>
           <input name="degree" type="radio" value='${item}'>
-  <label>${item}</label>
-        </fieldset>
+	  <label>${item}</label>
+        </fieldset>  
+  	
 
 - **apply**：  
-  	> Set data to listview when data is only one , data type is JSON Object
+  	> Set data to controlgroup-radio when data is only one , data type is JSON Object
 
         var data = {
           item: 'A',
           score: 95
         };
 
-        $('#controlgroup-radio').gk().apply(data);
+        $('#r1').gk().apply(data);
 
   	> HTML template pattern ${ data.key }
   	
         <fieldset data-role="controlgroup" data-type="vertical" is="controlgroup-radio" id="r1">
           <legend>Math scores:</legend>
           <input name="degree" type="radio" value='${score}'>
-  <label>${item}</label>
-        </fieldset>
+	  <label>${item}</label>
+	</fieldset>  
 
 - **checked(value)**：  
   	> Select the item with the same value.
@@ -74,7 +75,7 @@ Refer to JQueryMobile's [controlgroup-radio](http://api.jquerymobile.com/checkbo
 
 - **disable(rowNum)**：  
   	> Disable the item.
-    > rowNum starting from 0.
+    > rowNum starting from 0.  
     > Disable all when rowNum is null. 
 
         $('#controlgroup-radio').gk().disable();
@@ -82,7 +83,7 @@ Refer to JQueryMobile's [controlgroup-radio](http://api.jquerymobile.com/checkbo
 
 - **enable(rowNum)**：  
   	> Enable the item.
-    > rowNum starting from 0.
+    > rowNum starting from 0.  
     > Enable all when rowNum is null. 
 
         $('#controlgroup-radio').gk().enable();
