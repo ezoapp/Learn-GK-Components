@@ -43,6 +43,13 @@ Refer to JQueryMobile's [listview](http://api.jquerymobile.com/listview/) Widget
           }];
 
           $('#listview').gk().model(data);
+          
+  	> HTML template pattern ${ data.key }
+  	
+        <li divider="${userId}" is="listview-li">
+        <span >${userName}</span>
+        </li>
+              
 
 - **apply**：  
   	> Set data to listview when data is only one , data type is JSON Object
@@ -54,6 +61,11 @@ Refer to JQueryMobile's [listview](http://api.jquerymobile.com/listview/) Widget
 
           $('#listview').gk().model(apply);
 
+  	> HTML template pattern ${ data.key }
+  	
+        <li divider="${userId}" is="listview-li">
+        <span >${userName}</span>
+        </li>
 
 <br/>
 ----------
