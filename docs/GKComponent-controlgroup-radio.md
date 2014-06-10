@@ -13,39 +13,80 @@ Refer to JQueryMobile's [controlgroup-radio](http://api.jquerymobile.com/checkbo
 ###API
 
 - **model**：  
-  	> description。
+  	> Set data to controlgroup-radio , data type is JSON Array.
+            
+        var data = [{
+          item: 'A'
+        }, {
+          item: 'B'
+        }, {
+          item: 'C'
+        }, {
+          item: 'D'
+        }];
 
-			$('#test').gk().model();
+        $('#controlgroup-radio').gk().model(data);
+          
+  	> HTML template pattern ${ data.key }
+  	
+        <fieldset data-role="controlgroup" data-type="vertical" is="controlgroup-radio" id="r1">
+          <legend>Math scores:</legend>
+          <input name="degree" type="radio" value='${item}'>
+  <label>${item}</label>
+        </fieldset>
 
 - **apply**：  
-  	> description。
+  	> Set data to listview when data is only one , data type is JSON Object
 
-			$('#test').gk().apply();
+        var data = {
+          item: 'A',
+          score: 95
+        };
 
-- **checked**：  
-  	> description。
+        $('#controlgroup-radio').gk().apply(data);
 
-			$('#test').gk().checked();
+  	> HTML template pattern ${ data.key }
+  	
+        <fieldset data-role="controlgroup" data-type="vertical" is="controlgroup-radio" id="r1">
+          <legend>Math scores:</legend>
+          <input name="degree" type="radio" value='${score}'>
+  <label>${item}</label>
+        </fieldset>
 
-- **unchecked**：  
-  	> description。
+- **checked(value)**：  
+  	> Select the item with the same value.
+    > Get selected value of item when value is null. 
 
-			$('#test').gk().unchecked();
+        $('#controlgroup-radio').gk().checked();
 
-- **onSelect**：  
-  	> description。
+- **unchecked(value)**：  
+  	> Unselect the item with the same value.
 
-			$('#test').gk().onSelect();
+        $('#controlgroup-radio').gk().unchecked();
 
-- **disable**：  
-  	> description。
+- **onSelect(callback)**：  
+  	> When you click on radio item , onSelect will be invoke.
+    > First argument of callback is input element of JQuery.
 
-			$('#test').gk().disable();
+        $('#controlgroup-radio').gk().onSelect(function($input){
+            // do something .....
+        });
 
-- **enable**：  
-  	> description。
+- **disable(rowNum)**：  
+  	> Disable the item.
+    > rowNum starting from 0.
+    > Disable all when rowNum is null. 
 
-			$('#test').gk().enable();
+        $('#controlgroup-radio').gk().disable();
+			
+
+- **enable(rowNum)**：  
+  	> Enable the item.
+    > rowNum starting from 0.
+    > Enable all when rowNum is null. 
+
+        $('#controlgroup-radio').gk().enable();
+			
 <br/>
 ----------
 Above is the description of `controlgroup-radio`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
