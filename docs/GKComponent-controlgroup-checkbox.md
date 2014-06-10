@@ -9,44 +9,71 @@ Refer to JQueryMobile's [checkbox-button](http://api.jquerymobile.com/checkboxra
 ###API
 
 - **apply**：  
-  	> description
+  	> Set data to controlgroup-radio when data is only one , data type is JSON Object
 
-			$('#test').gk().apply();
+        var data = {
+            item1: 'Swimming',
+            item2: 'Shopping',
+            item3: 'Singing'
+        }
+
+        $('#c1').gk().apply(data);
+
+  	> HTML template pattern ${ data.key }
+  	
+        <fieldset data-role="controlgroup" data-type="vertical" is="controlgroup-checkbox" id="c1">
+          <legend>Interest</legend>
+          <input type="checkbox" value="${item1}">
+          <label>${item1}</label>
+          <input type="checkbox" value="${item2}">
+          <label>${item2}</label>
+          <input type="checkbox" value="${item3}">
+          <label>${item3}</label>
+        </fieldset>
 
 
 - **onSelect**：  
-  	> description
+  	> When you click on checkbox item , onSelect will be invoke.
+    > First argument of callback is input element of JQuery.
+
+        $('#controlgroup-checkbox').gk().onSelect(function($input){
+            // do something .....
+        });
 
 
-			$('#test').gk().onSelect();
+- **disable(rowNum)**：  
+  	> Disable the item.
+    > rowNum starting from 0.  
+    > Disable all when rowNum is null. 
+
+        $('#controlgroup-checkbox').gk().disable();
 
 
-- **disable**：  
-  	> description
+- **enable(rowNum)**：  
+  	> Enable the item.
+    > rowNum starting from 0.  
+    > Enable all when rowNum is null. 
+
+        $('#controlgroup-checkbox').gk().enable();
+			
 
 
-			$('#test').gk().disable();
+- **checked(rowNum)**：  
+  	> Select the item.
+    > rowNum starting from 0.  
+    > Return input value. 
+
+        $('#controlgroup-checkbox').gk().checked(0);
 
 
-- **enable**：  
-  	> description
 
+- **unchecked(rowNum)**：  
+  	> Unselect the item.
+    > rowNum starting from 0.  
+    > Return input value. 
 
-			$('#test').gk().enable();
+        $('#controlgroup-checkbox').gk().unchecked(0);
 
-
-- **checked**：  
-  	> description
-
-
-			$('#test').gk().checked();
-
-
-- **unchecked**：  
-  	> description
-
-
-			$('#test').gk().unchecked();
 
 
 
