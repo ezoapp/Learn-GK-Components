@@ -66,9 +66,9 @@ Other properties , Please to refer to JQueryMobile's [listview](http://api.jquer
 - **remote(url , options)**：  
   	> Invoke remote service.
   	> url argument is remote service url.
-  	> options argument is post data for server side use.
+  	> data argument is post extra data , type is JSON Object
 
-		$('#listview').gk().remote(url, options);
+		$('#listview').gk().remote(url, data);
 
   	> Default post data for server side to implement thant get data by page
   	
