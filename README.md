@@ -8,7 +8,7 @@ EZoApp's core values: reuse and modularization. User interfaces (UIs) that have 
 
 ##Components list##
 This is a list of all the GK Components，click on the link, and you can know how to use the components.
-###JQM Compinents###
+###JQM Components###
 * [header](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-header.md)
 * [footer](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-footer.md)
 * [grid](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-grid.md)
