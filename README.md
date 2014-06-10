@@ -45,7 +45,7 @@ This is a list of all the GK Components，click on the link, and you can know ho
 * [bxslider](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-bxslider.md) ( property, api )
 * [qrcode](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-qrcode.md) ( property, api )
 * [imggallery](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-imggallery.md) ( property, api )
-* [json-listview](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-json-listview.md) ( property, api )
+* [json-listview](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-json-listview.md)
 * [page-listview](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-page-listview.md) ( api )
 * [capture-photo](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-capture-photo.md)
 * [gk-position](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-gk-position.md)
