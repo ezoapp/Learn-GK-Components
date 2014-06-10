@@ -35,16 +35,18 @@
 <br/>
 ###API
 
-- **onRow**：  
-  	> description
+- **onRow(callback))**：  
+  	> When you click on listview item , onRow will be invoke.
+        > First argument of callback is JSON Object.
 
-			$('#test').gk().onRow();
+          $('#listview').gk().onRow(function(vo) {
 
+          });
 
 - **refresh**：  
-  	> description
+ 	> If you call remote API to set data , you must call the refresh method on it to update the visual styling.
 
-			$('#test').gk().onRow();
+		$('#listview').gk().refresh();
 
 
 - **pageSize**：  
