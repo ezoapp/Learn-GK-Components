@@ -37,7 +37,7 @@
 
 - **onRow(callback))**：  
   	> When you click on listview item , onRow will be invoke.
-        > First argument of callback is JSON Object.
+    > First argument of callback is JSON Object.
 
           $('#listview').gk().onRow(function(vo) {
 
