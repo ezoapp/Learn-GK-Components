@@ -1,4 +1,4 @@
-##gk-device-motion
+##flot-pie
 `flot-pie` is a circular chart divided into sectors, illustrating numerical proportion. 
 
 <br/>
@@ -7,7 +7,48 @@ Refer to flot's [pie chart](http://www.flotcharts.org/flot/examples/series-pie/i
 
 <br/>
 ###API
-None
+
+- **render(data.options)**：  
+  	> data is chart data , refer to flot's [Data format](https://github.com/flot/flot/blob/master/API.md#data-format)  
+    > options for init comstmize chart ,  refer to flot's [Plot Options](https://github.com/flot/flot/blob/master/API.md#plot-options)
+            
+          var data = [{
+            label: 'Games',
+            data: 43
+          }, {
+            label: 'Social Networking',
+            data: 26
+          }, {
+            label: 'Entertainment',
+            data: 10
+          }, {
+            label: 'Utilities',
+            data: 10
+          }, {
+            label: 'News',
+            data: 2
+          }, {
+            label: 'Other',
+            data: 9
+          }];
+        
+          var options = {
+            series: {
+              pie: {
+                innerRadius: 0.5,
+                show: true,
+                label: {
+                  show: true,
+                  background: {
+                    opacity: 1,
+                    color: '#000'
+                  }
+                }
+              }
+            }
+          };
+        
+          $('#flot-pie').gk('render', data, options);
 
 
 <br/>
