@@ -59,7 +59,7 @@ After dragging the component into the design panel, in javascript editor panel, 
 		  var url = "open service url";
 		  if (url) {
 		    $.getJSON(url).complete(function (data) {
-		      $("#componentId").gk().model($.parseJSON(data.responseText));
+		      $("#listview").gk().model($.parseJSON(data.responseText));
 		    });
 		  }
 
