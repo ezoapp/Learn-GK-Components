@@ -14,23 +14,45 @@ Refer to JQueryMobile's [listview](http://api.jquerymobile.com/listview/) Widget
 
 		$('#listview-test').gk().refresh();
 
-- **onRow(vo)**：  
+- **onRow(callback))**：  
   	> When you click on listview item , onRow will be invoke.
+    > If set data by model API , first argument of callback is JSON Object.
+    > If set data by apply API , first argument of callback is li element of JQuery.
 
-		  $('#listview-test').gk().onRow( _test);
-		  function _test(){
-		    alert('onRow');
-		  }
+          // If call model API , callback argument is value object
+          $('#listview').gk().model(data);
+          $('#listview').gk().onRow(function(vo) {
+
+          });
+
+          // If call apply API , callback argument is li element of JQuery
+          $('#listview').gk().apply(data);
+          $('#listview').gk().onRow(function($li) {
+
+          });    
 
 - **model**：  
-  	> description
+  	> Set data to listview , data type is JSON Array.
+            
+          var data = [{
+            userId: '001',
+            userName: 'Keven'
+          }, {
+            userId: '002',
+            userName: 'Joe'
+          }];
 
-		  $('#listview-test').gk().model();
+          $('#listview').gk().model(data);
 
 - **apply**：  
-  	> description
+  	> Set data to listview when data is only one , data type is JSON Object
 
-		  $('#listview-test').gk().apply();
+          var data = {
+            userId: '001',
+            userName: 'Keven'
+          };
+
+          $('#listview').gk().model(apply);
 
 
 <br/>
@@ -39,7 +61,6 @@ Above is the description of `listview`. For more information, please back to [GK
 
 Offical Site：[www.ezoui.com/app/](http://www.ezoui.com/app/)  
 EZoApp Designer：[jqmdesigner.appspot.com/](http://jqmdesigner.appspot.com/)  
-
 
 
 
