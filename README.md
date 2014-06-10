@@ -24,7 +24,7 @@ This is a list of all the GK Components，click on the link, and you can know ho
 	* [collapsible](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-collapsible.md) ( api )
 * [icon](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-icon.md)
 * [button](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-button.md) 
-* [listview](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-listview.md) ( api )
+* [listview](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-listview.md)
 	* [listview-li](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-listview-li.md)
 	* [list-divider](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-list-divider.md)
 * [controlgroup-radio](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-controlgroup-radio.md) ( api )
