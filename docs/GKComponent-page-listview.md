@@ -1,5 +1,6 @@
 ##page-listview
-`page-listview` allows us the information, presented in a way to list 
+`page-listview` allows us by page to display data , you can decide to displayed record count on each page , Server side must be implement that get data by page count.
+
 
 <br/>
 ###Properties
@@ -22,16 +23,17 @@
 
 <tr>
 <td>pageSize</td>
-<td>Count each page</td>
+<td>Displayed record count on each page , minimum value is 30</td>
 </tr>
 
 <tr>
 <td>url</td>
-<td>Data url</td>
+<td>Remote service url</td>
 </tr>
 
 </table>
 
+Other properties , Please to refer to JQueryMobile's [listview](http://api.jquerymobile.com/listview/) Widget.
 <br/>
 ###API
 
@@ -42,25 +44,39 @@
           $('#listview').gk().onRow(function(vo) {
 
           });
+  	> HTML template pattern {{ data.key }}
+  	
+        <li divider="{{userId}}" is="listview-li">
+        	<span >{{userName}}</span>
+        </li>             
 
 - **refresh**：  
- 	> If you call remote API to set data , you must call the refresh method on it to update the visual styling.
+ 	>  Call the refresh method on it to update the visual styling.
 
 		$('#listview').gk().refresh();
 
 
-- **pageSize**：  
-  	> description
+- **pageSize(count)**：  
+  	> Set displayed record count on each page.
+    > Get displayed record count on each page when count is null. 
 
-			$('#test').gk().onRow();
-
-
-- **remote**：  
-  	> description
-
-			$('#test').gk().onRow();
+		$('#listview').gk().pageSize();
 
 
+- **remote(url , options)**：  
+  	> Invoke remote service.
+  	> url argument is remote service url.
+  	> options argument is post data for server side use.
+
+		$('#listview').gk().remote(url, options);
+
+  	> Default post data for server side to implement thant get data by page
+  	
+  	    //For this example componentId is listview
+        componentId.pagebar: {
+          offset: 0     // Start index of current record
+          pageSize: 30  // Record count on each page
+        }    
 <br/>
 ----------
 Above is the description of `page-listview`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
