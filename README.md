@@ -50,7 +50,7 @@ This is a list of all the GK Components，click on the link, and you can know ho
 * [capture-photo](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-capture-photo.md)
 * [gk-position](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-gk-position.md)
 * [gk-device-motion](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-gk-device-motion.md)
-* [flot-pie](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-flot-pie.md) ( api )
+* [flot-pie](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-flot-pie.md)
 * [flot-bar](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-flot-bar.md) ( property, api )
 * [flot-stacking](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-flot-stacking.md) ( property, api )
 * [flot-line](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-flot-line.md) ( property, api )
