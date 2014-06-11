@@ -31,7 +31,7 @@ Refer to JQueryMobile's [listview](http://api.jquerymobile.com/listview/) Widget
 
           });    
 
-- **model(data)*：  
+- **model(data)**：  
   	> Set data to listview , data type is JSON Array.
             
           var data = [{
