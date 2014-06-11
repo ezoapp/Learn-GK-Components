@@ -15,8 +15,8 @@ Refer to JQueryMobile's [listview](http://api.jquerymobile.com/listview/) Widget
 		$('#listview-test').gk().refresh();
 
 - **onRow(callback))**：  
-  	> When you click on listview item , onRow will be invoke.
-    > If set data by model API , first argument of callback is JSON Object.
+  	> When you click on listview item , onRow will be invoke.  
+    > If set data by model API , first argument of callback is JSON Object.  
     > If set data by apply API , first argument of callback is li element of JQuery.
 
           // If call model API , callback argument is value object
@@ -31,7 +31,7 @@ Refer to JQueryMobile's [listview](http://api.jquerymobile.com/listview/) Widget
 
           });    
 
-- **model**：  
+- **model(data)*：  
   	> Set data to listview , data type is JSON Array.
             
           var data = [{
@@ -51,7 +51,7 @@ Refer to JQueryMobile's [listview](http://api.jquerymobile.com/listview/) Widget
         </li>
               
 
-- **apply**：  
+- **apply(data)**：  
   	> Set data to listview when data is only one , data type is JSON Object
 
           var data = {
@@ -59,7 +59,7 @@ Refer to JQueryMobile's [listview](http://api.jquerymobile.com/listview/) Widget
             userName: 'Keven'
           };
 
-          $('#listview').gk().model(apply);
+          $('#listview').gk().apply(data);
 
   	> HTML template pattern ${ data.key }
   	
