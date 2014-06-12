@@ -1,5 +1,5 @@
 ##page-listview
-`page-listview` allows us by page to display data , you can decide to displayed record count on each page.  
+`page-listview` Allows us by page to display data , you can decide to displayed record count on each page.  
 Server side must be implement that get data by page count.
 
 
@@ -45,7 +45,7 @@ Other properties , Please to refer to JQueryMobile's [listview](http://api.jquer
           $('#listview').gk().onRow(function(vo) {
 
           });
-  	> HTML template pattern {{ data.key }}
+  	> HTML template pattern {{data.key}}
   	
         <li divider="{{userId}}" is="listview-li">
         	<span >{{userName}}</span>
@@ -64,10 +64,10 @@ Other properties , Please to refer to JQueryMobile's [listview](http://api.jquer
 		$('#listview').gk().pageSize();
 
 
-- **remote(url , options)**：  
+- **remote(url , data)**：  
   	> Invoke remote service.  
-  	> url argument is remote service url.  
-  	> data argument is post extra data , type is JSON Object  
+  	> Url argument is remote service url.  
+  	> Data argument is post extra data , type is JSON Object  
 
 		$('#listview').gk().remote(url, data);
 
