@@ -27,12 +27,12 @@ Refer to JQueryMobile's [controlgroup-radio](http://api.jquerymobile.com/checkbo
 
         $('#r1').gk().model(data);
           
-  	> HTML template pattern ${ data.key }
+  	> HTML template pattern {{data.key}}
   	
         <fieldset data-role="controlgroup" data-type="vertical" is="controlgroup-radio" id="r1">
           <legend>Math scores:</legend>
-          <input name="degree" type="radio" value='${score}'>
-          <label>${item}</label>
+          <input name="degree" type="radio" value='{{score}}'>
+          <label>{{item}}</label>
         </fieldset>
   	
 
@@ -46,16 +46,16 @@ Refer to JQueryMobile's [controlgroup-radio](http://api.jquerymobile.com/checkbo
 
         $('#r1').gk().apply(data);
 
-  	> HTML template pattern ${ data.key }
+  	> HTML template pattern {{data.key}}
   	
         <fieldset data-role="controlgroup" data-type="vertical" is="controlgroup-radio" id="r1">
           <legend>Math scores:</legend>
-          <input name="degree" type="radio" value='${score}'>
-          <label>${item}</label>
+          <input name="degree" type="radio" value='{{score}}'>
+          <label>{{item}}</label>
         </fieldset>
         
 - **checked(value)**：  
-  	> Select the item with the same value.
+  	> Select the item with the same value.  
     > Get selected value of item when value is null. 
 
         $('#controlgroup-radio').gk().checked();
@@ -66,7 +66,7 @@ Refer to JQueryMobile's [controlgroup-radio](http://api.jquerymobile.com/checkbo
         $('#controlgroup-radio').gk().unchecked();
 
 - **onSelect(callback)**：  
-  	> When you click on radio item , onSelect will be invoke.
+  	> When you click on radio item , onSelect will be invoke.  
     > First argument of callback is input element of JQuery.
 
         $('#controlgroup-radio').gk().onSelect(function($input){
