@@ -46,8 +46,8 @@ Refer to JQueryMobile's [listview](http://api.jquerymobile.com/listview/) Widget
           
   	> HTML template pattern {{data.key}}
   	
-        <li divider="${userId}" is="listview-li">
-        	<span >${userName}</span>
+        <li divider="{{userId}}" is="listview-li">
+        	<span >{{userName}}</span>
         </li>
               
 
@@ -63,8 +63,8 @@ Refer to JQueryMobile's [listview](http://api.jquerymobile.com/listview/) Widget
 
   	> HTML template pattern {{data.key}}
   	
-        <li divider="${userId}" is="listview-li">
-        	<span >${userName}</span>
+        <li divider="{{userId}}" is="listview-li">
+        	<span >{{userName}}</span>
         </li>
 
 <br/>
