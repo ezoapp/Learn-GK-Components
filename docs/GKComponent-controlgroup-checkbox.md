@@ -58,17 +58,17 @@ Refer to JQueryMobile's [checkbox-button](http://api.jquerymobile.com/checkboxra
     > If set data by model API , first argument of callback is JSON object.  
     > If set data by apply API , first argument of callback is input element of JQuery.
 
-          // If call model API , callback argument is value object
-          $('#controlgroup-checkbox').gk().model(data);
-          $('#controlgroup-checkbox').gk().onSelect(function(vo) {
+        // If call model API , callback argument is value object
+        $('#controlgroup-checkbox').gk().model(data);
+        $('#controlgroup-checkbox').gk().onSelect(function(vo) {
 
-          });
+        });
 
-          // If call apply API , callback argument is input element of JQuery
-          $('#controlgroup-checkbox').gk().apply(data);
-          $('#controlgroup-checkbox').gk().onSelect(function($input) {
+        // If call apply API , callback argument is input element of JQuery
+        $('#controlgroup-checkbox').gk().apply(data);
+        $('#controlgroup-checkbox').gk().onSelect(function($input) {
 
-          });    
+        });    
 
 
 - **disable(rowNum)**：  
