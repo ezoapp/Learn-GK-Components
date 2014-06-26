@@ -16,7 +16,7 @@ Refer to JQueryMobile's [listview](http://api.jquerymobile.com/listview/) Widget
 
 - **onRow(callback))**：  
   	> When you click on listview item , onRow will be invoke.  
-    > If set data by model API , first argument of callback is JSON Object.  
+    > If set data by model API , first argument of callback is JSON object.  
     > If set data by apply API , first argument of callback is li element of JQuery.
 
           // If call model API , callback argument is value object
@@ -52,7 +52,7 @@ Refer to JQueryMobile's [listview](http://api.jquerymobile.com/listview/) Widget
               
 
 - **apply(data)**：  
-  	> Set data to listview when data is only one , data type is JSON Object
+  	> Set data to listview when data is only one , data type is JSON object
 
           var data = {
             userId: '001',
