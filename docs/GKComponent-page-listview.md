@@ -40,7 +40,7 @@ Other properties , Please to refer to JQueryMobile's [listview](http://api.jquer
 
 - **onRow(callback))**：  
   	> When you click on listview item , onRow will be invoke.  
-	> First argument of callback is JSON Object.
+	> First argument of callback is JSON object.
 
           $('#listview').gk().onRow(function(vo) {
 
@@ -67,7 +67,7 @@ Other properties , Please to refer to JQueryMobile's [listview](http://api.jquer
 - **remote(url , data)**：  
   	> Invoke remote service.  
   	> Url argument is remote service url.  
-  	> Data argument is post extra data , type is JSON Object  
+  	> Data argument is post extra data , type is JSON object  
 
 		$('#listview').gk().remote(url, data);
 
