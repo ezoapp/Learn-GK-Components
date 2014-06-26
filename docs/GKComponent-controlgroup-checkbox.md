@@ -30,7 +30,7 @@ Refer to JQueryMobile's [checkbox-button](http://api.jquerymobile.com/checkboxra
         </fieldset>
 
 - **apply**：  
-  	> Set data to controlgroup-checkbox when data is only one , data type is JSON Object
+  	> Set data to controlgroup-checkbox when data is only one , data type is JSON object
 
         var data = {
             item1: 'Swimming',
@@ -55,7 +55,7 @@ Refer to JQueryMobile's [checkbox-button](http://api.jquerymobile.com/checkboxra
 
 - **onSelect(callback))**：  
   	> When you click on checkbox item , onSelect will be invoke.  
-    > If set data by model API , first argument of callback is JSON Object.  
+    > If set data by model API , first argument of callback is JSON object.  
     > If set data by apply API , first argument of callback is input element of JQuery.
 
           // If call model API , callback argument is value object
