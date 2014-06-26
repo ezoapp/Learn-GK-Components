@@ -8,8 +8,29 @@ Refer to JQueryMobile's [checkbox-button](http://api.jquerymobile.com/checkboxra
 <br/>
 ###API
 
+- **model**：  
+  	> Set data to controlgroup-checkbox , data type is JSON Array.
+            
+        var data = [{
+          item: 'Swimming'
+        }, {
+          item: 'Shopping'
+        }, {
+          item: 'Singing'
+        }];
+
+        $('#c1').gk().model(data);
+          
+  	> HTML template pattern {{data.key}}
+  	
+        <fieldset data-role="controlgroup" data-type="vertical" is="controlgroup-checkbox" id="c1">
+          <legend>Interest</legend>
+          <input type="checkbox" value="{{item}}">
+          <label>${item}</label>
+        </fieldset>
+
 - **apply**：  
-  	> Set data to controlgroup-radio when data is only one , data type is JSON Object
+  	> Set data to controlgroup-checkbox when data is only one , data type is JSON Object
 
         var data = {
             item1: 'Swimming',
@@ -32,13 +53,22 @@ Refer to JQueryMobile's [checkbox-button](http://api.jquerymobile.com/checkboxra
         </fieldset>
 
 
-- **onSelect**：  
+- **onSelect(callback))**：  
   	> When you click on checkbox item , onSelect will be invoke.  
-    > First argument of callback is input element of JQuery.
+    > If set data by model API , first argument of callback is JSON Object.  
+    > If set data by apply API , first argument of callback is input element of JQuery.
 
-        $('#controlgroup-checkbox').gk().onSelect(function($input){
-            // do something .....
-        });
+          // If call model API , callback argument is value object
+          $('#controlgroup-checkbox').gk().model(data);
+          $('#controlgroup-checkbox').gk().onSelect(function(vo) {
+
+          });
+
+          // If call apply API , callback argument is input element of JQuery
+          $('#controlgroup-checkbox').gk().apply(data);
+          $('#controlgroup-checkbox').gk().onSelect(function($input) {
+
+          });    
 
 
 - **disable(rowNum)**：  
