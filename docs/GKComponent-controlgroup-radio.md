@@ -67,11 +67,21 @@ Refer to JQueryMobile's [controlgroup-radio](http://api.jquerymobile.com/checkbo
 
 - **onSelect(callback)**：  
   	> When you click on radio item , onSelect will be invoke.  
-    > First argument of callback is input element of JQuery.
+    > If set data by model API , first argument of callback is JSON object.  
+    > If set data by apply API , first argument of callback is input element of JQuery.
 
-        $('#controlgroup-radio').gk().onSelect(function($input){
-            // do something .....
+        // If call model API , callback argument is value object
+        $('#controlgroup-radio').gk().model(data);
+        $('#controlgroup-radio').gk().onSelect(function(vo) {
+
         });
+
+        // If call apply API , callback argument is input element of JQuery
+        $('#controlgroup-radio').gk().apply(data);
+        $('#controlgroup-radio').gk().onSelect(function($input) {
+
+        });    
+
 
 - **disable(rowNum)**：  
   	> Disable the item.
