@@ -37,7 +37,7 @@ Refer to JQueryMobile's [controlgroup-radio](http://api.jquerymobile.com/checkbo
   	
 
 - **apply**：  
-  	> Set data to controlgroup-radio when data is only one , data type is JSON Object
+  	> Set data to controlgroup-radio when data is only one , data type is JSON object
 
         var data = {
           item: 'A',
