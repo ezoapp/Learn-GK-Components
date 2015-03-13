@@ -19,7 +19,11 @@
 
 <br/>
 ###API
-None
+
+- **clear**：  
+  	> remove playing video and change back to the cover image
+
+			$('#test').gk().clear();
 
 
 <br/>
