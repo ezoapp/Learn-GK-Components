@@ -5,8 +5,41 @@ For more information, please visit [EZoApp Official Site](http://ezoui.com/) .
 ## What is GK Components? ##
 EZoApp's core values: reuse and modularization. User interfaces (UIs) that have been created can become modular components. You can create your own UI specifications and templates for application design to strengthen development standards.
 
+## How to Use GK Components? ##
+
+### Get the GK Object ###
+GK is a jQuery plugin, and an implicit GK object is stored in the jQuery object. After GK finishes initialization, GK will fire `gkComponentsReady` event, then you are free to manipulate the GK object.
+
+```javascript  
+	// after gk finishes initialization, all gk components are ready to use...
+	$(document).on("gkComponentsReady", function () {
+	  // get the gk-obj
+	  var gkObj = $(".selector").gk();
+	  
+	  // access the public attributes of the gk-obj
+	  var foo = gkObj.foo;
+	  
+	  // call the public methods of the gk-obj and get the results returned
+	  var result = gkObj.bar();
+	});
+```	
+
+### Invoke API methods of the GK Object ###
+After GK finishes initialization and fires `gkComponentsReady` event, and you can send arguments to invoke methods of the GK object. There are two equivalent ways to get the same result:
+
+```javascript 
+	// always waiting gk finishes initialization...
+	$(document).on("gkComponentsReady", function () {
+	  // get the gk-obj and send arguments to a method
+	  $(".selector").gk().method(args..);
+	  
+	  // this syntax is fine also
+	  $(".selector").gk("method", args...);
+	}); 
+```
+
 ## Components list ##
-This is a list of all the GK Components，click on the link, and you can know how to use the components.
+This is a list of all the GK Components. Click on the links and know how to use the gk-components.
 
 ### JQM Components ###
 * [header](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-header.md)
