@@ -1,14 +1,14 @@
-## Learn GK Components##
-Offical Site：[www.ezoui.com/app](http://www.ezoui.com/app)  
-EZoApp Designer：[jqmdesigner.appspot.com/](http://jqmdesigner.appspot.com/)
+## Learn GK Components ##
+For more information, please visit [EZoApp Official Site](http://ezoui.com/) .  
 ![GK Components](https://raw.githubusercontent.com/ezoapp/Learn-GK-Components/master/img/banner.jpg)
   
-##What is GK Components ?##
+## What is GK Components? ##
 EZoApp's core values: reuse and modularization. User interfaces (UIs) that have been created can become modular components. You can create your own UI specifications and templates for application design to strengthen development standards.
 
-##Components list##
+## Components list ##
 This is a list of all the GK Components，click on the link, and you can know how to use the components.
-###JQM Components###
+
+### JQM Components ###
 * [header](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-header.md)
 * [footer](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-footer.md)
 * [grid](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-grid.md)
@@ -36,7 +36,7 @@ This is a list of all the GK Components，click on the link, and you can know ho
 * [textarea-input](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-textarea-input.md) ( api )
 * [jqm-table](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-jqm-table.md)
 
-###Extension Components###
+### Extension Components ###
 * [youtube](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-youtube.md)
 * [image](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-image.md)
 * [mobipick](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-mobipick.md) ( property, api )
@@ -57,17 +57,13 @@ This is a list of all the GK Components，click on the link, and you can know ho
 * [linechart](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-linechart.md) ( api )
 * [rss-news](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-rss-news.md) ( api )
 
-
-
-##Contact##
-
+## Contact ##
 If you have any questions about the components, or want to join us, please contact us.  
 
-* Offical Site：[www.ezoui.com/app/](http://www.ezoui.com/app/)
-* EZoApp Designer：[jqmdesigner.appspot.com/](http://jqmdesigner.appspot.com/)
-* Phone ：+886-7-535 0101 # 35618
-* E-mail ：[EZoService@icsc.com.tw](mailto:EZoService@icsc.com.tw)  
-* Facebook：[www.facebook.com/EZoUI](http://www.facebook.com/EZoUI)  
-* Google+ ：[plus.google.com/117990746163074166131](http://plus.google.com/117990746163074166131)  
-* blog：[EZoUI.wordpress.com](http://EZoUI.wordpress.com)
+* EZoApp Official Site: [ezoui.com](http://ezoui.com/)
+* Phone: +886-7-535-0101 # 35505
+* E-mail: [EZoService@icsc.com.tw](mailto:service@ezoui.com)  
+* Facebook: [www.facebook.com/EZoUI](http://www.facebook.com/EZoUI)  
+* Google+: [plus.google.com/117990746163074166131](http://plus.google.com/117990746163074166131)  
+* blog: [EZoUI.wordpress.com](http://EZoUI.wordpress.com)
 

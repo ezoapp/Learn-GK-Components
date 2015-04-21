@@ -62,8 +62,7 @@ After dragging the component into the design panel, in javascript editor panel, 
 ----------
 Above is the description of `capture-photo`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
 
-Offical Site：[www.ezoui.com/app/](http://www.ezoui.com/app/)  
-EZoApp Designer：[jqmdesigner.appspot.com/](http://jqmdesigner.appspot.com/)
+EZoApp Official Site: [ezoui.com](http://ezoui.com/)
 
 
 

@@ -102,8 +102,7 @@ Refer to JQueryMobile's [controlgroup-radio](http://api.jquerymobile.com/checkbo
 ----------
 Above is the description of `controlgroup-radio`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
 
-Offical Site：[www.ezoui.com/app/](http://www.ezoui.com/app/)  
-EZoApp Designer：[jqmdesigner.appspot.com/](http://jqmdesigner.appspot.com/)
+EZoApp Official Site: [ezoui.com](http://ezoui.com/)
 
 
 

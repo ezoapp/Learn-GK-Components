@@ -44,8 +44,7 @@ for more information, please refer to [JQuery Mobile](http://jquerymobile.com/).
 ----------
 Above is the description of `search-input` .  If you want to learn more, please refer to [Learn-GK-Components](https://github.com/ezoapp/Learn-GK-Components).  
 
-Official website: [www.ezoui.com/app](http://www.ezoui.com/app)  
-EZoApp: [jqmdesigner.appspot.com/](http://jqmdesigner.appspot.com/)
+EZoApp Official Site: [ezoui.com](http://ezoui.com/)
 
 
 
