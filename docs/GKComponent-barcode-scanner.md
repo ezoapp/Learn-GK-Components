@@ -2,9 +2,9 @@
 `barcode-scanner` allows the user to scan the barcode. It renders a button widget which will trigger the barcode scanner when it is clicked.
 
 ## Sample App
-![Sample App](https://raw.githubusercontent.com/ezoapp/Learn-GK-Components/master/img/barcode-scanner/app.png)
+![Sample App](https://raw.githubusercontent.com/ezoapp/Learn-GK-Components/master/img/barcode-scanner/app.jpg)
 
-![Barcode Scanner](https://raw.githubusercontent.com/ezoapp/Learn-GK-Components/master/img/barcode-scanner/scan.png)
+![Barcode Scanner](https://raw.githubusercontent.com/ezoapp/Learn-GK-Components/master/img/barcode-scanner/scan.jpg)
 
 ### sample code
 HTML
