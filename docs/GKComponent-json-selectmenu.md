@@ -49,9 +49,9 @@ For any other properties, please refer to JQueryMobile's [selectmenu](http://api
 
 - **value**：  
     > Assign a default value to the select-menu.
-```javascript 
-    $('#selectmenu').gk().value("E");
-```
+
+      $('#selectmenu').gk().value("E");
+
 
 - **enable**：  
     > such as the `enable` method of jquery-mobile. See http://api.jquerymobile.com/selectmenu/#method-enable 
