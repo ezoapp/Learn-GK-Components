@@ -37,13 +37,15 @@ For any other properties, please refer to JQueryMobile's [selectmenu](http://api
             }
         ];
         $('#selectmenu').gk().model(data);
+        
 ```
+ 
 
-    > HTML template pattern {{data.key}}
-
+``` html
       <select id="gk-57grpH" is="json-selectmenu" service="http://ezodemo.github.io/data/vacationTypes.json">
           <option value="{{value}}">{{text}}</option>
-        </select>             
+      </select>             
+```
 
 - **value**：  
     > Assign a default value to the select-menu.
