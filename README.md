@@ -89,6 +89,7 @@ This is a list of all the GK Components. Click on the links and know how to use 
 * [flot-line](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-flot-line.md) ( property, api )
 * [linechart](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-linechart.md) ( api )
 * [rss-news](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-rss-news.md) ( api )
+* [barcode-scanner](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-barcode-scanner.md) 
 
 ## Contact ##
 If you have any questions about the components, or want to join us, please contact us.  
