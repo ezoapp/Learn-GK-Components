@@ -20,7 +20,7 @@ For any other properties, please refer to JQueryMobile's [selectmenu](http://api
     > Set data to selectmenu , data type is JSON Array.
 
       var data = [
-      {
+        {
             "text":"Annual Leave",
             "value":"V"
             },
@@ -35,9 +35,8 @@ For any other properties, please refer to JQueryMobile's [selectmenu](http://api
             {"text":"Wedding Leave",
              "value":"W"
             }
-          ];
-
-          $('#selectmenu').gk().model(data);
+        ];
+        $('#selectmenu').gk().model(data);
 
     > HTML template pattern {{data.key}}
 
