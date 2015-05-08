@@ -90,6 +90,7 @@ This is a list of all the GK Components. Click on the links and know how to use 
 * [linechart](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-linechart.md) ( api )
 * [rss-news](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-rss-news.md) ( api )
 * [barcode-scanner](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-barcode-scanner.md) 
+* [json-selectmenu](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-json-selectmenu.md) 
 
 ## Contact ##
 If you have any questions about the components, or want to join us, please contact us.  

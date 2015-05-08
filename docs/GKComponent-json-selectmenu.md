@@ -52,7 +52,7 @@ For any other properties, please refer to JQueryMobile's [selectmenu](http://api
 ```
 
 - **enable**：  
-    > such as the `enable` method of jquery-mobile. See [enable](http://api.jquerymobile.com/selectmenu/#method-enable)
+    > such as the `enable` method of jquery-mobile. See http://api.jquerymobile.com/selectmenu/#method-enable 
 
 - **disable**：  
     > such as the `disable` method of jquery-mobile. See http://api.jquerymobile.com/selectmenu/#method-disable
