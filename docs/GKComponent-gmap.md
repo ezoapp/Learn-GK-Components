@@ -59,7 +59,7 @@ The **location** setting of the Google Map. This value accepts both **`"latitude
 
 
 - **nowPos**:
-	- **`$(".selector").gk().addMarker( location, title, icon, visible )`**
+	- **`$(".selector").gk().addMarker( title, icon, visible )`**
 	
 	> Add a map marker according to the current position. <br/>
 	> **title** <br/>
@@ -186,6 +186,18 @@ The **location** setting of the Google Map. This value accepts both **`"latitude
 	> Type: String or Number <br/>
 	> An integer number representing the scale of map zoom. <br/>
 
+
+- **map**:  
+	- **`$(".selector").gk().map()`**
+	
+	> Get the google map object. <br/>
+	
+	- **`$(".selector").gk().map( googleMap )`**
+	
+	> Replace the google map object. <br/>
+	> **googleMap** <br/>
+	> Type: Object <br/>
+	> An instance of google.maps.Map . <br/>
 
 <br/>
 ----------
