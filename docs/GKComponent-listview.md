@@ -4,68 +4,67 @@ listview contains two component：[`list-divider`](https://github.com/ezoapp/Lea
 
 <br/>
 ###Properties
+property			| setting
+---						| ---
+id						| component's id
+style					| style attribute of the html element 
+class					| class attribute of the html element
+data-repeat   | set a **Truthy** value to enable rendering repetitive content by template. see the `model` api
 Refer to JQueryMobile's [listview](http://api.jquerymobile.com/listview/) Widget.
 
 <br/>
 ###API
 
-- **refresh**：  
- 	> If you set data to listview via JavaScript , you must call the refresh method on it to update the visual styling.
+- **refresh()**：  
+ 	> Update and enhance the jQuery Mobile widgets within `listview`. <br/>
+ 	> If you update the content of `listview` via JavaScript, you must call the refresh method on it to update the visual styling. <br/>
 
-		$('#listview-test').gk().refresh();
 
-- **onRow(callback))**：  
-  	> When you click on listview item , onRow will be invoke.  
-    > If set data by model API , first argument of callback is JSON object.  
-    > If set data by apply API , first argument of callback is li element of JQuery.
+- **autodividersSelector(selector)**:
+  > Set the `autodividersSelector` function to `listview`'s option. <br/>
 
-          // If call model API , callback argument is value object
-          $('#listview').gk().model(data);
-          $('#listview').gk().onRow(function(vo) {
 
-          });
+- **onRowEvent(event, handler(eventObject, data, index))**:
+  > Attach an event handler function for one or more events to the **first-level non-list-divider** li of `listview`. <br/>
+  > The handler function receives arguments: the event object passed by jQuery, the search index of the element in `listview`, and the data associated with the element (**if rendered by template with model data**). <br/>
+  
+  
+- **onRow(handler)**：  
+  > Attach a `click` event handler function for one or more events to the **first-level non-list-divider** li of `listview`. <br/>
 
-          // If call apply API , callback argument is li element of JQuery
-          $('#listview').gk().apply(data);
-          $('#listview').gk().onRow(function($li) {
 
-          });    
+- **onTapHold(handler)**:
+  > Attach a `taphold` event handler function for one or more events to the **first-level non-list-divider** li of `listview`. <br/>
 
-- **model(data)**：  
-  	> Set data to listview , data type is JSON Array.
-            
-          var data = [{
-            userId: '001',
-            userName: 'Keven'
-          }, {
-            userId: '002',
-            userName: 'Joe'
-          }];
 
-          $('#listview').gk().model(data);
-          
-  	> HTML template pattern {{data.key}}
-  	
-        <li divider="{{userId}}" is="listview-li">
-        	<span >{{userName}}</span>
-        </li>
-              
+- **model(data)**：
+  > If no arguments passed in, get the model data of `listvew`. <br/>
+  > If `data` passed in, render the list items of `listview` by template. `data` can be a single JSON object or a JSON array. <br/>
+  > The **template** is the html content within `<listview></listview>`, you can write `{{data-key}}` or `${data-key}` to represent that you want the template to replace those patterns with corresponding value of the model data. <br/> 
+  > For example:
+    ```html
+      <ul data-role="listview" is="listview" data-repeat="true">
+        <li data-role="list-divider">{{userId}}</li>
+        <li is="listview-li">{{userName}}</li>
+      </ul>    
+    ```
+    After passing the model data, `listview` will repetitively render the list items by template and replace the `{{userId}}` and `{{userName}}` with the JSON object's corresponding value. <br/>
+    Notice that you have to set the `data-repeat` attribute as **Truthy** to enable template rendering in advance. If the `data-repeat` is a `string` value, `listview` will try to check if the same named property of `data` is an array then use as the model data. <br/>
 
-- **apply(data)**：  
-  	> Set data to listview when data is only one , data type is JSON object
+   
+- **addRow(data)**:
+  > Append a list item to the end of `listvew` and the item is rendered by the template with given data. <br/>
+  > Notice that you have to set the `data-repeat` attribute as **Truthy** to enable template rendering in advance. <br/>
 
-          var data = {
-            userId: '001',
-            userName: 'Keven'
-          };
 
-          $('#listview').gk().apply(data);
+- **insertRow(data, index)**:
+  > Insert a list item to the specific index of `listvew` and the item is rendered by the template with given data. <br/>
+  > Notice that you have to set the `data-repeat` attribute as **Truthy** to enable template rendering in advance. <br/>
+  
 
-  	> HTML template pattern {{data.key}}
-  	
-        <li divider="{{userId}}" is="listview-li">
-        	<span >{{userName}}</span>
-        </li>
+- **removeRow(index)**:
+  > Remove the list item from `listview` according to the given index.
+
 
 <br/>
 ----------
