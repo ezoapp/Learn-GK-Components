@@ -1,5 +1,5 @@
 ## Learn GK Components ##
-For more information, please visit [EZoApp Official Site](http://ezoui.com/) .  
+For more information, please visit [EZoApp Official Site](https://ezoui.com/) .  
 ![GK Components](https://raw.githubusercontent.com/ezoapp/Learn-GK-Components/master/img/banner.jpg)
   
 ## What is GK Components? ##
@@ -91,14 +91,14 @@ This is a list of all the GK Components. Click on the links and know how to use 
 * [rss-news](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-rss-news.md) ( api )
 * [barcode-scanner](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-barcode-scanner.md) 
 * [json-selectmenu](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-json-selectmenu.md)  ( property, api )
+* [gk-form](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-gk-form.md)
 
 ## Contact ##
 If you have any questions about the components, or want to join us, please contact us.  
 
-* EZoApp Official Site: [ezoui.com](http://ezoui.com/)
-* Phone: +886-7-535-0101 # 35505
-* E-mail: [EZoService@icsc.com.tw](mailto:service@ezoui.com)  
+* EZoApp Official Site: [ezoui.com](https://ezoui.com/)
+* E-mail: [service@ezoui.com](mailto:service@ezoui.com)  
 * Facebook: [www.facebook.com/EZoUI](http://www.facebook.com/EZoUI)  
 * Google+: [plus.google.com/117990746163074166131](http://plus.google.com/117990746163074166131)  
-* blog: [EZoUI.wordpress.com](http://EZoUI.wordpress.com)
+* Blog: [blog.ezoui.com](http://blog.ezoui.com)
 
