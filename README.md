@@ -92,6 +92,7 @@ This is a list of all the GK Components. Click on the links and know how to use 
 * [barcode-scanner](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-barcode-scanner.md) 
 * [json-selectmenu](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-json-selectmenu.md)  ( property, api )
 * [gk-form](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-gk-form.md)
+* [swiper-navbar](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-swiper-navbar.md)  ( property, api )
 
 ## Contact ##
 If you have any questions about the components, or want to join us, please contact us.  
