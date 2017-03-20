@@ -1,8 +1,7 @@
-##rss-news
+## rss-news
 Using `rss-news` of rss service, you can get easier access to updates about news topics that interest you.  
 
-<br/>
-###Properties
+### Properties
 <table>
 
 <tr>
@@ -27,12 +26,10 @@ Using `rss-news` of rss service, you can get easier access to updates about news
 
 </table>
 
-<br/>
-###API
+### API
 None
 
-<br/>
-###Javascript Code
+### Javascript Code
 After dragging the component into the design panel, in javascript editor panel, and it will generate the code ( `#componentId` is the component's id )：
 
 
@@ -66,7 +63,6 @@ After dragging the component into the design panel, in javascript editor panel, 
 	});
 
 
-<br/>
 ----------
 Above is the description of `rss-news`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
 

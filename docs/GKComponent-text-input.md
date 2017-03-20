@@ -1,13 +1,11 @@
-##text-input
+## text-input
 `text-input` is a HTML text input element enhanced by jQuery Mobile.
 
 
-<br/>
-###Properties
+### Properties
 Refer to JQueryMobile's [textarea-input](http://api.jquerymobile.com/textinput/) Widget.
 
-<br/>
-###API
+### API
 
 - **value()**：  
   	> Get the text value of a matched text-input element.
@@ -22,7 +20,6 @@ Refer to JQueryMobile's [textarea-input](http://api.jquerymobile.com/textinput/)
 
 			$(selector).gk().value(val);
 
-<br/>
 ----------
 Above is the description of `text-input`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
 

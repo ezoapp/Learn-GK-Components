@@ -1,9 +1,8 @@
-##jqm-table
+## jqm-table
 `jqm-table` is extended from JQueryMobile Widget.  [table-columntoggle][1]
 
-<br/>
 
-###Properties
+### Properties
 <table>
 
 <tr>
@@ -18,8 +17,7 @@
 
 </table>
 
-<br/>
-###API
+### API
 
 - **load(url)**：  
   	> url<br/>
@@ -32,9 +30,6 @@
     Type: PlainObject<br/>
     A plain object or string that is sent to the server with the     request.
 
-
-
-<br/>
 
 
 ----------

@@ -1,8 +1,7 @@
-##raty
+## raty
 `raty` allows the user by clicking the way to select the number of stars corresponding to conduct scores rating. 
 
-<br/>
-###Properties
+### Properties
 <table>
 
 <tr>
@@ -22,8 +21,7 @@
 
 </table>
 
-<br/>
-###API
+### API
 
 - **score**：  
   	> description。
@@ -32,7 +30,6 @@
 
 
 
-<br/>
 ----------
 Above is the description of `raty`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
 

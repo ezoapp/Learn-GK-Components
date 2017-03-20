@@ -1,8 +1,7 @@
-##youtube
+## youtube
 `youtube` allows users to browse youtube videos on your mobile or tablet device.
 
-<br/>
-###Properties
+### Properties
 <table>
 
 <tr>
@@ -17,8 +16,7 @@
 
 </table>
 
-<br/>
-###API
+### API
 
 - **clear**：  
   	> remove playing video and change back to the cover image
@@ -26,7 +24,6 @@
 			$('#test').gk().clear();
 
 
-<br/>
 ----------
 Above is the description of `youtube`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
 

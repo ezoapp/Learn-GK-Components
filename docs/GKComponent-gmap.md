@@ -1,9 +1,8 @@
-#gmap
+# gmap
 `gmap` allows the user to set the way through to complete Google Map display.
 
 
-<br/>
-###Properties
+### Properties
 property			| setting
 ---						| ---
 id						| component's id
@@ -17,12 +16,10 @@ markerTitle		| default title tip of map marker
 markerIcon		| default icon image url of map marker
 markerVisible | true or false, default map marker shown or not
 
-<br/>
-###Content
+### Content
 The **location** setting of the Google Map. This value accepts both **`"latitude, longitude"`** data format for precise position and free-style string for address input.
 
-<br/>
-###API
+### API
 - **location**:
 	- **`$(".selector").gk().location()`**
 	
@@ -199,7 +196,6 @@ The **location** setting of the Google Map. This value accepts both **`"latitude
 	> Type: Object <br/>
 	> An instance of google.maps.Map . <br/>
 
-<br/>
 ----------
 Above is the description of `gmap`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
 

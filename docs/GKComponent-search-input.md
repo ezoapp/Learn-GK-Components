@@ -1,8 +1,7 @@
-##search-input
+## search-input
 `search-input` HTML iinput element, type='search'
 
-<br/>
-###Properties
+### Properties
 <table>
 
 <tr>
@@ -24,8 +23,7 @@
 
 for more information, please refer to [JQuery Mobile](http://jquerymobile.com/).
 
-<br/>
-###API
+### API
 
 - **.value([val])**:    
   	> set a new value or get current value.  
@@ -40,7 +38,6 @@ for more information, please refer to [JQuery Mobile](http://jquerymobile.com/).
 			$(selector).gk().value('newValue');
 
 
-<br/>
 ----------
 Above is the description of `search-input` .  If you want to learn more, please refer to [Learn-GK-Components](https://github.com/ezoapp/Learn-GK-Components).  
 

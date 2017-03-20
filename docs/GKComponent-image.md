@@ -1,8 +1,7 @@
-##image
+## image
 `image` is a drag on the design panel can be typeset.  
 
-<br/>
-###Properties
+### Properties
 <table>
 
 <tr>
@@ -17,12 +16,10 @@
 
 </table>
 
-<br/>
-###API
+### API
 none
 
 
-<br/>
 ----------
 Above is the description of `image`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
 

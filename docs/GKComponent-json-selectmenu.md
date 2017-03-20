@@ -1,14 +1,12 @@
 ## json-selectmenu
 `json-selectmenu` can render a select-menu widget by loading json data from backend service.
 
-<br/>
 ### Properties
 - **service**：  
 Define the JSON Data web service url. [http://ezodemo.github.io/data/vacationTypes.json](http://ezodemo.github.io/data/vacationTypes.json) is a simple example.
 
 For any other properties, please refer to JQueryMobile's [selectmenu](http://api.jquerymobile.com/selectmenu/) Widget.
 
-<br/>
 ### API
 
 - **refresh**：  
@@ -70,11 +68,9 @@ For any other properties, please refer to JQueryMobile's [selectmenu](http://api
 
 
 
-<br/>
 ### Javascript Code
 Unlike most of our widgets generating tone of javascript code, this widget generates no code but html. All the javascript logic executes inside the component itself. This means you've no need to maintain those generated code any more, leave the code more clean and easy to maintain. 
 
-<br/>
 ----------
 Above is the description of `json-selectmenu`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
 

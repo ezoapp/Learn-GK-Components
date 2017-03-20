@@ -1,8 +1,7 @@
-##Glinechart
+## linechart
 `linechart` is a basic type of chart common in many fields. It is similar to a scatter plot except that the measurement points are ordered (typically by their x-axis value) and joined with straight line segments. Line Charts show how a particular data changes at equal intervals of time.
 
-<br/>
-###Properties
+### Properties
 <table>
 
 <tr>
@@ -37,12 +36,10 @@
 
 </table>
 
-<br/>
-###API
+### API
 None
 
-<br/>
-###Javascript Code
+### Javascript Code
 After dragging the component into the design panel, in javascript editor panel, and it will generate the code ( `#componentId` is the component's id )：
 
 	;
@@ -64,7 +61,6 @@ After dragging the component into the design panel, in javascript editor panel, 
 	  });
 	}); 
 
-<br/>
 ----------
 Above is the description of `linechart`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
 

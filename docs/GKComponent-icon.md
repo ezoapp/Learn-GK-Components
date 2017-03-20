@@ -1,9 +1,8 @@
-##icon
+## icon
 `icon` has a small image and text.  
 In addition, there will be a number tips in the upper left corner.
 
-<br/>
-###Properties
+### Properties
 <table>
 
 <tr>
@@ -23,12 +22,10 @@ In addition, there will be a number tips in the upper left corner.
 
 </table>
 
-<br/>
-###API
+### API
 None
 
 
-<br/>
 ----------
 Above is the description of `icon`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
 

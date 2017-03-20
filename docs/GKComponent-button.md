@@ -1,17 +1,14 @@
-##button
+## button
 `button` is extended from JQueryMobile Widget. [Button][1]
 
-<br/>
-###Properties
+### Properties
 
 Refer to JQueryMobile's [Button][2] Widget.
 
-<br/>
-###API
+### API
 
 None
 
-<br/>
 ----------
 Above is the description of `button`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
 

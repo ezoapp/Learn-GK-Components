@@ -1,4 +1,4 @@
-#barcode-scanner
+# barcode-scanner
 `barcode-scanner` allows the user to scan the barcode. It renders a button widget which will trigger the barcode scanner when it is clicked.
 
 ## Sample App

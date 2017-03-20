@@ -1,9 +1,8 @@
-##bxslider
+## bxslider
 `bxslider` is an "image slide show" component, in addition to auto-play, users can swipe or click carried pictures of switching.  
 
 
-<br/>
-###Properties
+### Properties
 <table>
 
 <tr>
@@ -18,12 +17,10 @@
 
 </table>
 
-<br/>
-###API
+### API
 None
 
-<br/>
-###Javascript Code
+### Javascript Code
 After dragging the component into the design panel, in javascript editor panel, and it will generate the code ( `#componentId` is the component's id )：
 
 	$(document).on("pageshow", function () {
@@ -31,7 +28,6 @@ After dragging the component into the design panel, in javascript editor panel, 
 	  $(".bxslider").bxSlider();
 	});
 
-<br/>
 ----------
 Above is the description of `bxslider`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
 

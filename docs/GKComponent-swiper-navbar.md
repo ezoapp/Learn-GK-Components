@@ -1,8 +1,7 @@
-##swiper-navbar
+## swiper-navbar
 `swiper-navbar` provide the feature to swipe navagation bar if having too many content on it.
 
-<br/>
-###Properties
+### Properties
 <table>
 
 <tr>
@@ -32,8 +31,7 @@
 
 </table>
 
-<br/>
-###API
+### API
 
 - **swiper**：  
   > Original swiper object.
@@ -62,7 +60,6 @@
 
 		$('#swiper').gk().slideTo(0);
 
-<br/>
 
 ----------
 Above is the description of `swiper-navbar`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).

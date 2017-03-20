@@ -1,8 +1,7 @@
-##footer
+## footer
 `footer` Adds toolbars to the top and/or bottom of the page.
 
-<br/>
-###Properties
+### Properties
 <table>
 
 <tr>
@@ -23,8 +22,7 @@
 </table>
 Refer to JQueryMobile's [Footer Widget](http://api.jquerymobile.com/footer/). 
 
-<br/>
-###API
+### API
 None
 
 

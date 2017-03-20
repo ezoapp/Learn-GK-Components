@@ -1,9 +1,8 @@
-##mobipick
+## mobipick
  After the user clicks on `mobipick`, it will pop up date selection list flip effect, providing the user to select a date
 
 
-<br/>
-###Properties
+### Properties
 <table>
 
 <tr>
@@ -18,8 +17,7 @@
 
 </table>
 
-<br/>
-###API
+### API
 
 - **value**：  
   	> description
@@ -37,7 +35,6 @@
 			$('#test').gk().reset();
 
 
-<br/>
 ----------
 Above is the description of `mobipick`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
 

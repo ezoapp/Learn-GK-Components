@@ -1,8 +1,7 @@
-##flot-line
+## flot-line
 `flot-line` is plenty of options you can set to control the precise looks of your plot. You can control the ticks on the axes, the legend, the graph type, etc.
 
-<br/>
-###Properties
+### Properties
 <table>
 
 <tr>
@@ -27,11 +26,10 @@
 
 </table>
 
-<br/>
-###API
+### API
 None
 
-###Javascript Code
+### Javascript Code
 After dragging the component into the design panel, in javascript editor panel, and it will generate the code ( `#componentId` is the component's id )： 
 
 	$(document).on("gkComponentsReady", function () {
@@ -98,7 +96,6 @@ After dragging the component into the design panel, in javascript editor panel, 
 	});
 
 
-<br/>
 ----------
 Above is the description of `flot-line`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
 

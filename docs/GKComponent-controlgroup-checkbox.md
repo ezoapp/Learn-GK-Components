@@ -1,12 +1,10 @@
-##controlgroup-checkbox
+## controlgroup-checkbox
 Typically, there are multiple checkboxes listed under a question title. To visually integrate multiple checkboxes into a grouped button set, the framework will automatically remove all margins between buttons and round only the top and bottom corners of the set if there is a `data-role="controlgroup"` attribute on the fieldset. 
 
-<br/>
-###Properties
+### Properties
 Refer to JQueryMobile's [checkbox-button](http://api.jquerymobile.com/checkboxradio/) Widget.
 
-<br/>
-###API
+### API
 
 - **model**：  
   	> Set data to controlgroup-checkbox , data type is JSON Array.
@@ -107,7 +105,6 @@ Refer to JQueryMobile's [checkbox-button](http://api.jquerymobile.com/checkboxra
 
 
 
-<br/>
 ----------
 Above is the description of `controlgroup-checkbox`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
 

@@ -1,7 +1,7 @@
-##header
+## header
 `header` Adds toolbars to the top and/or bottom of the page.  
 
-###Properties
+### Properties
 <table>
 
 <tr>
@@ -22,7 +22,7 @@
 </table>
 Refer to JQueryMobile's [Header Widget](http://api.jquerymobile.com/header/). 
 
-###API
+### API
  - **.label(value)**  
   	> Set content text of header.<br>
 
@@ -32,7 +32,6 @@ Refer to JQueryMobile's [Header Widget](http://api.jquerymobile.com/header/).
 
 
 
-<br/>
 ----------
 Above is the description of `button`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
 

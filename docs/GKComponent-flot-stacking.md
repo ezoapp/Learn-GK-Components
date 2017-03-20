@@ -1,8 +1,7 @@
-##flot-stacking
+## flot-stacking
 `flot-stacking` is used when data sets have to be broken down into their constituents, and then the data sets as a whole also need to be compared against one another.
 
-<br/>
-###Properties
+### Properties
 <table>
 
 <tr>
@@ -17,13 +16,11 @@
 
 </table>
 
-<br/>
-###API
+### API
 None
 
 
-<br/>
-###Javascript Code
+### Javascript Code
 After dragging the component into the design panel, in javascript editor panel, and it will generate the code ( `#componentId` is the component's id )：
 
 	  $(document).on("gkComponentsReady", function () {
@@ -52,7 +49,6 @@ After dragging the component into the design panel, in javascript editor panel, 
 	    $('#componentId').gk('render', data, options);
 	  });
 
-<br/>
 ----------
 Above is the description of `flot-stacking`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
 

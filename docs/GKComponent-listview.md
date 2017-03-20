@@ -1,9 +1,8 @@
-##listview
+## listview
 `listview` Display data in list , you can switch page or do action on click item .  
 listview contains two component：[`list-divider`](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-list-divider.md)  ( header ) 、[`listview-li`](https://github.com/ezoapp/Learn-GK-Components/blob/master/docs/GKComponent-listview-li.md) ( item ) 
 
-<br/>
-###Properties
+### Properties
 property			| setting
 ---						| ---
 id						| component's id
@@ -12,8 +11,7 @@ class					| class attribute of the html element
 data-repeat   | set a **Truthy** value to enable rendering repetitive content by template. see the `model` api
 Refer to JQueryMobile's [listview](http://api.jquerymobile.com/listview/) Widget.
 
-<br/>
-###API
+### API
 
 - **refresh()**：  
  	> Update and enhance the jQuery Mobile widgets within `listview`. <br/>
@@ -66,7 +64,6 @@ Refer to JQueryMobile's [listview](http://api.jquerymobile.com/listview/) Widget
   > Remove the list item from `listview` according to the given index.
 
 
-<br/>
 ----------
 Above is the description of `listview`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
 

@@ -1,8 +1,7 @@
-##gk-text
+## gk-text
 `gk-text` is heading and text component, and also could be set dynamically.
 
-<br/>
-###Properties
+### Properties
 <table>
 
 <tr>
@@ -22,8 +21,7 @@
 
 </table>
 
-<br/>
-###API
+### API
 
 - **.text([val])**：  
   	> Set a new value or get current value. 
@@ -37,7 +35,6 @@
             // setter
             $(selector).gk().text('newText');
 
-<br/>
 ----------
 Above is the description of `gk-text`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
 

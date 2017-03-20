@@ -1,12 +1,10 @@
-##flot-pie
+## flot-pie
 `flot-pie` is a circular chart divided into sectors, illustrating numerical proportion. 
 
-<br/>
-###Properties
+### Properties
 Refer to flot's [pie chart](http://www.flotcharts.org/flot/examples/series-pie/index.html) Widget.
 
-<br/>
-###API
+### API
 
 - **render(data.options)**：  
   	> data is chart data , refer to flot's [Data format](https://github.com/flot/flot/blob/master/API.md#data-format)  
@@ -51,8 +49,7 @@ Refer to flot's [pie chart](http://www.flotcharts.org/flot/examples/series-pie/i
           $('#flot-pie').gk('render', data, options);
 
 
-<br/>
-###Javascript Code
+### Javascript Code
 After dragging the component into the design panel, in javascript editor panel, and it will generate the code ( `#componentId` is the component's id )：
 
 	$(document).on("gkComponentsReady", function () {
@@ -80,7 +77,6 @@ After dragging the component into the design panel, in javascript editor panel, 
 	});
 
 
-<br/>
 ----------
 Above is the description of `flot-pie`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
 

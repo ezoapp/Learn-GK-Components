@@ -1,8 +1,7 @@
-##flot-bar
+## flot-bar
 `flot-bar` is a chart with rectangular bars with lengths proportional to the values that they represent. The bars can be plotted vertically or horizontally. A vertical bar chart is sometimes called a column bar chart. 
 
-<br/>
-###Properties
+### Properties
 <table>
 
 <tr>
@@ -17,13 +16,11 @@
 
 </table>
 
-<br/>
-###API
+### API
 None
 
 
-<br/>
-###Javascript Code
+### Javascript Code
 After dragging the component into the design panel, in javascript editor panel, and it will generate the code ( `#componentId` is the component's id )：
 
 	$(document).on("gkComponentsReady", function () {
@@ -77,7 +74,6 @@ After dragging the component into the design panel, in javascript editor panel, 
 	  $('#componentId').gk('render', data);
 	});
 
-<br/>
 ----------
 Above is the description of `flot-bar`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
 

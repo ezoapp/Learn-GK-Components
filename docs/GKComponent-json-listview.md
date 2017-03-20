@@ -1,12 +1,10 @@
-##json-listview
+## json-listview
 `json-listview` can be read into json files to the list displayed.
 
-<br/>
-###Properties
+### Properties
 Refer to JQueryMobile's [listview](http://api.jquerymobile.com/listview/) Widget.
 
-<br/>
-###API
+### API
 
 - **refresh**：  
  	> If you set data to listview via JavaScript , you must call the refresh method on it to update the visual styling.
@@ -64,8 +62,8 @@ Refer to JQueryMobile's [listview](http://api.jquerymobile.com/listview/) Widget
         <li divider="{{userId}}" is="listview-li">
         	<span >{{userName}}</span>
         </li>          
-<br/>
-###Javascript Code
+
+### Javascript Code
 After dragging the component into the design panel, in javascript editor panel, and it will generate the code ( `#componentId` is the component's id )：
 
 		  var url = "open service url";
@@ -75,7 +73,6 @@ After dragging the component into the design panel, in javascript editor panel, 
 		    });
 		  }
 
-<br/>
 ----------
 Above is the description of `json-listview`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
 

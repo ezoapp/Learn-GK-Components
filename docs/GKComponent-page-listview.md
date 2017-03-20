@@ -1,10 +1,9 @@
-##page-listview
+## page-listview
 `page-listview` Allows us by page to display data , you can decide to displayed record count on each page.  
 Server side must be implement that get data by page count.
 
 
-<br/>
-###Properties
+### Properties
 <table>
 
 <tr>
@@ -35,8 +34,8 @@ Server side must be implement that get data by page count.
 </table>
 
 Other properties , Please to refer to JQueryMobile's [listview](http://api.jquerymobile.com/listview/) Widget.
-<br/>
-###API
+
+### API
 
 - **onRow(callback))**：  
   	> When you click on listview item , onRow will be invoke.  
@@ -78,7 +77,7 @@ Other properties , Please to refer to JQueryMobile's [listview](http://api.jquer
           offset: 0     // Start index of current record
           pageSize: 30  // Record count on each page
         }    
-<br/>
+
 ----------
 Above is the description of `page-listview`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
 

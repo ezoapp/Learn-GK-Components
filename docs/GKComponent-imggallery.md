@@ -1,8 +1,7 @@
-##imggallery
+## imggallery
 `imggallery` can get flickr photos, and then the album layout based on the user's style settings 
 
-<br/>
-###Properties
+### Properties
 <table>
 
 <tr>
@@ -17,8 +16,7 @@
 
 </table>
 
-<br/>
-###API
+### API
 
 - **onclick**：  
   	> description
@@ -31,8 +29,7 @@
 
 			$('#test').gk().model();
 
-<br/>
-###Javascript Code
+### Javascript Code
 After dragging the component into the design panel, in javascript editor panel, and it will generate the code ( `#componentId` is the component's id )：
 
 	$(document).on("gkComponentsReady", function (w) {
@@ -49,7 +46,6 @@ After dragging the component into the design panel, in javascript editor panel, 
 	  });
 	});
 
-<br/>
 ----------
 Above is the description of `imggallery`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
 

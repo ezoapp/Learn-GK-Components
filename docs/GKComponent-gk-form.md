@@ -1,7 +1,6 @@
 ## gk-form
 `gk-form` provide users to get and set value to components inside, and basic validation.
 
-<br/>
 ### Current support components
 The following components will auto refresh and enhance when setting data.
 
@@ -13,11 +12,9 @@ The following components will auto refresh and enhance when setting data.
 * flipswitch
 * textarea-input
 
-<br/>
 ### Properties
 The same with the normal html form element.
 
-<br/>
 ### API
 
 - **info([data])**：  
@@ -44,7 +41,6 @@ The same with the normal html form element.
       // return true or false
       $('#form1').gk().valid();
 
-<br/>
 ----------
 Above is the description of `gk-form`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
 

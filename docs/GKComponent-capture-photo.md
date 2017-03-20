@@ -1,8 +1,7 @@
-##capture-photo
+## capture-photo
 `capture-photo` can use a camera phone or tablet device to take pictures.
 
-<br/>
-###Properties
+### Properties
 <table>
 
 <tr>
@@ -22,13 +21,11 @@
 
 </table>
 
-<br/>
-###API
+### API
 None
 
 
-<br/>
-###Javascript Code
+### Javascript Code
 After dragging the component into the design panel, in javascript editor panel, and it will generate the code ( `#componentId` is the component's id )：
 
 	/*** code gen by capture-photo  ***/
@@ -58,7 +55,6 @@ After dragging the component into the design panel, in javascript editor panel, 
 	});
 
 
-<br/>
 ----------
 Above is the description of `capture-photo`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
 

@@ -1,8 +1,7 @@
-##date-input
+## date-input
 `date-input` HTML input element, type='date' 
 
-<br/>
-###Properties
+### Properties
 <table>
 
 <tr>
@@ -24,8 +23,7 @@
 
 for more information, please refer to [JQuery Mobile](http://jquerymobile.com/).
 
-<br/>
-###API
+### API
 
 - **.value([val])**：  
   	> Set a new value or get current value.  
@@ -40,7 +38,6 @@ for more information, please refer to [JQuery Mobile](http://jquerymobile.com/).
             $(selector).gk().value('newValue');
 
 
-<br/>
 ----------
 Above is the description of `date-input`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
 

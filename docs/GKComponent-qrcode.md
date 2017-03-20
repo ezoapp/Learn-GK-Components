@@ -1,8 +1,7 @@
-##qrcode
+## qrcode
 `qrcode` assist users to a certain text or URLs, phone and other information into qrcode.
 
-<br/>
-###Properties
+### Properties
 <table>
 
 <tr>
@@ -17,8 +16,7 @@
 
 </table>
 
-<br/>
-###API
+### API
 
 - **render**：  
   	> description。
@@ -26,7 +24,6 @@
 			$('#test').gk().render();
 
 
-<br/>
 ----------
 Above is the description of `qrcode`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
 

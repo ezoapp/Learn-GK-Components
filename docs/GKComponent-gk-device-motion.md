@@ -1,8 +1,7 @@
-##gk-device-motion
+## gk-device-motion
 `gk-device-motion` can get phone or tablet gyroscope device triaxial operation judgment. 
 
-<br/>
-###Properties
+### Properties
 <table>
 
 <tr>
@@ -22,13 +21,11 @@
 
 </table>
 
-<br/>
-###API
+### API
 None
 
 
-<br/>
-###Javascript Code
+### Javascript Code
 After dragging the component into the design panel, in javascript editor panel, and it will generate the code ( `#componentId` is the component's id )：
 
 	/*** code gen by gk-device-motion  ***/
@@ -52,7 +49,6 @@ After dragging the component into the design panel, in javascript editor panel, 
 	});
 
 
-<br/>
 ----------
 Above is the description of `gk-device-motion`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
 

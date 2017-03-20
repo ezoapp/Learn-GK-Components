@@ -1,8 +1,7 @@
-##gk-position
+## gk-position
 `gk-position` can get GPS coordinates of the phone or tablet device.
 
-<br/>
-###Properties
+### Properties
 <table>
 
 <tr>
@@ -22,13 +21,11 @@
 
 </table>
 
-<br/>
-###API
+### API
 None
 
 
-<br/>
-###Javascript Code
+### Javascript Code
 After dragging the component into the design panel, in javascript editor panel, and it will generate the code ( `#componentId` is the component's id )：
 
 	/*** code gen by gk-position  ***/
@@ -51,7 +48,6 @@ After dragging the component into the design panel, in javascript editor panel, 
 	});
 
 
-<br/>
 ----------
 Above is the description of `gk-position`. For more information, please back to [GK-Components-List](https://github.com/ezoapp/Learn-GK-Components).
 
